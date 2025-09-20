@@ -12,7 +12,7 @@ export default function NachhaltigFeaturedSavingsSection() {
           {featuredSavingsSection.title}
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
           {featuredSavingsSection.accounts.map((acc, index) => (
             <div
               key={`${acc.name}-${acc.term}-${index}`}
