@@ -65,5 +65,22 @@
         "featured": true
       }
     ]
+  },
+  "summary": {
+    "title": "Das Wichtigste in Kürze",
+    "items": [
+      {
+        "title": "Nachhaltigkeit",
+        "description": "Bei nachhaltigem Festgeld wird das angelegte Geld in ökologische, ethische oder soziale Projekte investiert, während umstrittene Branchen wie fossile Energien oder die Rüstungsindustrie ausgeschlossen werden."
+      },
+      {
+        "title": "Zinsen",
+        "description": "Die Zinsen sind bei nachhaltigen Festgeldkonten über die gesamte Laufzeit fest und planbar. Je nach Bank und Laufzeit fallen die Zinsen unterschiedlich aus."
+      },
+      {
+        "title": "Einlagensicherung",
+        "description": "Nachhaltiges Festgeld ist durch die EU-weit harmonisierte nationale Einlagensicherung abgesichert. Dadurch sind nachhaltige Bankeinlagen bis zu 100.000 € pro Person und Bank abgesichert."
+      }
+    ]
   }
 }
