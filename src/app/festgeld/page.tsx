@@ -29,8 +29,8 @@ export default function FestgeldPage() {
       <FestgeldInfo />
       <DepositsTableSection />
       <FestgeldProcessSection />
-      <TagesgeldAuthorSection />
-      <TagesgeldSummary />
+{/*       <TagesgeldAuthorSection />
+ */}      <TagesgeldSummary />
       <TagesgeldWhatIs />
       <TagesgeldFAQ />
     {/*}  <TagesgeldFeatures />*/}

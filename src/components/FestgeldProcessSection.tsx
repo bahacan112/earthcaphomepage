@@ -26,9 +26,6 @@ export default function FestgeldProcessSection() {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Öffnen Sie Ihr Festgeldkonto in drei einfachen Schritten
           </h2>
-          <p className="text-lg text-gray-600">
-            In nur wenigen Schritten zu Ihrem Festgeld-Konto
-          </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
