@@ -1,0 +1,259 @@
+{
+  "heroSection": {
+    "title": "Smarter saving starts here.",
+    "features": [
+      "Access 25+ trusted European banks with one account.",
+      "Fixed terms from 3 months to 7 years, with rates up to 3.00% AER.",
+      "Top up or withdraw anytime with flexible demand deposit accounts.",
+      "No fees, no subscriptions. Peace of mind with Deposit Guarantee Scheme protection."
+    ],
+    "buttons": {
+      "register": "Register now",
+      "compare": "Compare savings accounts"
+    },
+    "imageAlt": "Happy couple saving together",
+    "disclaimer": "An offer from Raisin Bank AG trading as Raisin."
+  },
+  "trustBadges": {
+    "badges": [
+      {
+        "image": "/images/1.webp",
+        "alt": "Best Savings Provider badge",
+        "text": "\"Best Savings Provider\" 2025"
+      },
+      {
+        "image": "/images/2.webp",
+        "alt": "Member of the CCMA",
+        "text": "Member of the CCMA"
+      },
+      {
+        "image": "/images/3.webp",
+        "alt": "Featured in the CCPC Money Tools",
+        "text": "Featured in the CCPC Money Tools"
+      },
+      {
+        "image": "/images/4.webp",
+        "alt": "Featured in the Irish Independent",
+        "text": "Featured in the Irish Independent"
+      }
+    ]
+  },
+  "featuredSavingsSection": {
+    "title": "Featured savings accounts",
+    "accounts": [
+      {
+        "name": "Rietumu Bank",
+        "logo": "/images/rietumu.png",
+        "rateAER": 2.75,
+        "term": "> 2 years",
+        "country": "Latvia (A)",
+        "withholdingTax": true
+      },
+      {
+        "name": "BluOr Bank AS",
+        "logo": "/images/bluorbank.png",
+        "rateAER": 2.67,
+        "term": "1 year",
+        "country": "Latvia (A)",
+        "withholdingTax": true
+      },
+      {
+        "name": "Banca Profilo",
+        "logo": "/images/bancaprofilo.webp",
+        "rateAER": 2.27,
+        "term": "3 months",
+        "country": "Italy (BBB-)",
+        "withholdingTax": true
+      },
+      {
+        "name": "TF Bank AB (publ)",
+        "logo": "/images/tfbank.png",
+        "rateAER": 2.12,
+        "term": "Demand Deposit",
+        "country": "Sweden (AAA)",
+        "withholdingTax": true,
+        "featured": true
+      }
+    ],
+    "labels": {
+      "aer": "AER",
+      "noWithholdingTax": "No withholding tax"
+    }
+  },
+  "securitySection": {
+    "title": "Your savings are secure with Raisin",
+    "items": [
+      {
+        "title": "Raisin Bank AG",
+        "desc": "Is a fully licensed German bank, supervised by the Federal Financial Supervisory Authority (BaFin) and the European Central Bank (ECB).",
+        "icon": "/images/icons_fi_bank.svg"
+      },
+      {
+        "title": "Deposit Guarantee",
+        "desc": "All of our savings accounts are covered by European Deposit Guarantee Schemes, protecting your savings up to €100,000 per depositor, per bank.",
+        "icon": "/images/BMD-1286_Icons-Ilmainen_2.svg"
+      },
+      {
+        "title": "Customer Service",
+        "desc": "Still have questions? We're here to help! Email contact@raisin.com or send us a message through your Raisin Account. Alternatively, you can call us on +353 1 5460120 from 11:00 a.m. – 15:00 p.m., Monday to Friday.",
+        "icon": "/images/auto_awesome.svg"
+      }
+    ]
+  },
+  "demandDepositsSection": {
+    "badges": [
+      "Flexible savings",
+      "Variable interest rate"
+    ],
+    "title": "Easy access Demand Deposits",
+    "description": "Enjoy flexibility with Demand Deposits. Top up or withdraw whenever you like, and start saving from just €1.",
+    "button": "Compare Demand Deposits",
+    "imageAlt": "Demand Deposits"
+  },
+  "termDepositsSection": {
+    "badges": ["Fixed interest rate", "Up to 3.00% AER"],
+    "title": "Fixed returns with Term Deposits",
+    "description": "Grow your savings with a fixed-interest Term Deposit. Select a timeframe that suits your goals, from as little as 3 months up to 7 years.",
+    "button": "Compare Term Deposits",
+    "imageAlt": "Term Deposits"
+  },
+  "mobileAppSection": {
+    "title": "Manage your savings on the go",
+    "description": "Track balances, top up, and withdraw anytime with our mobile app. Receive real-time updates and manage your accounts securely.",
+    "appStoreButton": "Get it on App Store",
+    "googlePlayButton": "Get it on Google Play",
+    "imageAlt": "Raisin mobile app"
+  },
+  "ctaSection": {
+    "title": "Ready to start saving?",
+    "description": "Join thousands of savers who trust Raisin to help them grow their money with competitive rates and secure deposits.",
+    "primaryButton": "Open account",
+    "secondaryButton": "Learn more"
+  },
+  "footer": {
+    "logoAlt": "Raisin",
+    "followUs": "Follow us on",
+    "facebookLabel": "Facebook",
+    "linkedInLabel": "LinkedIn",
+    "companyTeam": {
+      "title": "Company & team",
+      "links": {
+        "aboutUs": "About us",
+        "partnerBanks": "Our partner banks",
+        "depositGuarantee": "Deposit Guarantee Scheme",
+        "referFriend": "Refer a friend",
+        "press": "Press",
+        "careers": "Careers",
+        "raisinUpdates": "Raisin updates",
+        "raisinBank": "Raisin Bank"
+      }
+    },
+    "savingsAccounts": {
+      "title": "Savings accounts",
+      "links": {
+        "allSavings": "All savings accounts",
+        "depositAccounts": "Deposit accounts",
+        "demandDeposit": "Demand deposit accounts"
+      }
+    },
+    "information": {
+      "title": "Information",
+      "links": {
+        "savings": "Savings",
+        "banking": "Banking",
+        "taxes": "Taxes",
+        "investments": "Investments",
+        "pensions": "Pensions"
+      }
+    },
+    "helpContact": {
+      "title": "Help & contact",
+      "links": {
+        "contactUs": "Contact us",
+        "faqs": "FAQs",
+        "accessibility": "Accessibility & support",
+        "affiliatePartnerships": "Affiliate partnerships",
+        "complaintManagement": "Complaint management"
+      }
+    },
+    "countryName": "Ireland",
+    "countryFlagAlt": "Ireland flag",
+    "copyright": "© 2025 Raisin Bank AG, Frankfurt a.M.",
+    "bottomLinks": {
+      "dataProtection": "Data protection",
+      "itSecurity": "IT security",
+      "termsConditions": "Terms and conditions",
+      "siteInformation": "Site information",
+      "accessibility": "Accessibility",
+      "privacySettings": "Privacy settings"
+    },
+    "sectigoAlt": "Secured by Sectigo",
+    "disclaimer": "All interest rates displayed are Annual Equivalent Rates (AER), unless otherwise explicitly indicated. The AER illustrates what the interest rate would be if interest was paid and compounded once a year. This allows individuals to compare more easily what return they can expect from their savings over time. Raisin Bank, trading as Raisin, is authorised/licensed or registered by BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) in Germany and is regulated by the Central Bank of Ireland for conduct of business rules."
+  },
+  "depositsTable": {
+    "tabsAriaLabel": "Deposit Types",
+    "termDepositsTab": {
+      "title": "Term Deposits",
+      "description": "Fixed term, fixed interest rate"
+    },
+    "demandDepositTab": {
+      "title": "Demand Deposit",
+      "description": "Top up and withdraw anytime"
+    },
+    "controls": {
+      "amount": "Amount",
+      "term": "Term",
+      "country": "Country"
+    },
+    "tableHeaders": {
+      "interest": "Interest",
+      "term": "Term",
+      "bankCountryInterest": "Bank · Country · Interest",
+      "action": "Action"
+    },
+    "terms": {
+      "availableAnytime": "Available anytime",
+      "noWithholdingTax": "No withholding tax",
+      "year": "Year",
+      "years": "Years",
+      "month": "Month",
+      "months": "Months"
+    },
+    "buttons": {
+      "saveNow": "Save now",
+      "seeMore": "See more"
+    },
+    "footerLinks": {
+      "offerDetails": "Offer details",
+      "bank": "Bank",
+      "depositGuarantee": "Deposit guarantee"
+    },
+    "resultsCount": "Showing {visible} of {total} offers"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "businessHours": {
+      "title": "Unsere Geschäftszeiten",
+      "mondayThursday": "Montag - Donnerstag",
+      "mondayThursdayTime": "10:00 - 18:00 Uhr",
+      "friday": "Freitags",
+      "fridayTime": "10:00 - 17:00 Uhr"
+    },
+    "address": {
+      "title": "Address",
+      "headquarters": "Zentrale:",
+      "street": "Saarbrücker Str. 36",
+      "postalCode": "10405 Berlin",
+      "country": "Deutschland"
+    },
+    "phone": {
+      "title": "Telefon",
+      "number": "+491633602096"
+    },
+    "email": {
+      "title": "Email",
+      "address": "info@earthcap.de"
+    },
+    "imageAlt": "Contact us"
+  }
+}

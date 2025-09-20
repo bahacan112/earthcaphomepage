@@ -1,234 +1,234 @@
 {
   "heroSection": {
-    "title": "Smarter saving starts here.",
+    "title": "Cleveres Sparen beginnt hier.",
     "features": [
-      "Access 25+ trusted European banks with one account.",
-      "Fixed terms from 3 months to 7 years, with rates up to 3.00% AER.",
-      "Top up or withdraw anytime with flexible demand deposit accounts.",
-      "No fees, no subscriptions. Peace of mind with Deposit Guarantee Scheme protection."
+      "Greifen Sie mit nur einem Konto auf über 25 vertrauenswürdige europäische Banken zu.",
+      "Feste Laufzeiten von 3 Monaten bis 7 Jahren mit Zinssätzen bis zu 3,00 % p. a.",
+      "Flexible Tagesgeldkonten: Jederzeit einzahlen oder abheben.",
+      "Keine Gebühren, keine Abonnements. Sicherheit durch die gesetzliche Einlagensicherung."
     ],
     "buttons": {
-      "register": "Register now",
-      "compare": "Compare savings accounts"
+      "register": "Jetzt registrieren",
+      "compare": "Sparkonten vergleichen"
     },
-    "imageAlt": "Happy couple saving together",
-    "disclaimer": "An offer from Raisin Bank AG trading as Raisin."
+    "imageAlt": "Glückliches Paar beim gemeinsamen Sparen",
+    "disclaimer": "Ein Angebot der Raisin Bank AG, handelnd unter Raisin."
   },
   "trustBadges": {
     "badges": [
       {
         "image": "/images/1.webp",
-        "alt": "Best Savings Provider badge",
-        "text": "\"Best Savings Provider\" 2025"
+        "alt": "Auszeichnung Bester Sparanbieter",
+        "text": "„Bester Sparanbieter“ 2025"
       },
       {
         "image": "/images/2.webp",
-        "alt": "Member of the CCMA",
-        "text": "Member of the CCMA"
+        "alt": "Mitglied der CCMA",
+        "text": "Mitglied der CCMA"
       },
       {
         "image": "/images/3.webp",
-        "alt": "Featured in the CCPC Money Tools",
-        "text": "Featured in the CCPC Money Tools"
+        "alt": "Erwähnt in den CCPC Money Tools",
+        "text": "Erwähnt in den CCPC Money Tools"
       },
       {
         "image": "/images/4.webp",
-        "alt": "Featured in the Irish Independent",
-        "text": "Featured in the Irish Independent"
+        "alt": "Erwähnt im Irish Independent",
+        "text": "Erwähnt im Irish Independent"
       }
     ]
   },
   "featuredSavingsSection": {
-    "title": "Featured savings accounts",
+    "title": "Ausgewählte Sparkonten",
     "accounts": [
       {
         "name": "Rietumu Bank",
         "logo": "/images/rietumu.png",
         "rateAER": 2.75,
-        "term": "> 2 years",
-        "country": "Latvia (A)",
+        "term": "über 2 Jahre",
+        "country": "Lettland (A)",
         "withholdingTax": true
       },
       {
         "name": "BluOr Bank AS",
         "logo": "/images/bluorbank.png",
         "rateAER": 2.67,
-        "term": "1 year",
-        "country": "Latvia (A)",
+        "term": "1 Jahr",
+        "country": "Lettland (A)",
         "withholdingTax": true
       },
       {
         "name": "Banca Profilo",
         "logo": "/images/bancaprofilo.webp",
         "rateAER": 2.27,
-        "term": "3 months",
-        "country": "Italy (BBB-)",
+        "term": "3 Monate",
+        "country": "Italien (BBB-)",
         "withholdingTax": true
       },
       {
         "name": "TF Bank AB (publ)",
         "logo": "/images/tfbank.png",
         "rateAER": 2.12,
-        "term": "Demand Deposit",
-        "country": "Sweden (AAA)",
+        "term": "Tagesgeld",
+        "country": "Schweden (AAA)",
         "withholdingTax": true,
         "featured": true
       }
     ],
     "labels": {
-      "aer": "AER",
-      "noWithholdingTax": "No withholding tax"
+      "aer": "p. a.",
+      "noWithholdingTax": "Keine Quellensteuer"
     }
   },
   "securitySection": {
-    "title": "Your savings are secure with Raisin",
+    "title": "Ihre Ersparnisse sind bei Raisin sicher",
     "items": [
       {
         "title": "Raisin Bank AG",
-        "desc": "Is a fully licensed German bank, supervised by the Federal Financial Supervisory Authority (BaFin) and the European Central Bank (ECB).",
+        "desc": "Eine voll lizenzierte deutsche Bank, beaufsichtigt von der Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) und der Europäischen Zentralbank (EZB).",
         "icon": "/images/icons_fi_bank.svg"
       },
       {
-        "title": "Deposit Guarantee",
-        "desc": "All of our savings accounts are covered by European Deposit Guarantee Schemes, protecting your savings up to €100,000 per depositor, per bank.",
+        "title": "Einlagensicherung",
+        "desc": "Alle unsere Sparkonten sind durch europäische Einlagensicherungssysteme abgesichert – bis zu 100.000 € pro Einleger und pro Bank.",
         "icon": "/images/BMD-1286_Icons-Ilmainen_2.svg"
       },
       {
-        "title": "Customer Service",
-        "desc": "Still have questions? We're here to help! Email contact@raisin.com or send us a message through your Raisin Account. Alternatively, you can call us on +353 1 5460120 from 11:00 a.m. – 15:00 p.m., Monday to Friday.",
+        "title": "Kundenservice",
+        "desc": "Sie haben noch Fragen? Wir helfen Ihnen gerne! Schreiben Sie uns an contact@raisin.com oder senden Sie uns eine Nachricht über Ihr Raisin-Konto. Alternativ erreichen Sie uns telefonisch unter +353 1 5460120 von Montag bis Freitag, 11:00–15:00 Uhr.",
         "icon": "/images/auto_awesome.svg"
       }
     ]
   },
   "demandDepositsSection": {
     "badges": [
-      "Flexible savings",
-      "Variable interest rate"
+      "Flexibles Sparen",
+      "Variabler Zinssatz"
     ],
-    "title": "Easy access Demand Deposits",
-    "description": "Enjoy flexibility with Demand Deposits. Top up or withdraw whenever you like, and start saving from just €1.",
-    "button": "Compare Demand Deposits",
-    "imageAlt": "Demand Deposits"
+    "title": "Einfacher Zugang zu Tagesgeldkonten",
+    "description": "Genießen Sie Flexibilität mit Tagesgeldkonten. Zahlen Sie jederzeit ein oder heben Sie ab – schon ab 1 € möglich.",
+    "button": "Tagesgeld vergleichen",
+    "imageAlt": "Tagesgeldkonten"
   },
   "termDepositsSection": {
-    "badges": ["Fixed interest rate", "Up to 3.00% AER"],
-    "title": "Fixed returns with Term Deposits",
-    "description": "Grow your savings with a fixed-interest Term Deposit. Select a timeframe that suits your goals, from as little as 3 months up to 7 years.",
-    "button": "Compare Term Deposits",
-    "imageAlt": "Term Deposits"
+    "badges": ["Fester Zinssatz", "Bis zu 3,00 % p. a."],
+    "title": "Planbare Rendite mit Festgeld",
+    "description": "Bauen Sie Ihr Vermögen mit einem Festgeldkonto auf. Wählen Sie eine Laufzeit, die zu Ihren Zielen passt – von 3 Monaten bis zu 7 Jahren.",
+    "button": "Festgeld vergleichen",
+    "imageAlt": "Festgeld"
   },
   "mobileAppSection": {
-    "title": "Manage your savings on the go",
-    "description": "Track balances, top up, and withdraw anytime with our mobile app. Receive real-time updates and manage your accounts securely.",
-    "appStoreButton": "Get it on App Store",
-    "googlePlayButton": "Get it on Google Play",
-    "imageAlt": "Raisin mobile app"
+    "title": "Verwalten Sie Ihre Ersparnisse jederzeit",
+    "description": "Verfolgen Sie Kontostände, tätigen Sie Ein- und Auszahlungen jederzeit mit unserer mobilen App. Erhalten Sie Benachrichtigungen in Echtzeit und verwalten Sie Ihre Konten sicher.",
+    "appStoreButton": "Im App Store herunterladen",
+    "googlePlayButton": "Bei Google Play herunterladen",
+    "imageAlt": "Raisin Mobile-App"
   },
   "ctaSection": {
-    "title": "Ready to start saving?",
-    "description": "Join thousands of savers who trust Raisin to help them grow their money with competitive rates and secure deposits.",
-    "primaryButton": "Open account",
-    "secondaryButton": "Learn more"
+    "title": "Bereit zum Sparen?",
+    "description": "Schließen Sie sich tausenden Sparern an, die Raisin vertrauen – mit attraktiven Zinsen und sicherer Einlagensicherung.",
+    "primaryButton": "Konto eröffnen",
+    "secondaryButton": "Mehr erfahren"
   },
   "footer": {
     "logoAlt": "Raisin",
-    "followUs": "Follow us on",
+    "followUs": "Folgen Sie uns auf",
     "facebookLabel": "Facebook",
     "linkedInLabel": "LinkedIn",
     "companyTeam": {
-      "title": "Company & team",
+      "title": "Unternehmen & Team",
       "links": {
-        "aboutUs": "About us",
-        "partnerBanks": "Our partner banks",
-        "depositGuarantee": "Deposit Guarantee Scheme",
-        "referFriend": "Refer a friend",
-        "press": "Press",
-        "careers": "Careers",
-        "raisinUpdates": "Raisin updates",
+        "aboutUs": "Über uns",
+        "partnerBanks": "Unsere Partnerbanken",
+        "depositGuarantee": "Einlagensicherung",
+        "referFriend": "Freunde werben",
+        "press": "Presse",
+        "careers": "Karriere",
+        "raisinUpdates": "Raisin Neuigkeiten",
         "raisinBank": "Raisin Bank"
       }
     },
     "savingsAccounts": {
-      "title": "Savings accounts",
+      "title": "Sparkonten",
       "links": {
-        "allSavings": "All savings accounts",
-        "depositAccounts": "Deposit accounts",
-        "demandDeposit": "Demand deposit accounts"
+        "allSavings": "Alle Sparkonten",
+        "depositAccounts": "Einlagenkonten",
+        "demandDeposit": "Tagesgeldkonten"
       }
     },
     "information": {
-      "title": "Information",
+      "title": "Informationen",
       "links": {
-        "savings": "Savings",
-        "banking": "Banking",
-        "taxes": "Taxes",
-        "investments": "Investments",
-        "pensions": "Pensions"
+        "savings": "Sparen",
+        "banking": "Bankwesen",
+        "taxes": "Steuern",
+        "investments": "Investitionen",
+        "pensions": "Renten"
       }
     },
     "helpContact": {
-      "title": "Help & contact",
+      "title": "Hilfe & Kontakt",
       "links": {
-        "contactUs": "Contact us",
+        "contactUs": "Kontakt",
         "faqs": "FAQs",
-        "accessibility": "Accessibility & support",
-        "affiliatePartnerships": "Affiliate partnerships",
-        "complaintManagement": "Complaint management"
+        "accessibility": "Barrierefreiheit & Support",
+        "affiliatePartnerships": "Partnerprogramme",
+        "complaintManagement": "Beschwerdemanagement"
       }
     },
-    "countryName": "Ireland",
-    "countryFlagAlt": "Ireland flag",
+    "countryName": "Irland",
+    "countryFlagAlt": "Flagge Irlands",
     "copyright": "© 2025 Raisin Bank AG, Frankfurt a.M.",
     "bottomLinks": {
-      "dataProtection": "Data protection",
-      "itSecurity": "IT security",
-      "termsConditions": "Terms and conditions",
-      "siteInformation": "Site information",
-      "accessibility": "Accessibility",
-      "privacySettings": "Privacy settings"
+      "dataProtection": "Datenschutz",
+      "itSecurity": "IT-Sicherheit",
+      "termsConditions": "Allgemeine Geschäftsbedingungen",
+      "siteInformation": "Impressum",
+      "accessibility": "Barrierefreiheit",
+      "privacySettings": "Datenschutzeinstellungen"
     },
-    "sectigoAlt": "Secured by Sectigo",
-    "disclaimer": "All interest rates displayed are Annual Equivalent Rates (AER), unless otherwise explicitly indicated. The AER illustrates what the interest rate would be if interest was paid and compounded once a year. This allows individuals to compare more easily what return they can expect from their savings over time. Raisin Bank, trading as Raisin, is authorised/licensed or registered by BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) in Germany and is regulated by the Central Bank of Ireland for conduct of business rules."
+    "sectigoAlt": "Gesichert durch Sectigo",
+    "disclaimer": "Alle angegebenen Zinssätze sind effektive Jahreszinsen (p. a.), sofern nicht ausdrücklich anders angegeben. Der p. a. verdeutlicht, wie sich Zinsen entwickeln würden, wenn sie einmal jährlich gezahlt und verzinst würden. So können Sparer ihre Rendite leichter vergleichen. Die Raisin Bank, handelnd unter Raisin, ist von der BaFin in Deutschland zugelassen und wird von der Zentralbank von Irland beaufsichtigt."
   },
   "depositsTable": {
-    "tabsAriaLabel": "Deposit Types",
+    "tabsAriaLabel": "Einlagearten",
     "termDepositsTab": {
-      "title": "Term Deposits",
-      "description": "Fixed term, fixed interest rate"
+      "title": "Festgeld",
+      "description": "Feste Laufzeit, fester Zinssatz"
     },
     "demandDepositTab": {
-      "title": "Demand Deposit",
-      "description": "Top up and withdraw anytime"
+      "title": "Tagesgeld",
+      "description": "Jederzeit Ein- und Auszahlungen"
     },
     "controls": {
-      "amount": "Amount",
-      "term": "Term",
-      "country": "Country"
+      "amount": "Betrag",
+      "term": "Laufzeit",
+      "country": "Land"
     },
     "tableHeaders": {
-      "interest": "Interest",
-      "term": "Term",
-      "bankCountryInterest": "Bank · Country · Interest",
-      "action": "Action"
+      "interest": "Zinsen",
+      "term": "Laufzeit",
+      "bankCountryInterest": "Bank · Land · Zinssatz",
+      "action": "Aktion"
     },
     "terms": {
-      "availableAnytime": "Available anytime",
-      "noWithholdingTax": "No withholding tax",
-      "year": "Year",
-      "years": "Years",
-      "month": "Month",
-      "months": "Months"
+      "availableAnytime": "Jederzeit verfügbar",
+      "noWithholdingTax": "Keine Quellensteuer",
+      "year": "Jahr",
+      "years": "Jahre",
+      "month": "Monat",
+      "months": "Monate"
     },
     "buttons": {
-      "saveNow": "Save now",
-      "seeMore": "See more"
+      "saveNow": "Jetzt sparen",
+      "seeMore": "Mehr anzeigen"
     },
     "footerLinks": {
-      "offerDetails": "Offer details",
+      "offerDetails": "Angebotsdetails",
       "bank": "Bank",
-      "depositGuarantee": "Deposit guarantee"
+      "depositGuarantee": "Einlagensicherung"
     },
-    "resultsCount": "Showing {visible} of {total} offers"
+    "resultsCount": "Zeige {visible} von {total} Angeboten"
   },
   "contact": {
     "title": "Kontakt",
@@ -240,7 +240,7 @@
       "fridayTime": "10:00 - 17:00 Uhr"
     },
     "address": {
-      "title": "Address",
+      "title": "Adresse",
       "headquarters": "Zentrale:",
       "street": "Saarbrücker Str. 36",
       "postalCode": "10405 Berlin",
@@ -251,9 +251,9 @@
       "number": "+491633602096"
     },
     "email": {
-      "title": "Email",
+      "title": "E-Mail",
       "address": "info@earthcap.de"
     },
-    "imageAlt": "Contact us"
+    "imageAlt": "Kontakt"
   }
 }
