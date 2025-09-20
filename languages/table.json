@@ -1,0 +1,204 @@
+{
+  "termOffers": [
+    {
+      "id": "aareal-7y",
+      "type": "term",
+      "bank": "Aareal Bank",
+      "logo": "/images/aereal.png",
+      "country": "Germany (AAA)",
+      "currency": "EUR",
+      "rateAER": 3.05,
+      "termMonths": 84,
+      "withholdingTax": true
+    },
+    {
+      "id": "rietumu-3y",
+      "type": "term",
+      "bank": "Rietumu Bank",
+      "logo": "/images/rietumu.png",
+      "country": "Latvia (A)",
+      "currency": "EUR",
+      "rateAER": 2.81,
+      "termMonths": 36,
+      "withholdingTax": true
+    },
+    {
+      "id": "aareal-5y",
+      "type": "term",
+      "bank": "Aareal Bank",
+      "logo": "/images/aereal.png",
+      "country": "Germany (AAA)",
+      "currency": "EUR",
+      "rateAER": 2.8,
+      "termMonths": 60,
+      "withholdingTax": true
+    },
+    {
+      "id": "hamburg-5y",
+      "type": "term",
+      "bank": "Hamburg Commercial Bank",
+      "logo": "/images/hamburgcommercialbank.png",
+      "country": "Germany (AAA)",
+      "currency": "EUR",
+      "rateAER": 2.80,
+      "termMonths": 60,
+      "withholdingTax": true
+    },
+    {
+      "id": "rietumu-2y",
+      "type": "term",
+      "bank": "Rietumu Bank",
+      "logo": "/images/rietumu.png",
+      "country": "Latvia (A)",
+      "currency": "EUR",
+      "rateAER": 2.75,
+      "termMonths": 24,
+      "withholdingTax": true
+    },
+    {
+      "id": "rietumu-1y",
+      "type": "term",
+      "bank": "Rietumu Bank",
+      "logo": "/images/rietumu.png",
+      "country": "Latvia (A)",
+      "currency": "EUR",
+      "rateAER": 2.69,
+      "termMonths": 12,
+      "withholdingTax": true
+    },
+    {
+      "id": "privat-3y",
+      "type": "term",
+      "bank": "Privat Bank",
+      "logo": "/images/privatbanka.png",
+      "country": "Slovakia (A+)",
+      "currency": "EUR",
+      "rateAER": 2.68,
+      "termMonths": 36,
+      "withholdingTax": true
+    },
+    {
+      "id": "bluor-1y",
+      "type": "term",
+      "bank": "BluOr Bank",
+      "logo": "/images/bluorbank.png",
+      "country": "Latvia (A)",
+      "currency": "EUR",
+      "rateAER": 2.67,
+      "termMonths": 12,
+      "withholdingTax": true
+    },
+    {
+      "id": "btgpactual-5y",
+      "type": "term",
+      "bank": "BtgPactual",
+      "logo": "/images/btgpactual.png",
+      "country": "Luxembourg (AAA)",
+      "currency": "EUR",
+      "rateAER": 2.63,
+      "termMonths": 60,
+      "withholdingTax": true
+    },
+    {
+      "id": "hamburg-4y",
+      "type": "term",
+      "bank": "Hamburg Commercial Bank",
+      "logo": "/images/hamburgcommercialbank.png",
+      "country": "Germany (AAA)",
+      "currency": "EUR",
+      "rateAER": 2.60,
+      "termMonths": 48,
+      "withholdingTax": true
+    }
+  ],
+  "demandOffers": [
+    {
+      "id": "resurs-any",
+      "type": "demand",
+      "bank": "Resurs",
+      "logo": "/images/resurs.png",
+      "country": "Sweden (AAA)",
+      "currency": "EUR",
+      "rateAER": 2.07,
+      "termMonths": 0,
+      "withholdingTax": true
+    },
+    {
+      "id": "bluor-any",
+      "type": "demand",
+      "bank": "BluOr Bank",
+      "logo": "/images/bluorbank.png",
+      "country": "Latvia (A)",
+      "currency": "EUR",
+      "rateAER": 2.01,
+      "termMonths": 0,
+      "withholdingTax": true
+    },
+    {
+      "id": "collector-any",
+      "type": "demand",
+      "bank": "Collector",
+      "logo": "/images/collector.png",
+      "country": "Sweden (AA)",
+      "currency": "EUR",
+      "rateAER": 1.96,
+      "termMonths": 0,
+      "withholdingTax": true
+    },
+    {
+      "id": "northmill-any",
+      "type": "demand",
+      "bank": "Northmill Bank",
+      "logo": "/images/northmillbank.png",
+      "country": "Sweden (AAA)",
+      "currency": "EUR",
+      "rateAER": 1.88,
+      "termMonths": 0,
+      "withholdingTax": true
+    },
+    {
+      "id": "carrefour-any",
+      "type": "demand",
+      "bank": "Carrefour",
+      "logo": "/images/carrefour.png",
+      "country": "France (AA)",
+      "currency": "EUR",
+      "rateAER": 1.87,
+      "termMonths": 0,
+      "withholdingTax": true
+    },
+    {
+      "id": "monobank-any",
+      "type": "demand",
+      "bank": "Monobank",
+      "logo": "/images/autobank.png",
+      "country": "Germany (AAA)",
+      "currency": "EUR",
+      "rateAER": 1.86,
+      "termMonths": 0,
+      "withholdingTax": true
+    },
+    {
+      "id": "euroextra-any",
+      "type": "demand",
+      "bank": "EuroExtra",
+      "logo": "/images/euroextra.png",
+      "country": "Germany (AAA)",
+      "currency": "EUR",
+      "rateAER": 1.76,
+      "termMonths": 0,
+      "withholdingTax": true
+    },
+    {
+      "id": "klarna-any",
+      "type": "demand",
+      "bank": "Klarna",
+      "logo": "/images/klarna.png",
+      "country": "Sweden (AAA)",
+      "currency": "EUR",
+      "rateAER": 1.60,
+      "termMonths": 0,
+      "withholdingTax": true
+    }
+  ]
+}
