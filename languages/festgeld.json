@@ -32,7 +32,74 @@
       }
     ]
   },
-  "howItWorks": {
+  "zinsenBeimFestgeld": {
+    "title": "Wie hoch sind die Zinsen beim Festgeld?",
+    "content": [
+      {
+        "text": "Die Zinsen beim Festgeld variieren je nach Anbieter, Laufzeit und Marktlage. Aktuell können Sie bei Raisin-Partnerbanken Zinssätze von bis zu 3,20 % p.a. erzielen. Die Höhe der Zinsen hängt von verschiedenen Faktoren ab:"
+      },
+      {
+        "text": "Laufzeit: Längere Laufzeiten bieten in der Regel höhere Zinssätze. Die Laufzeit kann zwischen einem Monat und zehn Jahren liegen."
+      },
+      {
+        "text": "Anlagebetrag: Manche Banken bieten gestaffelte Zinssätze je nach Höhe der Einlage an."
+      },
+      {
+        "text": "Marktlage: Die Zinsen orientieren sich am allgemeinen Zinsniveau und können sich über die Zeit ändern."
+      }
+    ]
+  },
+  "wasIstFestgeld": {
+    "title": "Was ist Festgeld?",
+    "content": [
+      {
+        "text": "Festgeld ist eine sichere Geldanlage, bei der Sie Ihr Kapital für einen festen Zeitraum zu einem garantierten Zinssatz anlegen. Während der Laufzeit können Sie nicht über das angelegte Geld verfügen, erhalten dafür aber eine feste Verzinsung."
+      },
+      {
+        "text": "Die wichtigsten Merkmale von Festgeld: Feste Laufzeit von einem Monat bis zu zehn Jahren, garantierte Zinsen während der gesamten Laufzeit, keine vorzeitige Verfügung möglich, Einlagensicherung bis 100.000 € pro Bank und Kunde."
+      },
+      {
+        "text": "Festgeld eignet sich besonders für sicherheitsorientierte Anleger, die eine planbare Rendite wünschen und auf die jederzeitige Verfügbarkeit ihres Kapitals verzichten können."
+      }
+    ]
+  },
+  "festgeldVergleichLaufzeit": {
+    "title": "Festgeld-Vergleich: Die richtige Laufzeit bei Festgeld wählen",
+    "content": [
+      {
+        "text": "Die Wahl der richtigen Laufzeit ist entscheidend für den Erfolg Ihrer Festgeldanlage. Dabei sollten Sie verschiedene Faktoren berücksichtigen:"
+      },
+      {
+        "text": "Kurze Laufzeiten (1-12 Monate): Bieten Flexibilität und ermöglichen es, bei steigenden Zinsen schnell zu reagieren. Die Zinssätze sind meist niedriger als bei längeren Laufzeiten."
+      },
+      {
+        "text": "Mittlere Laufzeiten (1-3 Jahre): Bieten einen guten Kompromiss zwischen Zinshöhe und Flexibilität. Ideal für Anleger, die eine mittelfristige Planung haben."
+      },
+      {
+        "text": "Lange Laufzeiten (3-10 Jahre): Bieten meist die höchsten Zinssätze, binden das Kapital aber für einen längeren Zeitraum. Geeignet für langfristige Sparziele."
+      }
+    ]
+  },
+  "fuerWenLohntSich": {
+    "title": "Für wen lohnt sich ein Festgeldkonto als Anlage?",
+    "content": [
+      {
+        "text": "Ein Festgeldkonto eignet sich besonders für bestimmte Anlegertypen und Situationen:"
+      },
+      {
+        "text": "Sicherheitsorientierte Anleger: Wer Wert auf Kapitalerhalt und planbare Erträge legt, findet im Festgeld eine ideale Anlageform."
+      },
+      {
+        "text": "Sparer mit konkreten Zielen: Wenn Sie für ein bestimmtes Ziel sparen (z.B. Hausbau, Ausbildung der Kinder), bietet Festgeld Planungssicherheit."
+      },
+      {
+        "text": "Anleger mit überschüssiger Liquidität: Wenn Sie Geld haben, das Sie mittelfristig nicht benötigen, können Sie es gewinnbringend in Festgeld anlegen."
+      },
+      {
+        "text": "Risikoscheue Investoren: Festgeld ist eine risikoarme Alternative zu Aktien oder anderen volatilen Anlagen."
+      }
+    ]
+  },
     "title": "Wie funktioniert die Festgeldanlage bei Raisin?",
     "content": [
       {
@@ -75,7 +142,7 @@
       }
     ]
   },
-  "howItWorks": {
+  "howItWorksSteps": {
     "title": "So funktioniert's",
     "subtitle": "In nur 3 Schritten zu Ihrem Festgeldkonto",
     "steps": [
