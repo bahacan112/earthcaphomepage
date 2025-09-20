@@ -54,7 +54,7 @@ export default function HeroSection() {
               {/* Main Image */}
               <div className="relative rounded-2xl overflow-hidden">
                 <Image
-                  src="/images/68921a386c8092970f781958-raisin_ie_hero_old_couple_standing_in_room_with_plants_badge_2.png"
+                  src="/images/hero.png"
                   alt={heroSection.imageAlt}
                   width={600}
                   height={400}

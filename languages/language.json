@@ -1,17 +1,15 @@
 {
   "heroSection": {
-    "title": "Cleveres Sparen beginnt hier.",
+    "title": "Die einfach bessere Lösung für Spar- und Investmentziele",
     "features": [
-      "Greifen Sie mit nur einem Konto auf über 25 vertrauenswürdige europäische Banken zu.",
-      "Feste Laufzeiten von 3 Monaten bis 7 Jahren mit Zinssätzen bis zu 3,00 % p. a.",
-      "Flexible Tagesgeldkonten: Jederzeit einzahlen oder abheben.",
-      "Keine Gebühren, keine Abonnements. Sicherheit durch die gesetzliche Einlagensicherung."
+      "Ein Konto, 650 Angebote für Tages- und Festgelder, eine Vermögensverwaltung und Rürup zum Sparen, Investieren und Vorsorgen.",
+      "Ihr Geld in Bewegung mit unserem exklusiven Tagesgeld für Neukundinnen und Neukunden: 2,85 % p. a. Zinsen. Täglich verfügbar. Kostenlos."
     ],
     "buttons": {
-      "register": "Jetzt registrieren",
-      "compare": "Sparkonten vergleichen"
+      "register": "Kostenloses Konto eröffnen",
+      "compare": "StartZins sichern"
     },
-    "imageAlt": "Glückliches Paar beim gemeinsamen Sparen",
+    "imageAlt": "Mann mit Smartphone und 2,85% Zinssatz Angebot",
     "disclaimer": "Ein Angebot der Raisin Bank AG, handelnd unter Raisin."
   },
   "trustBadges": {
@@ -19,22 +17,43 @@
       {
         "image": "/images/1.webp",
         "alt": "Auszeichnung Bester Sparanbieter",
-        "text": "„Bester Sparanbieter“ 2025"
+        "text": "Exzellenter Service und beste Finanzlösungen"
       },
       {
         "image": "/images/2.webp",
         "alt": "Mitglied der CCMA",
-        "text": "Mitglied der CCMA"
+        "text": "Top-Zinsen für Ihre sichere Geldanlage – mehrfach ausgezeichnet"
       },
       {
         "image": "/images/3.webp",
         "alt": "Erwähnt in den CCPC Money Tools",
-        "text": "Erwähnt in den CCPC Money Tools"
+        "text": "Attraktive Zinsen und maximale Flexibilität – das Beste Tagesgeld"
       },
       {
         "image": "/images/4.webp",
         "alt": "Erwähnt im Irish Independent",
-        "text": "Erwähnt im Irish Independent"
+        "text": "1. Platz für die digitale Vermögensverwaltung in der Kategorie Robo-Advisor Performance"
+      }
+    ]
+  },
+  "processSection": {
+    "title": "So einfach geht's",
+    "subtitle": "In nur 3 Schritten zu Ihrem Raisin-Konto",
+    "steps": [
+      {
+        "image": "/images/10.webp",
+        "title": "Registrierung in 3 Minuten",
+        "description": "Eröffnen Sie schnell und einfach Ihr kostenloses Raisin-Konto."
+      },
+      {
+        "image": "/images/11.webp",
+        "title": "Attraktive Angebote wählen",
+        "description": "Melden Sie sich bei Ihrem Konto an und wählen Sie ein (oder mehrere) Spar- und Investmentprodukte aus."
+      },
+      {
+        "image": "/images/12.webp",
+        "title": "Bequeme Verwaltung",
+        "description": "Überweisen Sie den gewünschten Anlagebetrag und behalten Sie über unser Onlinebanking jederzeit die volle Kontrolle."
       }
     ]
   },
@@ -101,19 +120,133 @@
     ]
   },
   "demandDepositsSection": {
-    "badges": [
-      "Flexibles Sparen",
-      "Variabler Zinssatz"
+    "cards": [
+      {
+        "badges": ["Tagesgeld", "Für kurzfristige Ziele"],
+        "title": "Tagesgeld: Flexibel und sicher",
+        "description": "Profitieren Sie von unseren Tagesgeld Angeboten mit Zinsen bis zu 2,85 % p. a., ab 1,00 €, kostenlos und mit flexiblem Sparplan",
+        "button": "Tagesgeld vergleichen",
+        "image": "/images/001.png",
+        "imageAlt": "Tagesgeld",
+        "bgColor": "bg-blue-50",
+        "borderColor": "border-blue-300",
+        "badgeColor": "bg-blue-100 text-blue-800"
+      },
+      {
+        "badges": ["Rürup", "Smarte Altersvorsorge"],
+        "title": "Smarte Altersvorsorge",
+        "description": "Flexibilität, Steuervorteile und Transparenz. Für mehr Freiheit im Alter",
+        "button": "Vorsorgen und Steuern sparen",
+        "image": "/images/002.png",
+        "imageAlt": "Altersvorsorge",
+        "bgColor": "bg-green-50",
+        "borderColor": "border-green-300",
+        "badgeColor": "bg-green-100 text-green-800"
+      }
+    ]
+  },
+  "investmentSection": {
+    "badges": ["Vermögensverwaltung", "Individuelle Anlagelösung"],
+    "title": "Marktchancen nutzen",
+    "description": "Investieren Sie in ein global diversifiziertes Portfolio – rund 8.000 Unternehmen weltweit, bei einer Zielrendite von 7,4 %",
+    "button": "Marktchancen nutzen",
+    "image": "/images/003.png",
+    "imageAlt": "Vermögensverwaltung",
+    "bgColor": "bg-orange-50",
+    "borderColor": "border-orange-300",
+    "badgeColor": "bg-orange-100 text-orange-800"
+  },
+  "trustBadgesSection": {
+    "items": [
+      {
+        "icon": "/images/004.svg",
+        "title": "1 Million aktive Kunden weltweit",
+        "description": ""
+      },
+      {
+        "icon": "/images/005.svg", 
+        "title": "75 Milliarden an Einlagen",
+        "description": ""
+      },
+      {
+        "icon": "/images/trustpilot.svg",
+        "title": "Trustpilot",
+        "description": "Basierend auf 10.729 Bewertungen",
+        "rating": "4.5"
+      },
+      {
+        "icon": "/images/7.svg",
+        "title": "+140 Banken mit Tages- und Festgeld auf unserer Plattform in Deutschland",
+        "description": ""
+      }
     ],
-    "title": "Einfacher Zugang zu Tagesgeldkonten",
-    "description": "Genießen Sie Flexibilität mit Tagesgeldkonten. Zahlen Sie jederzeit ein oder heben Sie ab – schon ab 1 € möglich.",
-    "button": "Tagesgeld vergleichen",
-    "imageAlt": "Tagesgeldkonten"
+    "bgColor": "bg-blue-500"
+  },
+  "savingsInfoSection": {
+    "title": "Ihre Ersparnisse verdienen mehr",
+    "subtitle": "Sparen, Investieren, vorsorgen",
+    "description": "Raisin bietet Zugang zu Tages- und Festgeldern aus Europa, zu einfachen Investmentprodukten sowie zur kostengünstigen Altersvorsorge.",
+    "features": [
+      {
+        "title": "Ausgezeichneter Finanzdienstleister",
+        "description": "Raisin wurde 2025 erneut vom Handelsblatt mit dem Qualitaetssiegel \"Beste Finanzdienstleister\" ausgezeichnet."
+      },
+      {
+        "title": "Einfach und bequem von Zuhause",
+        "description": "Mit nur einer Anmeldung koennen Sie beliebig viele Anlagen abschliessen und alles zentral im Onlinebanking verwalten."
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Ueber Raisin",
+        "type": "primary"
+      },
+      {
+        "text": "Was Kunden sagen",
+        "type": "secondary"
+      }
+    ],
+    "image": "/images/010.png",
+    "imageAlt": "Paar mit Smartphone und Laptop"
+  },
+  "sponsorshipSection": {
+    "title": "Raisin ist Hauptsponsor des 1. FC Union Berlin",
+    "description": "Wir sind stolz darauf, als Hauptsponsor die Erfolgsgeschichte des 1. FC Union Berlin zu begleiten. Dabei verbinden uns Werte wie Leidenschaft, Teamgeist und die Freude an starken Leistungen. Mit unserem Engagement tragen wir dazu bei, dass Union weiterhin Geschichte schreibt - fuer die Fans, fuer die Stadt, fuer den Fussball.",
+    "subtitle": "Machen Sie es wie die Profis: Werden Sie Fan von Raisin und sichern Sie sich attraktive Zinsen und Renditen.",
+    "buttons": [
+      {
+        "text": "Jetzt registrieren",
+        "type": "primary"
+      },
+      {
+        "text": "Ueber Raisin und Union",
+        "type": "secondary"
+      }
+    ],
+    "image": "/images/011.png",
+    "imageAlt": "FC Union Berlin Spieler im Raisin Trikot"
+  },
+  "depositProtectionSection": {
+    "title": "Europaweite Absicherung für Ihre Einlagen",
+    "description": "Spareinlagen wie Festgeld und Tagesgeld unterliegen innerhalb der Europäischen Union der gesetzlichen Einlagensicherung.",
+    "subtitle": "EU-Richtlinien und nationale Vorgaben, wie das deutsche Einlagensicherungsgesetz, gewährleisten die Absicherung von bis zu 100.000 € pro Person und Bank.",
+    "buttons": [
+      {
+        "text": "Mehr zur Einlagensicherung",
+        "type": "primary"
+      },
+      {
+        "text": "Über Raisin",
+        "type": "secondary"
+      }
+    ],
+    "image": "/images/012.png",
+    "imageAlt": "Frau mit Laptop - Einlagensicherung"
   },
   "termDepositsSection": {
-    "badges": ["Fester Zinssatz", "Bis zu 3,00 % p. a."],
-    "title": "Planbare Rendite mit Festgeld",
-    "description": "Bauen Sie Ihr Vermögen mit einem Festgeldkonto auf. Wählen Sie eine Laufzeit, die zu Ihren Zielen passt – von 3 Monaten bis zu 7 Jahren.",
+    "badges": ["Festgeld", "Sichere Geldanlage"],
+    "title": "Festgeld: Ihre Zukunft verdient Stabilität",
+    "description": "Attraktive Zinsen bis 3,20 % p. a. – eine planbare Geldanlage für Ihre kurz- bis mittelfristigen Ziele",
     "button": "Festgeld vergleichen",
     "imageAlt": "Festgeld"
   },
@@ -125,9 +258,9 @@
     "imageAlt": "Raisin Mobile-App"
   },
   "ctaSection": {
-    "title": "Bereit zum Sparen?",
-    "description": "Schließen Sie sich tausenden Sparern an, die Raisin vertrauen – mit attraktiven Zinsen und sicherer Einlagensicherung.",
-    "primaryButton": "Konto eröffnen",
+    "title": "Geben Sie Ihrem Geld die Zukunft, die es verdient",
+    "description": "Mehr als 1 Million Menschen vertrauen auf Raisin, um ihre Sparziele zu erreichen – mit attraktiven Renditen und Angeboten von über 300 Partnerbanken in Europa, Großbritannien und den USA. Werden Sie Teil dieser Erfolgsgeschichte.",
+    "primaryButton": "Jetzt Konto eröffnen",
     "secondaryButton": "Mehr erfahren"
   },
   "footer": {
