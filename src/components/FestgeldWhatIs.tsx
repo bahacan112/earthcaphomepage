@@ -6,11 +6,12 @@ import festgeldData from '../../languages/festgeld.json';
 export default function FestgeldWhatIs() {
   const [activeSection, setActiveSection] = useState('zinsen');
 
-  const { zinsen, whatIs, septemberUpdate } = festgeldData;
+  const { zinsen, whatIs, howItWorks, septemberUpdate } = festgeldData;
 
   const navigationSections = [
     { id: 'zinsen', title: 'Zinsen beim Festgeld' },
     { id: 'was-ist-festgeld', title: 'Was ist Festgeld?' },
+    { id: 'wie-funktioniert', title: 'Wie funktioniert die Festgeldanlage?' },
     { id: 'september-update', title: 'September-Update' }
   ];
 
@@ -45,7 +46,7 @@ export default function FestgeldWhatIs() {
     }
   };
 
-  if (!zinsen || !whatIs || !septemberUpdate) {
+  if (!zinsen || !whatIs || !howItWorks || !septemberUpdate) {
     return null;
   }
 
@@ -133,6 +134,21 @@ export default function FestgeldWhatIs() {
             
             <div className="space-y-6">
               {whatIs.content.map((paragraph, index) => (
+                <p key={index} className="text-lg text-gray-700 leading-relaxed">
+                  {paragraph.text}
+                </p>
+              ))}
+            </div>
+          </div>
+
+          {/* Wie funktioniert die Festgeldanlage bei Raisin? */}
+          <div id="wie-funktioniert" className="scroll-mt-20">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8">
+              {howItWorks.title}
+            </h2>
+            
+            <div className="space-y-6">
+              {howItWorks.content.map((paragraph, index) => (
                 <p key={index} className="text-lg text-gray-700 leading-relaxed">
                   {paragraph.text}
                 </p>
