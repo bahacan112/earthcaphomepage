@@ -95,6 +95,62 @@
       }
     ]
   },
+  "zinsen": {
+    "title": "Wie hoch sind die Zinsen beim Festgeld?",
+    "content": [
+      {
+        "text": "Bei Raisin erhalten Sie für Ihr Festgeld derzeit bis zu 3,20 % Zinsen p. a. Die Festgeldzinsen sind vom Leitzins und dem Einlagenzins der Europäischen Zentralbank (EZB) abhängig."
+      }
+    ],
+    "table": {
+      "headers": ["Laufzeit (Monate)", "Zinssatz maximal (p. a.)"],
+      "rows": [
+        ["3", "2,85 %"],
+        ["6", "2,57 %"],
+        ["9", "2,70 %"],
+        ["12", "2,67 %"],
+        ["24", "2,86 %"],
+        ["36", "2,86 %"],
+        ["48", "2,81 %"],
+        ["60", "2,95 %"],
+        ["120", "3,00 %"]
+      ]
+    },
+    "additionalContent": [
+      {
+        "text": "Da der Zinssatz für Festgeld über die gesamte Laufzeit konstant bleibt, können Anleger genau errechnen, welchen Gewinn sie am Ende der Laufzeit erzielen. Mit längerer Laufzeit nehmen die Zinsen in der Regel zu. Ein Vergleich der Festgeldzinsen kann dabei helfen, aktuelle Angebote für Festgeld mit den besten Konditionen zu finden."
+      }
+    ]
+  },
+  "whatIs": {
+    "title": "Was ist Festgeld?",
+    "content": [
+      {
+        "text": "Festgeld ist eine sichere Geldanlage, bei der Sie Ihr Kapital für eine bestimmte Laufzeit zu einem festen Zinssatz anlegen. Im Gegensatz zum Tagesgeld ist das Geld während der vereinbarten Laufzeit nicht verfügbar, dafür erhalten Sie höhere und garantierte Zinsen."
+      },
+      {
+        "text": "Die Zinserträge beim Festgeld sind planbar und sicher. Da der Zinssatz über die gesamte Laufzeit feststeht, können Sie bereits bei Vertragsabschluss berechnen, wie viel Gewinn Sie am Ende der Laufzeit erzielen werden."
+      },
+      {
+        "text": "Beim Zinseszinseffekt werden die Zinserträge wieder angelegt und verzinst, wodurch sich der Gewinn über die Zeit exponentiell erhöht. Dies ist besonders bei längeren Laufzeiten von Vorteil."
+      },
+      {
+        "text": "Wichtig ist auch der Inflationsschutz: Bei einer Inflationsrate von derzeit 2,00 % sollten die Festgeldzinsen mindestens auf diesem Niveau liegen, um die Kaufkraft zu erhalten."
+      }
+    ]
+  },
+  "septemberUpdate": {
+    "title": "September-Update: Weiterhin von attraktiven Zinsen profitieren",
+    "lastUpdated": "Zuletzt aktualisiert: 01.09.2025",
+    "content": [
+      {
+        "text": "Die Inflationsrate der Europäischen Union (EU) liegt aktuell bei 2,00 % (Stand: 09.2025). Das Zinsniveau im Euroraum ist vom Niveau der Leitzinsen der Europäischen Zentralbank (EZB) geprägt. Der Einlagenzins liegt derzeit bei 2,00 % (Stand: 09.2025). Im Juli 2025 hat die EZB nach sieben Leitzinssenkungen in Folge eine Zinspause bekannt gegeben."
+      },
+      {
+        "text": "Obwohl sich die jüngsten Zinssenkungen auf die Zinsen auf Sparguthaben auswirken, ist das Zinsniveau für Sparerinnen und Sparer weiterhin attraktiv. Dabei lohnt sich ein Blick über die Grenzen Deutschlands hinaus: Im EU-Ausland können die Festgeldzinsen höher sein als hierzulande. Bei Raisin erhalten Sie für Festgeld in Deutschland und im EU-Ausland attraktive Zinsen – und das bereits für kurze Laufzeiten. Wenn Sie Ihr Geld beispielsweise für ein Jahr fest anlegen, erhalten Sie bis zu 2,67 % Zinsen p. a. Für eine längerfristige Geldanlage eignet sich Festgeld mit einer Laufzeit von fünf Jahren mit bis zu 2,95 % Zinsen p. a."
+      }
+    ]
+  },
   "faq": {
     "title": "Häufig gestellte Fragen",
     "items": [
