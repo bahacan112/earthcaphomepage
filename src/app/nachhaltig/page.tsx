@@ -11,6 +11,7 @@ import NachhaltigFeaturedSavingsSection from "@/components/NachhaltigFeaturedSav
 import NachhaltigSummary from "@/components/NachhaltigSummary";
 import NachhaltigWhatIs from "@/components/NachhaltigWhatIs";
 import NachhaltigProcessSection from "@/components/NachhaltigProcessSection";
+import NachhaltigFAQ from "@/components/NachhaltigFAQ";
 
 export default function NachhaltigPage() {
   const breadcrumbItems = [
@@ -31,6 +32,7 @@ export default function NachhaltigPage() {
       <NachhaltigSummary />
       <NachhaltigWhatIs />
       <NachhaltigProcessSection />
+      <NachhaltigFAQ />
       <NachhaltigMission />
       <NachhaltigInitiatives />
       <NachhaltigImpact />
