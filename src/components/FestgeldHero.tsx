@@ -37,7 +37,7 @@ export default function FestgeldHero() {
           <div className="relative">
             {/* Ana görsel container */}
             <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-green-400 to-green-600">
-              <Image 
+              <img 
                 src="/images/014.png" 
                 alt="Festgeld Vergleich - Frau mit Smartphone und 3,20% Zinssatz Angebot"
                 className="w-full h-full object-cover rounded-2xl"

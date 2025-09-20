@@ -2,10 +2,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FestgeldHero from "@/components/FestgeldHero";
 import Breadcrumb from "@/components/Breadcrumb";
-import TagesgeldFeatures from "@/components/TagesgeldFeatures";
 import FestgeldInfo from "@/components/FestgeldInfo";
 import DepositsTableSection from "@/components/DepositsTableSection";
-import TagesgeldProcessSection from "@/components/TagesgeldProcessSection";
+import FestgeldProcessSection from "@/components/FestgeldProcessSection";
 import TagesgeldAuthorSection from "@/components/TagesgeldAuthorSection";
 import TagesgeldSummary from "@/components/TagesgeldSummary";
 import TagesgeldWhatIs from "@/components/TagesgeldWhatIs";
@@ -29,7 +28,7 @@ export default function FestgeldPage() {
       <TrustBadgesSection />
       <FestgeldInfo />
       <DepositsTableSection />
-      <TagesgeldProcessSection />
+      <FestgeldProcessSection />
       <TagesgeldAuthorSection />
       <TagesgeldSummary />
       <TagesgeldWhatIs />
