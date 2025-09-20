@@ -37,15 +37,15 @@
     "items": [
       {
         "title": "Funktionsweise:",
-        "description": "Ein Festgeldkonto ist ein verzinstes Konto, auf dem Sie Ihr Geld für eine bestimmte Laufzeit anlegen. Die Zinsen sind für die gesamte Laufzeit garantiert."
+        "description": "Bei Festgeld handelt es sich um eine Geldanlage mit festen Zinsen während der gesamten Laufzeit. Diese kann zwischen einem Monat und zehn Jahren liegen."
       },
       {
-        "title": "Zinsen:",
-        "description": "Festgeldkonten bieten Ihnen im Vergleich zu Tagesgeld meist höhere Zinsen. Diese sind fest und ändern sich während der Laufzeit nicht."
+        "title": "Zinserträge:",
+        "description": "Die Zinserträge sind umso höher, je größer der Anlagebetrag sowie der Zinssatz sind und je länger die Laufzeit ist. Bei Festgeldern im europäischen Ausland können Sparer oft höhere Zinsen erzielen als bei deutschen Banken."
       },
       {
-        "title": "Kosten:",
-        "description": "In der Regel sind Festgeldkonten kostenlos. Bei Raisin fallen keine Kontoführungsgebühren oder laufende Kosten an."
+        "title": "Einlagensicherung:",
+        "description": "Festgeld fällt unter die EU-weit harmonisierte nationale Einlagensicherung. Dadurch sind Einlagen bis zu 100.000 € pro Anleger und Bank abgesichert."
       }
     ]
   },
