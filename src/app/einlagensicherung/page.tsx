@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import EinlagensicherungHero from "@/components/EinlagensicherungHero";
 import EinlagensicherungSummary from "@/components/EinlagensicherungSummary";
+import EinlagensicherungWhatIs from "@/components/EinlagensicherungWhatIs";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export default function EinlagensicherungPage() {
@@ -19,6 +20,7 @@ export default function EinlagensicherungPage() {
         lastUpdated="Zuletzt aktualisiert: 01. September 2025" 
       />
       <EinlagensicherungSummary />
+      <EinlagensicherungWhatIs />
       <Footer />
     </div>
   );
