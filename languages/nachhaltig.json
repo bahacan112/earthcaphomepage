@@ -1,0 +1,221 @@
+{
+  "page": {
+    "title": "Nachhaltigkeit",
+    "breadcrumb": {
+      "home": "Startseite",
+      "current": "Nachhaltigkeit",
+      "lastUpdated": "Zuletzt aktualisiert: 01. September 2025"
+    }
+  },
+  "hero": {
+    "title": "Nachhaltiges",
+    "titleSecondLine": "Festgeld (09/2025)",
+    "subtitle": "Geld ökologisch, sozial und/oder ethisch anlegen und von bis zu 2,30 % p.a. profitieren",
+    "features": [
+      "Bestes nachhaltiges Festgeldkonto in unserem Vergleich finden",
+      "Grünes Sparkonto mit attraktiven Zinsen",
+      "Kostenlose Kontoeröffnung, Kontoführung und frei von laufenden Kosten"
+    ],
+    "cta": "Nachhaltig Festgeld anlegen",
+    "imageAlt": "Mann mit Brille in braunem Pullover"
+  },
+  "mission": {
+    "title": "Unsere",
+    "titleHighlight": "Mission",
+    "subtitle": "Wir verbinden nachhaltige Finanzlösungen mit innovativer Technologie, um eine verantwortungsvolle Zukunft zu schaffen.",
+    "values": [
+      {
+        "title": "Verantwortungsvolle Investments",
+        "description": "Wir fördern nachhaltige Finanzprodukte und unterstützen Banken, die sich für Umwelt- und Sozialstandards einsetzen."
+      },
+      {
+        "title": "Transparenz & Vertrauen",
+        "description": "Offene Kommunikation über unsere Nachhaltigkeitsbemühungen und klare Berichterstattung über unseren Fortschritt."
+      },
+      {
+        "title": "Innovation für den Wandel",
+        "description": "Entwicklung zukunftsweisender Technologien, die nachhaltiges Banking einfacher und zugänglicher machen."
+      },
+      {
+        "title": "Gemeinschaftlicher Impact",
+        "description": "Zusammenarbeit mit Partnern und Kunden, um gemeinsam positive Veränderungen in der Finanzwelt zu bewirken."
+      }
+    ],
+    "cta": "Mehr über unsere Werte erfahren"
+  },
+  "initiatives": {
+    "title": "Unsere",
+    "titleHighlight": "Initiativen",
+    "subtitle": "Konkrete Maßnahmen für eine nachhaltige Zukunft",
+    "items": [
+      {
+        "title": "CO₂-Neutralität bis 2025",
+        "description": "Vollständige Klimaneutralität in allen Geschäftsbereichen durch erneuerbare Energien und Kompensationsprojekte.",
+        "progress": 85,
+        "color": "green"
+      },
+      {
+        "title": "Grüne Produktpalette",
+        "description": "Ausbau nachhaltiger Finanzprodukte mit über 100 ESG-konformen Partnerbanken bis Ende 2024.",
+        "progress": 72,
+        "color": "blue"
+      },
+      {
+        "title": "Digitale Transformation",
+        "description": "Papierlose Prozesse und energieeffiziente IT-Infrastruktur für minimalen ökologischen Fußabdruck.",
+        "progress": 90,
+        "color": "emerald"
+      }
+    ],
+    "progressLabel": "Fortschritt"
+  },
+  "impact": {
+    "title": "Unser",
+    "titleHighlight": "Impact",
+    "subtitle": "Messbare Erfolge für eine nachhaltige Zukunft",
+    "stats": [
+      {
+        "number": "€2,5Mrd",
+        "unit": "Grüne Investitionen",
+        "description": "Vermittelt in nachhaltige Finanzprodukte seit 2020"
+      },
+      {
+        "number": "50+",
+        "unit": "ESG-Partner",
+        "description": "Zertifizierte nachhaltige Banken in unserem Netzwerk"
+      },
+      {
+        "number": "100%",
+        "unit": "Grüne Energie",
+        "description": "Alle Büros werden mit erneuerbaren Energien betrieben"
+      },
+      {
+        "number": "25.000t",
+        "unit": "CO₂ eingespart",
+        "description": "Durch digitale Prozesse und grüne Technologien"
+      }
+    ],
+    "timeline": {
+      "title": "Meilensteine unserer Nachhaltigkeitsreise",
+      "items": [
+        {
+          "year": "2020",
+          "title": "Nachhaltigkeitsstrategie entwickelt",
+          "description": "Einführung unserer ersten umfassenden Nachhaltigkeitsstrategie mit klaren Zielen bis 2030."
+        },
+        {
+          "year": "2022",
+          "title": "Grüne Produktlinie gestartet",
+          "description": "Launch unserer ersten nachhaltigen Finanzprodukte mit über 50 grünen Partnerbanken."
+        },
+        {
+          "year": "2024",
+          "title": "CO₂-Neutralität erreicht",
+          "description": "Vollständige CO₂-Neutralität in allen deutschen Geschäftsbereichen erreicht."
+        },
+        {
+          "year": "2030",
+          "title": "Europäische Expansion abgeschlossen",
+          "description": "Ziel: CO₂-Neutralität in allen europäischen Märkten und 100% grüne Produktpalette."
+        }
+      ]
+    },
+    "testimonials": [
+      {
+        "author": "Dr. Sarah Weber",
+        "position": "Nachhaltigkeitsexpertin",
+        "quote": "Raisin zeigt, wie Fintech-Unternehmen Verantwortung übernehmen und echten Impact schaffen können.",
+        "avatar": "SW"
+      },
+      {
+        "author": "Michael Hoffmann",
+        "position": "Kunde seit 2021",
+        "quote": "Endlich kann ich mein Geld mit gutem Gewissen anlegen und dabei noch attraktive Zinsen erhalten.",
+        "avatar": "MH"
+      }
+    ]
+  },
+  "partners": {
+    "title": "Unsere nachhaltigen",
+    "titleHighlight": "Partner",
+    "subtitle": "Zusammenarbeit mit führenden grünen Banken Europas",
+    "items": [
+      {
+        "name": "GreenBank Europe",
+        "description": "Führende nachhaltige Bank mit Fokus auf erneuerbare Energien und soziale Projekte.",
+        "rating": "A+",
+        "logo": "GB",
+        "color": "green"
+      },
+      {
+        "name": "EcoCredit Union",
+        "description": "Spezialisiert auf umweltfreundliche Kredite und nachhaltige Investmentfonds.",
+        "rating": "A",
+        "logo": "EC",
+        "color": "blue"
+      },
+      {
+        "name": "Sustainable Finance AG",
+        "description": "Pionier im Bereich ESG-konforme Finanzdienstleistungen mit 20 Jahren Erfahrung.",
+        "rating": "A+",
+        "logo": "SF",
+        "color": "emerald"
+      },
+      {
+        "name": "Climate Bank",
+        "description": "Fokus auf Klimaschutzprojekte und CO₂-neutrale Finanzierungslösungen.",
+        "rating": "A",
+        "logo": "CB",
+        "color": "teal"
+      },
+      {
+        "name": "Social Impact Bank",
+        "description": "Unterstützt soziale Unternehmen und gemeinnützige Organisationen europaweit.",
+        "rating": "A-",
+        "logo": "SI",
+        "color": "indigo"
+      },
+      {
+        "name": "Renewable Energy Credit",
+        "description": "Spezialist für Finanzierung von Solar-, Wind- und Wasserkraftprojekten.",
+        "rating": "A",
+        "logo": "RE",
+        "color": "green"
+      }
+    ],
+    "benefits": {
+      "title": "Warum wir diese Partner wählen",
+      "items": [
+        {
+          "title": "Strenge ESG-Kriterien",
+          "description": "Alle Partner erfüllen höchste Standards für Umwelt, Soziales und Unternehmensführung."
+        },
+        {
+          "title": "Transparente Berichterstattung",
+          "description": "Regelmäßige Nachhaltigkeitsberichte und offene Kommunikation über Impact-Messungen."
+        },
+        {
+          "title": "Langfristige Partnerschaften",
+          "description": "Aufbau dauerhafter Beziehungen für kontinuierliche Verbesserung und Innovation."
+        }
+      ]
+    },
+    "certifications": {
+      "title": "Unsere Zertifizierungen",
+      "items": [
+        {
+          "name": "UN Global Compact",
+          "description": "Mitglied der UN-Initiative für Nachhaltigkeit"
+        },
+        {
+          "name": "ISO 14001",
+          "description": "Umweltmanagementsystem-Zertifizierung"
+        },
+        {
+          "name": "Climate Neutral",
+          "description": "Zertifiziert klimaneutral durch unabhängige Prüfung"
+        }
+      ]
+    }
+  }
+}

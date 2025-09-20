@@ -1,76 +1,66 @@
 import React from 'react';
+import Image from 'next/image';
+import nachhaltigData from '../../languages/nachhaltig.json';
 
 const NachhaltigHero = () => {
+  const { hero } = nachhaltigData;
+
   return (
-    <section className="relative bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50 py-20 overflow-hidden">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-5">
-        <svg className="w-full h-full" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <pattern id="leaf-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-              <path d="M10 2C6 6 6 14 10 18C14 14 14 6 10 2Z" fill="currentColor" className="text-green-600"/>
-            </pattern>
-          </defs>
-          <rect width="100" height="100" fill="url(#leaf-pattern)"/>
-        </svg>
-      </div>
-
+    <section className="relative bg-gradient-to-br from-blue-50 via-slate-50 to-gray-50 py-16 overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-4xl mx-auto text-center">
-          {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
-            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
-            </svg>
-            Verantwortungsvolles Banking
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          {/* Left Content */}
+          <div className="space-y-8">
+            {/* Main Heading */}
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+              {hero.title}{' '}
+              <span className="block">{hero.titleSecondLine}</span>
+            </h1>
+
+            {/* Subtitle */}
+            <p className="text-lg text-gray-600 leading-relaxed">
+              {hero.subtitle}
+            </p>
+
+            {/* Features List */}
+            <ul className="space-y-4">
+              {hero.features.map((feature, index) => (
+                <li key={index} className="flex items-start gap-3">
+                  <div className={`w-2 h-2 ${index === 1 ? 'bg-green-600' : 'bg-blue-600'} rounded-full mt-2 flex-shrink-0`}></div>
+                  <span className="text-gray-700">{feature}</span>
+                </li>
+              ))}
+            </ul>
+
+            {/* CTA Button */}
+            <div className="pt-4">
+              <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+                {hero.cta}
+              </button>
+            </div>
           </div>
 
-          {/* Main Heading */}
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-            Nachhaltigkeit bei{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-emerald-600">
-              Raisin
-            </span>
-          </h1>
-
-          {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-            Wir gestalten die Zukunft des Bankwesens verantwortungsvoll und nachhaltig. 
-            Für eine bessere Welt und kommende Generationen.
-          </p>
-
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-              Unsere Mission entdecken
-            </button>
-            <button className="border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300">
-              Nachhaltigkeitsbericht
-            </button>
-          </div>
-
-          {/* Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 pt-16 border-t border-green-200">
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-green-600 mb-2">100%</div>
-              <div className="text-gray-600">Grüne Energie</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-green-600 mb-2">50+</div>
-              <div className="text-gray-600">Nachhaltige Partner</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-green-600 mb-2">€2Mrd+</div>
-              <div className="text-gray-600">Grüne Investitionen</div>
+          {/* Right Image */}
+          <div className="relative">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/015.png"
+                alt={hero.imageAlt}
+                width={600}
+                height={400}
+                className="w-full h-auto object-cover"
+                priority
+              />
             </div>
           </div>
         </div>
       </div>
+    </section>
+  );
+};
 
-      {/* Floating Elements */}
-      <div className="absolute top-20 left-10 w-20 h-20 bg-green-200 rounded-full opacity-20 animate-pulse"></div>
-      <div className="absolute bottom-20 right-10 w-32 h-32 bg-emerald-200 rounded-full opacity-20 animate-pulse delay-1000"></div>
-      <div className="absolute top-1/2 right-20 w-16 h-16 bg-teal-200 rounded-full opacity-20 animate-pulse delay-500"></div>
+export default NachhaltigHero;
+
     </section>
   );
 };
