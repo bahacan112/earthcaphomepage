@@ -382,5 +382,16 @@
       "address": "info@earthcap.de"
     },
     "imageAlt": "Kontakt"
+  },
+  "header": {
+    "navigation": {
+      "sparen": "Sparen",
+      "investieren": "Investieren", 
+      "finanzwissen": "Finanzwissen",
+      "hilfe": "Hilfe"
+    },
+    "buttons": {
+      "depot": "Depot"
+    }
   }
 }
