@@ -1,9 +1,6 @@
 import React from 'react';
-import nachhaltigData from '../../languages/nachhaltig.json';
 
 const NachhaltigMission = () => {
-  const { mission } = nachhaltigData;
-
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
@@ -11,10 +8,11 @@ const NachhaltigMission = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
-              {mission.title} <span className="text-green-600">{mission.titleHighlight}</span>
+              Unsere <span className="text-green-600">Mission</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {mission.subtitle}
+              Wir verbinden nachhaltige Finanzlösungen mit innovativer Technologie, 
+              um eine verantwortungsvolle Zukunft zu schaffen.
             </p>
           </div>
 
@@ -40,29 +38,62 @@ const NachhaltigMission = () => {
             {/* Right Side - Content */}
             <div className="space-y-8">
               <div className="space-y-6">
-                {mission.values.map((value, index) => (
-                  <div key={index} className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
-                      <svg className="w-6 h-6 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                      </svg>
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                        {value.title}
-                      </h3>
-                      <p className="text-gray-600">
-                        {value.description}
-                      </p>
-                    </div>
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+                    <svg className="w-6 h-6 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
                   </div>
-                ))}
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                      Verantwortungsvolle Investments
+                    </h3>
+                    <p className="text-gray-600">
+                      Wir fördern nachhaltige Finanzprodukte und unterstützen Banken, 
+                      die sich für Umwelt- und Sozialstandards einsetzen.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+                    <svg className="w-6 h-6 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                      Transparenz & Vertrauen
+                    </h3>
+                    <p className="text-gray-600">
+                      Vollständige Transparenz über unsere Nachhaltigkeitsbemühungen 
+                      und regelmäßige Berichterstattung über unsere Fortschritte.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+                    <svg className="w-6 h-6 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                      Gemeinschaftlicher Impact
+                    </h3>
+                    <p className="text-gray-600">
+                      Zusammenarbeit mit Partnern und Kunden, um gemeinsam 
+                      positive Veränderungen in der Finanzwelt zu bewirken.
+                    </p>
+                  </div>
+                </div>
               </div>
 
               {/* CTA */}
               <div className="pt-6">
                 <button className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-300">
-                  {mission.cta}
+                  Mehr über unsere Werte erfahren
                 </button>
               </div>
             </div>

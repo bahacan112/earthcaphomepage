@@ -7,14 +7,11 @@ import NachhaltigInitiatives from "@/components/NachhaltigInitiatives";
 import NachhaltigImpact from "@/components/NachhaltigImpact";
 import NachhaltigPartners from "@/components/NachhaltigPartners";
 import TrustBadgesSection from "@/components/TrustBadgesSection";
-import nachhaltigData from "../../languages/nachhaltig.json";
 
 export default function NachhaltigPage() {
-  const { page } = nachhaltigData;
-  
   const breadcrumbItems = [
-    { label: page.breadcrumb.home, href: "/" },
-    { label: page.breadcrumb.current }
+    { label: "Startseite", href: "/" },
+    { label: "Nachhaltigkeit" }
   ];
 
   return (
@@ -23,7 +20,7 @@ export default function NachhaltigPage() {
       <NachhaltigHero />
       <Breadcrumb 
         items={breadcrumbItems} 
-        lastUpdated={page.breadcrumb.lastUpdated} 
+        lastUpdated="Zuletzt aktualisiert: 01. September 2025" 
       />
       <TrustBadgesSection />
       <NachhaltigMission />

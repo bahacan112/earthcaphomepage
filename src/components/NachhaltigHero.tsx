@@ -1,10 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import nachhaltigData from '../../languages/nachhaltig.json';
 
 const NachhaltigHero = () => {
-  const { hero } = nachhaltigData;
-
   return (
     <section className="relative bg-gradient-to-br from-blue-50 via-slate-50 to-gray-50 py-16 overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
@@ -13,29 +10,35 @@ const NachhaltigHero = () => {
           <div className="space-y-8">
             {/* Main Heading */}
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              {hero.title}{' '}
-              <span className="block">{hero.titleSecondLine}</span>
+              Nachhaltiges{' '}
+              <span className="block">Festgeld (09/2025)</span>
             </h1>
 
             {/* Subtitle */}
             <p className="text-lg text-gray-600 leading-relaxed">
-              {hero.subtitle}
+              Geld ökologisch, sozial und/oder ethisch anlegen und von bis zu 2,30 % p.a. profitieren
             </p>
 
             {/* Features List */}
             <ul className="space-y-4">
-              {hero.features.map((feature, index) => (
-                <li key={index} className="flex items-start gap-3">
-                  <div className={`w-2 h-2 ${index === 1 ? 'bg-green-600' : 'bg-blue-600'} rounded-full mt-2 flex-shrink-0`}></div>
-                  <span className="text-gray-700">{feature}</span>
-                </li>
-              ))}
+              <li className="flex items-start gap-3">
+                <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                <span className="text-gray-700">Bestes nachhaltiges Festgeldkonto in unserem Vergleich finden</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-2 h-2 bg-green-600 rounded-full mt-2 flex-shrink-0"></div>
+                <span className="text-gray-700">Grünes Sparkonto mit attraktiven Zinsen</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                <span className="text-gray-700">Kostenlose Kontoeröffnung, Kontoführung und frei von laufenden Kosten</span>
+              </li>
             </ul>
 
             {/* CTA Button */}
             <div className="pt-4">
               <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-                {hero.cta}
+                Nachhaltig Festgeld anlegen
               </button>
             </div>
           </div>
@@ -45,7 +48,7 @@ const NachhaltigHero = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/015.png"
-                alt={hero.imageAlt}
+                alt="Mann mit Brille in braunem Pullover"
                 width={600}
                 height={400}
                 className="w-full h-auto object-cover"
@@ -55,11 +58,6 @@ const NachhaltigHero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
-};
-
-export default NachhaltigHero;
 
     </section>
   );
