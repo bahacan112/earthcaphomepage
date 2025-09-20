@@ -52,8 +52,8 @@ export default function NachhaltigFeaturedSavingsSection() {
 
               {/* Sustainable Badge */}
               {acc.sustainable && (
-                <div className="mt-4 inline-flex items-center gap-1.5 rounded-full border border-green-200 bg-green-100 px-3 py-1 text-xs font-medium text-green-700">
-                  <Leaf size={14} className="text-green-700" />
+                <div className="mt-4 inline-flex items-center gap-1.5 rounded-full border border-blue-200 bg-blue-100 px-3 py-1 text-xs font-medium text-blue-700">
+                  <Leaf size={14} className="text-blue-700" />
                   Nachhaltig
                 </div>
               )}
