@@ -7,7 +7,7 @@ import NachhaltigInitiatives from "@/components/NachhaltigInitiatives";
 import NachhaltigImpact from "@/components/NachhaltigImpact";
 import NachhaltigPartners from "@/components/NachhaltigPartners";
 import TrustBadgesSection from "@/components/TrustBadgesSection";
-import FeaturedSavingsSection from "@/components/FeaturedSavingsSection";
+import NachhaltigFeaturedSavingsSection from "@/components/NachhaltigFeaturedSavingsSection";
 
 export default function NachhaltigPage() {
   const breadcrumbItems = [
@@ -24,7 +24,7 @@ export default function NachhaltigPage() {
         lastUpdated="Zuletzt aktualisiert: 01. September 2025" 
       />
       <TrustBadgesSection />
-      <FeaturedSavingsSection />
+      <NachhaltigFeaturedSavingsSection />
       <NachhaltigMission />
       <NachhaltigInitiatives />
       <NachhaltigImpact />
