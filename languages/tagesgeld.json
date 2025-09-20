@@ -30,5 +30,209 @@
         "description": "Jederzeit Ein- und Auszahlungen ohne Kündigungsfristen"
       }
     ]
+  },
+  "summary": {
+    "title": "Das Wichtigste in Kürze:",
+    "items": [
+      {
+        "title": "Funktionsweise:",
+        "description": "Ein Tagesgeldkonto ist ein verzinstes Konto, auf dem Sie Ihr Geld flexibel parken können, ohne es für eine bestimmte Laufzeit zu binden. Sie können jederzeit Ein- und Auszahlungen vornehmen."
+      },
+      {
+        "title": "Zinsen:",
+        "description": "Tagesgeldkonten bieten Ihnen im Vergleich zu Girokonten und Sparbüchern meist attraktivere Zinsen an. Diese sind variabel und können sich je nach Marktlage ändern."
+      },
+      {
+        "title": "Kosten:",
+        "description": "In der Regel sind Tagesgeldkonten kostenlos. Bei Raisin fallen keine Kontoführungsgebühren oder laufende Kosten an."
+      }
+    ]
+  },
+  "whatIs": {
+    "title": "Was ist ein Tagesgeldkonto?",
+    "content": [
+      {
+        "text": "Ein Tagesgeldkonto ist ein ",
+        "link": {
+          "text": "Sparkonto",
+          "url": "#"
+        },
+        "continuation": " bei einer Bank ohne feste Laufzeit oder Kündigungsfrist. Sie können jederzeit auf Ihr gesamtes Guthaben zugreifen und erhalten für dieses Guthaben Zinszahlungen."
+      },
+      {
+        "text": "Der Zinssatz ist variabel. Das heißt, die Bank kann ihn jederzeit erhöhen oder verringern. Die Höhe der Tagesgeldzinsen orientiert sich an den ",
+        "link": {
+          "text": "Leitzinsen der Europäischen Zentralbank",
+          "url": "#"
+        },
+        "continuation": " (EZB) sowie an der aktuellen Marktlage. Sinkt der Leitzins, fällt auch die Verzinsung meist geringer aus. Steigt der Leitzins im Gegenzug, geben viele Banken diesen Vorteil an Sparende weiter – die Tagesgeldzinsen steigen entsprechend."
+      },
+      {
+        "text": "Mit dem Tagesgeld-Vergleich von Raisin erhalten Sie einen Überblick über die große Auswahl unserer Partnerbanken. So finden Sie einfach und transparent das für Sie passende Tagesgeldkonto mit attraktiver Verzinsung."
+      }
+    ],
+    "button": {
+      "text": "Jetzt Tagesgelder vergleichen",
+      "url": "#"
+    }
+  },
+  "howItWorks": {
+    "title": "Wie funktioniert ein Tagesgeldkonto?",
+    "content": [
+      {
+        "text": "Ein Tagesgeldkonto wird ausschließlich zur Geldanlage genutzt und ist vom Zahlungsverkehr ausgeschlossen. Zahlungen wie Lastschriften, Daueraufträge oder Kartenzahlungen können Sie lediglich über ein Girokonto abwickeln."
+      },
+      {
+        "text": "Um ein Tagesgeldkonto zu eröffnen, benötigen Sie ein Referenzkonto. Hierbei handelt es sich um das Girokonto, womit Sie per Überweisung Geld auf das Tagesgeldkonto ein- und auszahlen."
+      }
+    ]
+  },
+  "septemberUpdate": {
+    "title": "September-Update: Wie hoch sind die aktuellen Tagesgeldzinsen bei Raisin?",
+    "lastUpdated": "Zuletzt aktualisiert: 01.09.2025",
+    "content": [
+      {
+        "text": "Bei Raisin erhalten Sie derzeit Zinsen von bis zu 2,85 % p. a. auf Ihr Tagesgeld. Wer Geld für kurze Zeit fest anlegen möchten, profitiert mit ",
+        "link": {
+          "text": "3-monatigem Festgeld",
+          "url": "#"
+        },
+        "continuation": " von bis zu 3,20 % Zinsen p. a."
+      },
+      {
+        "text": "Die hohen Tagesgeldzinsen von Juli 2022 bis September 2023 waren eine Folge der kontinuierlichen Leitzinserhöhungen der EZB. Seit der Zinswende hat die EZB jedoch begonnen, ihre Geldpolitik zu lockern: Im April 2025 erfolgte bereits die siebte Senkung um jeweils 0,25 Prozentpunkte. Der Einlagenzinssatz liegt damit aktuell bei 2,00 % (Stand: 09.2025)."
+      },
+      {
+        "text": "Das zuvor hohe Zinsniveau trug wesentlich dazu bei, die Inflation in Deutschland zu dämpfen. Diese sank im Laufe des Jahres 2024 kontinuierlich und liegt aktuell beim Inflationsziel der EZB von 2,00 % (Stand: 09.2025)."
+      },
+      {
+        "text": "Für Sparerinnen und Sparer bedeutet dies, dass Tagesgeldzinsen hierzulande perspektivisch nachgeben könnten. Da die Zinssätze in Deutschland jedoch traditionell unter dem Niveau vieler Nachbarländer liegen, kann sich ein Blick auf ",
+        "link": {
+          "text": "Tagesgeldangebote im EU-Ausland",
+          "url": "#"
+        },
+        "continuation": " besonders lohnen."
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Ihre Vorteile von Tagesgeld auf einen Blick",
+    "items": [
+      {
+        "title": "Flexibel:",
+        "description": "Beim Tagesgeld gibt es keine festen Laufzeiten. Das Guthaben steht Ihnen jederzeit und in voller Höhe zur Verfügung, und Einzahlungen sind täglich möglich."
+      },
+      {
+        "title": "Kostenfrei:",
+        "description": "Die Kontoeröffnung und -führung von Tagesgeldkonten ist ebenso wie Ein- und Auszahlungen in der Regel kostenlos."
+      },
+      {
+        "title": "Attraktive Zinsen:",
+        "description": "Tagesgeld bietet Sparerinnen und Sparern die Möglichkeit, vom aktuellen Zinsniveau zu profitieren. Je nach Marktlage variieren die Zinsen für Tagesgeld."
+      },
+      {
+        "title": "Einfach:",
+        "description": "Tagesgeldkonten können Sie schnell und bequem online eröffnen und verwalten."
+      }
+    ],
+    "button": {
+      "text": "Jetzt registrieren",
+      "url": "#"
+    }
+  },
+  "disadvantages": {
+    "title": "Nachteile von Tagesgeld",
+    "items": [
+      {
+        "title": "Kein Zahlungsverkehr:",
+        "description": "Ein Tagesgeldkonto dient ausschließlich zur Anlage von Geldbeträgen. Kartenzahlungen, Lastschriften, Daueraufträge oder Bargeldverfügungen werden über ein separates Girokonto abgewickelt."
+      },
+      {
+        "title": "Variable Zinssätze:",
+        "description": "Die Zinssätze für ein Tagesgeldkonto verändern sich im Laufe der Zeit, da sie sich an aktuellen Marktgeschehen orientieren. Dadurch lassen sich die Zinsen für Tagesgeld nicht über einen längeren Zeitraum weniger verlässlich kalkulieren als beim Festgeld. Jedoch ist die variable Verzinsung vorteilhaft, wenn sich die Zinsen erhöhen."
+      },
+      {
+        "title": "Niedrigere Verzinsung:",
+        "description": "Tagesgeldkonten bieten in der Regel geringere Zinsen als Festgeldkonten. Jedoch eignet sich Tagesgeld besonders gut für kurzfristige Rücklagen oder als Ergänzung zu längerfristigen Anlageformen."
+      }
+    ]
+  },
+  "isTagesgeldWorthwhile": {
+    "title": "Ist ein Tagesgeldkonto noch sinnvoll?",
+    "content": [
+      {
+        "text": "Ein Tagesgeldkonto kann sich für sicherheitsorientierte Sparerinnen und Sparer lohnen, die eine flexible ",
+        "link": {
+          "text": "Geldanlage",
+          "url": "#"
+        },
+        "continuation": " mit täglicher Verfügbarkeit und attraktiven Zinszahlungen bevorzugen. Ein "
+      },
+      {
+        "text": "",
+        "link": {
+          "text": "Tagesgeld-Sparplan",
+          "url": "#"
+        },
+        "continuation": " bietet Ihnen die Möglichkeit, regelmäßig Geld einzuzahlen und dadurch kontinuierlich Vermögen aufzubauen. Zudem eignet sich ein Tagesgeldkonto als Angebot für sogenannte "
+      },
+      {
+        "text": "",
+        "link": {
+          "text": "Notprozesse",
+          "url": "#"
+        },
+        "continuation": ". Damit sind Geldreserven gemeint, die bei unerwarteten Ausgaben kurzfristig verfügbar sind, etwa für eine dringende Reparaturen. Finanzexpertinnen und -experten empfehlen sogenannte Notfallreserven oder dringende Reparaturen. Finanzexpertinnen und -experten empfehlen sogenannte Notfallreserven von etwa drei bis sechs Monatsausgaben aufzubauen."
+      }
+    ]
+  },
+  "comparisonTips": {
+    "title": "Worauf ist beim Vergleich von Tagesgeldkonten zu achten?",
+    "subtitle": "Beim Vergleich der Tagesgeldkonten lohnt es sich, mehrere Aspekte zu berücksichtigen. Denn zusätzlich zum Zinssatz gibt es folgende Kriterien, die im Tagesgeld-Vergleich eine bedeutende Rolle spielen:",
+    "items": [
+      {
+        "title": "Neukundenbonus & Zinsgarantie:",
+        "description": "Einige Banken bieten für Tagesgeldkonten feste Zinszahlungen über mehrere Monate an. Oftmals gelten solche Angebote ausschließlich für Neukunden. Teilweise wird ein Bonus gewährt, etwa bei einer Mindesteinlage oder bei einer bestimmten Laufzeit. Nach Ablauf der Zinsgarantie sinkt der Zinssatz meist deutlich. Bei Raisin bieten wir Ihnen die Möglichkeit, bequem zu einem anderen Anbieter zu wechseln, wenn die Konditionen zu unattraktiv werden."
+      },
+      {
+        "title": "Zinszahlungen:",
+        "description": "Je häufiger Zinsen gutgeschrieben werden (zum Beispiel monatlich), desto stärker wirkt sich der sogenannte Zinseszinseffekt aus. Zinsen werden bereits verzinst und erhöhen somit die Gesamtrendite im Vergleich zur jährlichen Auszahlung."
+      },
+      {
+        "title": "Mindestanlage:",
+        "description": "Einige Tagesgeldangebote gelten ab einer bestimmten Mindesteinlage oder sind auf eine bestimmte Maximalsumme begrenzt. Je nach Angebot sind oft bereits ab 1 € verfügbar. Tagesgeld-Anbieter setzen eine Mindestanlage von beispielsweise 500 € voraus. Der Höchstbetrag liegt in der Regel bei 100.000 € oder es gibt diesen Betrag gar nicht. Einlagensicherung entspricht."
+      },
+      {
+        "title": "Voraussetzungen:",
+        "description": "Die Eröffnung eines Tagesgeldkontos ist in der Regel einfach umsetzbar. Dennoch können je nach Bank bestimmte Voraussetzungen gelten. In einigen Fällen ist die Kontoeröffnung nur möglich, wenn gleichzeitig ein Girokonto bei demselben Institut eröffnet wird. Das gilt besonders bei deutschen Filialbanken."
+      },
+      {
+        "title": "Kosten:",
+        "description": "Tagesgeldkonten sind in der Regel kostenlos. Es fallen keine Kontoführungsgebühren an und auch Ein- sowie Auszahlungen sind gebührenfrei. Dennoch lohnt es sich, zum Beispiel beim Währungsumtausch Kosten entstehen. Bei Raisin sind alle Gebühren transparent aufgeführt. Für unsere Tages- und Festgeldangebote fallen keine Kosten oder Gebühren an."
+      }
+    ]
+  },
+  "highInterestRates": {
+    "title": "Wo gibt es hohe Zinsen für Tagesgeld?",
+    "content": [
+      {
+        "text": "Im europäischen Ausland sind die Zinsen meist höher als in Deutschland. Das liegt unter anderem daran, dass Spar- und Anlageprodukte in anderen Ländern weniger nachgefragt werden. Um dennoch neue Kundinnen und Kunden zu gewinnen, bieten Banken dort oft attraktivere Konditionen an."
+      },
+      {
+        "text": "Auch der Wettbewerb unter den Banken sowie das jeweilige Zinsniveau spielen eine entscheidende Rolle. Bei Raisin profitieren Sie von dieser Dynamik. In unserem Tagesgeld-Vergleich können Sie alle Angebote direkt miteinander vergleichen und das für Sie beste Angebot auswählen."
+      }
+    ],
+    "button": {
+      "text": "Zum Tagesgeld-Vergleich",
+      "url": "#"
+    }
+  },
+  "tagesgeldVsFestgeld": {
+    "title": "Tagesgeld oder Festgeld? Was lohnt sich mehr?",
+    "content": [
+      {
+        "text": "Ob sich Tagesgeld oder Festgeld als Geldanlage eignet, hängt von Ihren persönlichen Präferenzen und Zielen ab. Tagesgeld bietet sich zum Beispiel an, wenn Sie flexibel auf Ihr Geld zugreifen möchten. Als Alternative zu Tagesgeld haben Sie die Möglichkeit, Geld auf einem Festgeldkonto anzulegen."
+      }
+    ]
   }
 }

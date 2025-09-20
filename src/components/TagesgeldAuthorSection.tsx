@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function TagesgeldAuthorSection() {
   return (
     <section className="bg-gray-50 py-16">
-      <div className="max-w-4xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
         <div className="text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-12">
             Flexibles sparen verständlich erklärt.
