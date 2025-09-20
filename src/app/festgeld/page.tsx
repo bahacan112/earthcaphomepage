@@ -1,0 +1,41 @@
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import FestgeldHero from "@/components/FestgeldHero";
+import Breadcrumb from "@/components/Breadcrumb";
+import TagesgeldFeatures from "@/components/TagesgeldFeatures";
+import FestgeldInfo from "@/components/FestgeldInfo";
+import DepositsTableSection from "@/components/DepositsTableSection";
+import TagesgeldProcessSection from "@/components/TagesgeldProcessSection";
+import TagesgeldAuthorSection from "@/components/TagesgeldAuthorSection";
+import TagesgeldSummary from "@/components/TagesgeldSummary";
+import TagesgeldWhatIs from "@/components/TagesgeldWhatIs";
+import TagesgeldFAQ from "@/components/TagesgeldFAQ";
+import TrustBadgesSection from "@/components/TrustBadgesSection";
+
+export default function FestgeldPage() {
+  const breadcrumbItems = [
+    { label: "Startseite", href: "/" },
+    { label: "Festgeld-Vergleich" }
+  ];
+
+  return (
+    <div className="min-h-screen bg-white">
+      <Header />
+      <FestgeldHero />
+      <Breadcrumb 
+        items={breadcrumbItems} 
+        lastUpdated="Zuletzt aktualisiert: 01. September 2025" 
+      />
+      <TrustBadgesSection />
+      <FestgeldInfo />
+      <DepositsTableSection />
+      <TagesgeldProcessSection />
+      <TagesgeldAuthorSection />
+      <TagesgeldSummary />
+      <TagesgeldWhatIs />
+      <TagesgeldFAQ />
+    {/*}  <TagesgeldFeatures />*/}
+      <Footer />
+    </div>
+  );
+}

@@ -1,0 +1,119 @@
+{
+  "hero": {
+    "badge": "Festgeld-Vergleich 09/2025: Bis zu 3,20 % p.a. Zinsen",
+    "title": "Festgeld-Vergleich 09/2025: Bis zu 3,20 % p.a. Zinsen",
+    "features": [
+      "Bestes Festgeldkonto in unserem Festgeld-Vergleich finden",
+      "Mit nur einer Anmeldung Angebote von mehr als 140 Partnerbanken europaweit nutzen",
+      "Kostenlose Kontoeröffnung & -führung",
+      "Festgeldkonto ab einer Einzahlung von 1 €"
+    ],
+    "buttons": {
+      "compare": "Jetzt vergleichen",
+      "register": "Kostenlos registrieren"
+    },
+    "imageAlt": "Festgeld Vergleich - Frau mit Smartphone und 3,20% Zinssatz Angebot"
+  },
+  "whyRaisin": {
+    "title": "Warum Festgeld bei Raisin?",
+    "subtitle": "Profitieren Sie von den besten Festgeld-Angeboten europäischer Banken mit maximaler Sicherheit und garantierten Zinsen.",
+    "features": [
+      {
+        "title": "Attraktive Zinsen",
+        "description": "Bis zu 3,20 % p.a. Zinsen von europäischen Partnerbanken"
+      },
+      {
+        "title": "100% Sicher",
+        "description": "Einlagensicherung bis 100.000 € pro Bank und Kunde"
+      },
+      {
+        "title": "Garantierte Zinsen",
+        "description": "Feste Zinssätze für die gesamte Laufzeit Ihres Festgeldes"
+      }
+    ]
+  },
+  "summary": {
+    "title": "Das Wichtigste in Kürze:",
+    "items": [
+      {
+        "title": "Funktionsweise:",
+        "description": "Ein Festgeldkonto ist ein verzinstes Konto, auf dem Sie Ihr Geld für eine bestimmte Laufzeit anlegen. Die Zinsen sind für die gesamte Laufzeit garantiert."
+      },
+      {
+        "title": "Zinsen:",
+        "description": "Festgeldkonten bieten Ihnen im Vergleich zu Tagesgeld meist höhere Zinsen. Diese sind fest und ändern sich während der Laufzeit nicht."
+      },
+      {
+        "title": "Kosten:",
+        "description": "In der Regel sind Festgeldkonten kostenlos. Bei Raisin fallen keine Kontoführungsgebühren oder laufende Kosten an."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "So funktioniert's",
+    "subtitle": "In nur 3 Schritten zu Ihrem Festgeldkonto",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Registrieren",
+        "description": "Kostenlos bei Raisin registrieren und Zugang zu über 140 Partnerbanken erhalten"
+      },
+      {
+        "number": "2",
+        "title": "Vergleichen",
+        "description": "Festgeld-Angebote vergleichen und das beste Angebot für Ihre Bedürfnisse auswählen"
+      },
+      {
+        "number": "3",
+        "title": "Anlegen",
+        "description": "Festgeldkonto eröffnen und von garantierten Zinsen profitieren"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Ihre Vorteile mit Raisin",
+    "items": [
+      {
+        "icon": "shield",
+        "title": "Sicherheit",
+        "description": "Einlagensicherung bis 100.000 € pro Bank"
+      },
+      {
+        "icon": "percent",
+        "title": "Attraktive Zinsen",
+        "description": "Bis zu 3,20 % p.a. von europäischen Banken"
+      },
+      {
+        "icon": "clock",
+        "title": "Flexible Laufzeiten",
+        "description": "Von 1 Monat bis zu 10 Jahren"
+      },
+      {
+        "icon": "euro",
+        "title": "Keine Kosten",
+        "description": "Kostenlose Kontoeröffnung und -führung"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "question": "Was ist ein Festgeldkonto?",
+        "answer": "Ein Festgeldkonto ist eine Geldanlage, bei der Sie Ihr Geld für eine bestimmte Laufzeit zu einem festen Zinssatz anlegen. Während dieser Zeit können Sie nicht über das Geld verfügen, erhalten aber garantierte Zinsen."
+      },
+      {
+        "question": "Wie sicher ist Festgeld?",
+        "answer": "Festgeld ist sehr sicher, da es durch die europäische Einlagensicherung bis zu 100.000 € pro Bank und Kunde geschützt ist. Zusätzlich sind die Zinsen für die gesamte Laufzeit garantiert."
+      },
+      {
+        "question": "Welche Laufzeiten gibt es?",
+        "answer": "Bei Raisin finden Sie Festgeld-Angebote mit Laufzeiten von 1 Monat bis zu 10 Jahren. Je länger die Laufzeit, desto höher sind in der Regel die Zinsen."
+      },
+      {
+        "question": "Kann ich vorzeitig kündigen?",
+        "answer": "Festgeld ist grundsätzlich für die vereinbarte Laufzeit gebunden. Eine vorzeitige Kündigung ist meist nicht möglich oder mit Zinsverlusten verbunden."
+      }
+    ]
+  }
+}
