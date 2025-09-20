@@ -6,13 +6,13 @@ import { useState, useEffect } from 'react';
 export default function NachhaltigWhatIs() {
   const [activeSection, setActiveSection] = useState('section-1');
 
-  // Navigasyon menüsü için 5 bölüm - içerikler sonra eklenecek
+  // Navigasyon menüsü için 5 bölüm
   const navigationSections = [
-    { id: 'section-1', title: 'Bölüm 1' },
-    { id: 'section-2', title: 'Bölüm 2' },
-    { id: 'section-3', title: 'Bölüm 3' },
-    { id: 'section-4', title: 'Bölüm 4' },
-    { id: 'section-5', title: 'Bölüm 5' }
+    { id: 'section-1', title: 'Was ist nachhaltiges Festgeld?' },
+    { id: 'section-2', title: 'Optimale Laufzeit für nachhaltiges Festgeld' },
+    { id: 'section-3', title: 'Zinsen bei nachhaltigem Festgeld' },
+    { id: 'section-4', title: 'Sicherheit von nachhaltigem Festgeld' },
+    { id: 'section-5', title: 'Nachhaltige Festgeldanlagen bei Raisin' }
   ];
 
   // Scroll spy functionality
@@ -50,67 +50,76 @@ export default function NachhaltigWhatIs() {
           {/* Ana İçerik - Sol taraf (2/3) */}
           <div className="flex-1 w-2/3">
             
-            {/* Bölüm 1 */}
+            {/* Was ist nachhaltiges Festgeld? */}
             <div id="section-1" className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8">
-                Bölüm 1 Başlığı
+                Was ist nachhaltiges Festgeld?
               </h2>
               
               <div className="space-y-6 text-gray-700 leading-relaxed">
                 <p className="text-lg">
-                  Bu bölümün içeriği sonra eklenecek.
+                  Grundsätzlich funktioniert ein nachhaltiges Festgeldkonto nach dem gleichen Prinzip wie ein klassisches Festgeldkonto. Sparer legen einen Betrag für eine bestimmte Laufzeit zu einem festen Zinssatz an. Während der Laufzeit sind in der Regel keine Ein- oder Auszahlungen möglich. Am Ende der Laufzeit wird das angelegte Kapital inklusive der vereinbarten Zinsen ausgezahlt.
+                </p>
+                <p className="text-lg">
+                  Der Unterschied beim nachhaltigen Festgeld ist, dass Sparer ihr Geld in Produkte anlegen, die gezielt auf nachhaltige Zwecke ausgerichtet sind. Im Gegensatz zu herkömmlichen Festgeldprodukten fließt das Geld in Projekte, die ökologische, ethische oder soziale Ziele unterstützen. Bei einem grünen, ethischen und/oder sozialen Festgeldkonto wird demnach die Bankeinlage nachhaltig genutzt und nicht in umstrittene Bereiche wie Waffenproduktion, fossile Energien oder andere umweltschädliche Industrien investiert. Stattdessen investiert die Bank beispielsweise in Projekte, die in den Bereichen erneuerbare Energien, nachhaltige Landwirtschaft oder soziale Initiativen tätig sind.
                 </p>
               </div>
             </div>
 
-            {/* Bölüm 2 */}
+            {/* Was ist die optimale Laufzeit für ein nachhaltiges Festgeldkonto? */}
             <div id="section-2" className="mt-16">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                Bölüm 2 Başlığı
+                Was ist die optimale Laufzeit für ein nachhaltiges Festgeldkonto?
               </h3>
               
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p className="text-lg">
-                  Bu bölümün içeriği sonra eklenecek.
+                  Die optimale Laufzeit für ein nachhaltiges Festgeld hängt von den individuellen Sparzielen und der aktuellen Marktsituation ab. Nachhaltige Festgeldkonten können über eine Laufzeit von wenigen Monaten bis hin zu mehreren Jahren abgeschlossen werden. Bei längeren Laufzeiten fällt der Zinssatz dabei meist etwas höher aus. Für Sparer, die eine ausgewogene Balance zwischen Flexibilität und attraktiven Zinsen bei nachhaltigen Sparkonten anstreben, können Laufzeiten zwischen einem und fünf Jahren eine passende Wahl sein.
                 </p>
               </div>
             </div>
 
-            {/* Bölüm 3 */}
+            {/* Wie hoch sind die Zinsen bei nachhaltigem Festgeld? */}
             <div id="section-3" className="mt-16">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                Bölüm 3 Başlığı
+                Wie hoch sind die Zinsen bei nachhaltigem Festgeld?
               </h3>
               
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p className="text-lg">
-                  Bu bölümün içeriği sonra eklenecek.
+                  Sparer können mit nachhaltigem Festgeld attraktive Renditen erhalten.
+                </p>
+                <p className="text-lg">
+                  Da der Zinssatz für ökologisches, ethisches oder soziales Festgeld über die gesamte Laufzeit gleich bleibt, können Anleger genau errechnen, wie hoch die Rendite am Ende der Laufzeit ausfallen wird. Ein Vergleich der Zinsen verschiedener nachhaltiger Sparkonten kann dabei helfen, das Angebot mit den besten Konditionen zu finden.
+                </p>
+                <p className="text-lg">
+                  Neben nachhaltigen Festgeldkonten gibt es weitere Geldanlagen. Bei Raisin kann außerdem in konventionelles Festgeld, Tagesgeld oder beispielsweise die Vermögensverwaltung investiert werden, die ebenfalls attraktive Renditen bieten.
                 </p>
               </div>
             </div>
 
-            {/* Bölüm 4 */}
+            {/* Wie sicher ist nachhaltiges Festgeld? */}
             <div id="section-4" className="mt-16">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                Bölüm 4 Başlığı
+                Wie sicher ist nachhaltiges Festgeld?
               </h3>
               
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p className="text-lg">
-                  Bu bölümün içeriği sonra eklenecek.
+                  Ebenso wie das herkömmliche Festgeld gilt ökologisches Festgeld als risikoarme Geldanlage. Das angelegte Geld auf dem nachhaltigen Sparkonto unterliegt der EU-weiten Einlagensicherung und ist somit bis zu einem Betrag von 100.000 € pro Person und Bank abgesichert. Durch die Einlagensicherung wird sichergestellt, dass das angelegte Geld bis zu einem gewissen Betrag auch bei einer Insolvenz der Bank abgesichert ist. Über die EU-weit harmonisierte nationale Einlagensicherung hinaus haben Banken die Möglichkeit, in private Einlagensicherungsfonds einzuzahlen. So kann bei manchen Banken der Betrag der Absicherung 100.000 € übersteigen.
                 </p>
               </div>
             </div>
 
-            {/* Bölüm 5 */}
+            {/* So funktionieren nachhaltige Festgeldanlagen bei Raisin */}
             <div id="section-5" className="mt-16">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                Bölüm 5 Başlığı
+                So funktionieren nachhaltige Festgeldanlagen bei Raisin
               </h3>
               
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p className="text-lg">
-                  Bu bölümün içeriği sonra eklenecek.
+                  Bei Raisin können Sie einfach und sicher in nachhaltige Festgeldanlagen investieren. Unser Angebot umfasst eine Vielzahl von nachhaltigen Festgeldprodukten verschiedener europäischer Banken, die alle strengen Nachhaltigkeitskriterien entsprechen.
                 </p>
               </div>
             </div>
