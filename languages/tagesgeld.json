@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "badge": "Tagesgeld-Vergleich 09/2025: Bis zu 2,85 % p.a. Zinsen",
+    "title": "Tagesgeld-Vergleich 09/2025: Bis zu 2,85 % p.a. Zinsen",
+    "features": [
+      "Angebote von mehr als 140 Partnerbanken europaweit nutzen",
+      "Tagesgeldkonto ab einer Einzahlung von 1€",
+      "Kostenlose Kontoeröffnung und Kontoführung"
+    ],
+    "buttons": {
+      "compare": "Jetzt Tagesgeld vergleichen",
+      "register": "Kostenlos registrieren"
+    },
+    "imageAlt": "Tagesgeld Vergleich - Mann mit Smartphone und 2,85% Zinssatz Angebot"
+  },
+  "whyRaisin": {
+    "title": "Warum Tagesgeld bei Raisin?",
+    "subtitle": "Profitieren Sie von den besten Tagesgeld-Angeboten europäischer Banken mit maximaler Sicherheit und Flexibilität.",
+    "features": [
+      {
+        "title": "Attraktive Zinsen",
+        "description": "Bis zu 2,85 % p.a. Zinsen von europäischen Partnerbanken"
+      },
+      {
+        "title": "100% Sicher",
+        "description": "Einlagensicherung bis 100.000 € pro Bank und Kunde"
+      },
+      {
+        "title": "Täglich verfügbar",
+        "description": "Jederzeit Ein- und Auszahlungen ohne Kündigungsfristen"
+      }
+    ]
+  }
+}
