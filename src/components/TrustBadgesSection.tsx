@@ -7,7 +7,7 @@ export default function TrustBadgesSection() {
   return (
     <section className={`${trustBadgesSection.bgColor} py-8`}>
       <div className="max-w-7xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-center text-center text-white">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center text-center text-white">
           {trustBadgesSection.items.map((item, index) => (
             <div key={index} className="flex flex-col items-center space-y-3">
               {/* Icon */}
