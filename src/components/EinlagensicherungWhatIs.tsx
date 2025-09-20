@@ -272,8 +272,12 @@ export default function EinlagensicherungWhatIs() {
           <div className="mb-12 bg-gray-50 p-8 rounded-lg">
             <div className="text-center mb-8">
               <div className="bg-white p-6 rounded-lg shadow-sm mb-6">
-                <div className="text-6xl mb-4">📊</div>
-                <h3 className="text-xl font-bold text-gray-900">raisin_de_infographik_einlagensicherung</h3>
+                <img 
+                  src="/images/017.png" 
+                  alt="Raisin Einlagensicherung Infografik - Abwicklung und Auszahlung" 
+                  className="w-full max-w-2xl mx-auto h-auto rounded-lg"
+                />
+                <h3 className="text-xl font-bold text-gray-900 mt-4">Einlagensicherung Infografik</h3>
                 <p className="text-gray-600 text-sm">Abwicklung und Auszahlung</p>
               </div>
             </div>
