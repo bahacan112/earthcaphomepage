@@ -11,28 +11,43 @@ interface FAQItem {
 const faqData: FAQItem[] = [
   {
     id: 1,
-    question: "Wie sicher ist Ihr Tagesgeld?",
-    answer: "Durch die EU-weit harmonisierte nationale Einlagensicherung ist Tagesgeld bis zu einem Betrag von 100.000 € pro Person und Bank abgesichert. Das bedeutet, dass im Falle einer Insolvenz die Bank dazu verpflichtet ist, Ihnen die Einlagen bis zu diesem Betrag auszuzahlen. Die Einlagensicherung gilt für Tagesgeldkonten in Deutschland und im EU-Ausland.\n\nBei privaten und öffentlichen Banken in Deutschland ist die gesetzliche Entschädigungseinrichtung deutscher Banken GmbH (EdB) für die Einlagensicherung verantwortlich. Über den Betrag von 100.000 € hinaus können Banken freiwillig zusätzliche Absicherungen anbieten. Dies geschieht über die freiwilligen Sicherungseinrichtungen beim Bundesverband deutscher Banken (BdB) und den Bundesverband Öffentlicher Banken Deutschlands (VÖB). Seit 2025 liegt die Maximalgrenze bei 3 Mio. Euro pro Person. Ob unsere Partnerbanken zusätzliche Einlagensicherungen anbieten, können Sie in unserem Tagesgeld-Vergleich nachsehen."
+    question: "Ist es möglich, Festgeld monatlich einzuzahlen?",
+    answer: "Nein, bei Festgeld handelt es sich um eine Einmalanlage. Sie zahlen den gewünschten Betrag zu Beginn der Laufzeit ein und können während der Laufzeit keine weiteren Einzahlungen vornehmen. Der eingezahlte Betrag wird für die vereinbarte Laufzeit zu einem festen Zinssatz angelegt. Wenn Sie regelmäßig Geld anlegen möchten, ist Tagesgeld eine bessere Alternative, da hier jederzeit Ein- und Auszahlungen möglich sind."
   },
   {
     id: 2,
-    question: "Wie werden Zinsen beim Tagesgeld versteuert?",
-    answer: "Auf Zinszahlungen aus Tagesgeldern fallen 25,00 % Abgeltungssteuer sowie 5,50 % Solidaritätszuschlag und gegebenenfalls Kirchensteuer an. Als Sparerin beziehungsweise Sparer haben Sie die Möglichkeit, einen Freibetrag von 1.000 € für Alleinstehende beziehungsweise 2.000 € für gemeinsam Veranlagte im Jahr zu nutzen (Stand: 2025). Bis zu diesem Betrag bleiben Ihre Zinszahlungen steuerfrei. Mit einem Freistellungsauftrag bei der Bank haben Sie die Möglichkeit, die Abgeltungssteuer zu vermeiden.\n\nFalls Sie mit Ihrem Gesamteinkommen unter dem Grundfreibetrag von 12.096 € (Stand: 2025) liegen und eine Nichtveranlagungsbescheinigung beim Finanzamt beantragt haben, entfällt die Besteuerung Ihrer Zinszahlungen. Hier ist zu beachten, dass unter dem Gesamteinkommen auch Löhne aus einem Angestelltenverhältnis und Einkommen aus selbstständiger Arbeit fallen.\n\nIn einigen Ländern ist zusätzlich eine Quellensteuer fällig. Diese wird bei Zinszahlungen ausländischer Banken einbehalten und abgeführt. Im Tagesgeld-Vergleich sehen Sie auf einen Blick, bei welchen Angeboten eine Quellensteuer fällig wird. In Ihrem Raisin Onlinebanking finden Sie zudem das Produktinformationsblatt Ihrer Anlage sowie detaillierte Informationen zu der entsprechenden Besteuerung."
+    question: "Kann man Festgeld vorzeitig kündigen?",
+    answer: "Eine vorzeitige Kündigung von Festgeld ist grundsätzlich nicht vorgesehen, da es sich um eine Anlage mit fester Laufzeit handelt. In Ausnahmefällen können manche Banken eine vorzeitige Kündigung gegen Zahlung einer Vorfälligkeitsentschädigung ermöglichen. Dies ist jedoch nicht garantiert und mit Kosten verbunden. Daher sollten Sie bei der Auswahl der Laufzeit sicherstellen, dass Sie das angelegte Geld während der gesamten Laufzeit nicht benötigen."
   },
   {
     id: 3,
-    question: "Wann werden die Tagesgeldzinsen ausgezahlt?",
-    answer: "Die Auszahlung der Tagesgeldzinsen erfolgt zu unterschiedlichen Intervallen:\n\n• Monatsende\n• Quartalsende\n• Halbjahresende\n• Jahresende\n\nDie Auszahlungsintervalle legt die Bank individuell fest. In unserem Tagesgeldkonto-Vergleich können Sie in den Angebotsdetails nachlesen, wann die Zinszahlungen erfolgen."
+    question: "Wird Festgeld automatisch verlängert?",
+    answer: "Das hängt von den Bedingungen der jeweiligen Bank ab. Viele Banken verlängern Festgeld automatisch um die ursprüngliche Laufzeit, wenn Sie nicht rechtzeitig vor Ablauf kündigen. Andere Banken überweisen das Geld automatisch auf Ihr Referenzkonto zurück. In Ihrem Raisin-Konto erhalten Sie rechtzeitig vor Ablauf eine Benachrichtigung über die anstehende Fälligkeit und können entscheiden, ob Sie das Geld erneut anlegen oder auszahlen lassen möchten."
   },
   {
     id: 4,
-    question: "Warum zeigt der Tagesgeld-Vergleich bei einigen Angeboten \"Wochenkonto\" an?",
-    answer: "Ein Wochenkonto ist eine Sonderform des Tagesgelds. Es handelt sich um ein wöchentlich verfügbares Sparprodukt, bei dem Sie Ein- und Auszahlungen an einem festen Wochentag vornehmen. Fällt dieser auf einen Feiertag, führen wir den Vorgang am nächsten Bankarbeitstag aus. Die Auszahlung erfolgt innerhalb von ein bis zwei Bankarbeitstagen auf Ihr Raisin-Konto. Eine Kündigung ist jederzeit möglich – das Guthaben überweisen wir Ihnen am nächsten geplanten Auszahlungstag aus."
+    question: "Welche Möglichkeiten gibt es am Ende der Laufzeit meiner Festgeldanlage?",
+    answer: "Am Ende der Laufzeit haben Sie mehrere Optionen:\n\n• Auszahlung: Das Geld wird auf Ihr Referenzkonto überwiesen\n• Verlängerung: Sie können das Festgeld zu den dann aktuellen Konditionen verlängern\n• Neuanlage: Sie können einen neuen Festgeldvertrag mit einer anderen Laufzeit oder bei einer anderen Bank abschließen\n• Umschichtung: Sie können das Geld in andere Anlageformen wie Tagesgeld investieren\n\nRaisin informiert Sie rechtzeitig vor Ablauf über Ihre Möglichkeiten und unterstützt Sie bei der Entscheidung."
   },
   {
     id: 5,
-    question: "Darf eine andere Person mein Tagesgeldkonto in meinem Namen nutzen?",
-    answer: "Die Nutzung Ihres Tagesgeldkontos durch eine andere Person ist nicht möglich. Eine Bankvollmacht können Sie daher bei Raisin nicht einreichen, da unsere Partnerbanken dem jeweiligen Landesrecht unterliegen. Bestandskunden können jedoch einer dritten Person mit einer Auskunftsvollmacht erlauben, telefonische Auskünfte zu Ihrem Raisin-Konto oder Ihren Anlagen beim Kundenservice einzuholen."
+    question: "Lohnt es sich, Festgeld im Ausland anzulegen?",
+    answer: "Festgeld im europäischen Ausland kann durchaus attraktiv sein, da ausländische Banken oft höhere Zinsen bieten als deutsche Institute. Wichtige Vorteile:\n\n• Höhere Zinssätze als bei deutschen Banken\n• EU-weite Einlagensicherung bis 100.000 € pro Bank und Kunde\n• Keine Währungsrisiken innerhalb der Eurozone\n• Einfache Abwicklung über Raisin\n\nBei Festgeld außerhalb der Eurozone sollten Sie zusätzlich Währungsrisiken beachten. Raisin arbeitet nur mit regulierten europäischen Banken zusammen, die den EU-Sicherheitsstandards entsprechen."
+  },
+  {
+    id: 6,
+    question: "Besteht ein Wechselkursrisiko, wenn Festgeld im Ausland angelegt wird?",
+    answer: "Innerhalb der Eurozone besteht kein Wechselkursrisiko, da alle Transaktionen in Euro abgewickelt werden. Bei Festgeldanlagen in anderen EU-Währungen wie polnischen Zloty oder tschechischen Kronen besteht jedoch ein Währungsrisiko. Der Wert Ihrer Anlage kann durch Wechselkursschwankungen steigen oder fallen. Raisin bietet hauptsächlich Euro-Festgeld an, um dieses Risiko zu vermeiden. In den Produktdetails wird immer klar angegeben, in welcher Währung die Anlage erfolgt."
+  },
+  {
+    id: 7,
+    question: "Gibt es eine Alternative zum Festgeld?",
+    answer: "Ja, es gibt verschiedene Alternativen zum Festgeld, je nach Ihren Anlagezielen:\n\n• Tagesgeld: Flexibel verfügbar, aber meist niedrigere Zinsen\n• Sparbriefe: Ähnlich wie Festgeld, aber von deutschen Banken\n• Staatsanleihen: Höhere Renditen möglich, aber mit Kursrisiko\n• Geldmarktfonds: Professionell verwaltete, kurzfristige Anlagen\n• ETFs: Langfristig höhere Renditen möglich, aber mit Schwankungsrisiko\n\nFür sicherheitsorientierte Anleger mit festem Anlagehorizont bleibt Festgeld eine der besten Optionen für garantierte Zinserträge."
+  },
+  {
+    id: 8,
+    question: "Lohnt es sich, ein Festgeldkonto für meine Kinder anzulegen?",
+    answer: "Ein Festgeldkonto für Kinder kann eine sinnvolle langfristige Sparstrategie sein. Vorteile:\n\n• Garantierte Zinsen über die gesamte Laufzeit\n• Sicherheit durch Einlagensicherung\n• Diszipliniertes Sparen ohne Zugriffsmöglichkeit\n• Steuerliche Vorteile durch Freibeträge der Kinder\n\nBei längeren Laufzeiten sollten Sie jedoch bedenken, dass das Geld nicht verfügbar ist. Für Kinder kann auch ein Tagesgeldkonto sinnvoll sein, da es mehr Flexibilität bietet. Raisin bietet spezielle Konditionen für Minderjährige - sprechen Sie uns gerne an."
   }
 ];
 
@@ -48,7 +63,7 @@ export default function TagesgeldFAQ() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Tagesgeld von Raisin – Ihre Fragen, unsere Antworten
+            Festgeld von Raisin – Ihre Fragen, unsere Antworten
           </h2>
         </div>
 
