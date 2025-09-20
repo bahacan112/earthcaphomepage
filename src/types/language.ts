@@ -6,9 +6,37 @@ export interface LanguageData {
       finanzwissen: string;
       hilfe: string;
     };
+    dropdown?: {
+      sparen?: {
+        festgeld?: {
+          title: string;
+          description: string;
+          link: string;
+        };
+        nachhaltiges_festgeld?: {
+          title: string;
+          description: string;
+          link: string;
+        };
+        tagesgeld?: {
+          title: string;
+          description: string;
+          link: string;
+        };
+        kuendigungsgeld?: {
+          title: string;
+          description: string;
+          link: string;
+        };
+        zinsportfolio?: {
+          title: string;
+          description: string;
+          link: string;
+        };
+      };
+    };
     buttons: {
-      anmelden: string;
-      registrieren: string;
+      depot: string;
     };
   };
   heroSection: {
