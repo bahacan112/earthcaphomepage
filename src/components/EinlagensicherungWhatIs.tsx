@@ -9,9 +9,7 @@ export default function EinlagensicherungWhatIs() {
     { id: 'was-ist-einlagensicherung', title: 'Was ist die Einlagensicherung?' },
     { id: 'einlagensicherung-deutschland', title: 'Einlagensicherung in Deutschland' },
     { id: 'weitere-informationen', title: 'Einlagensicherung in Europa' },
-    { id: 'zusaetzliche-details', title: 'Einlagensicherung in Nicht-EU-Ländern' },
-    { id: 'abwicklung-und-auszahlung', title: 'Abwicklung und Auszahlung' },
-    { id: 'wie-funktioniert-raisin', title: 'Wie funktioniert Raisin?' }
+    { id: 'zusaetzliche-details', title: 'Einlagensicherung in Nicht-EU-Ländern' }
   ], []);
 
   useEffect(() => {
@@ -246,52 +244,6 @@ export default function EinlagensicherungWhatIs() {
                   ))}
                 </nav>
               </div>
-            </div>
-          </div>
-
-          {/* Abwicklung und Auszahlung */}
-          <div id="abwicklung-und-auszahlung" className="scroll-mt-20 mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">
-              Abwicklung und Auszahlung
-            </h2>
-            
-            <div className="space-y-6">
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Die Abwicklung der Einlagensicherung erfolgt durch die jeweiligen nationalen Einlagensicherungssysteme. Im Falle einer Bankinsolvenz werden die Einlagen der Kunden bis zur Höchstgrenze von 100.000 € pro Person und Bank erstattet.
-              </p>
-              
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Im Schadensfall ist die jeweilige Einlagensicherung eines Landes verpflichtet, die Auszahlung binnen maximal zehn Tagen vorzunehmen – bis 2024 wurde diese Frist schrittweise auf sieben Tage verkürzt. Insgesamt kann der Vorgang jedoch einige Wochen länger dauern, da zunächst festzustellen ist, ob tatsächlich ein Fall für die Einlagensicherung vorliegt.
-              </p>
-              
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Die Entschädigung erfolgt automatisch, ohne dass Kunden einen Antrag stellen müssen. Die zuständige Einlagensicherungseinrichtung kontaktiert die betroffenen Kunden direkt und informiert sie über das weitere Vorgehen.
-              </p>
-              
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Im Fall einer Entschädigungssituation unterstützt Raisin seine Anleger selbstverständlich im Rahmen des rechtlich und praktisch Möglichen.
-              </p>
-            </div>
-          </div>
-
-          {/* Wie funktioniert Raisin */}
-          <div id="wie-funktioniert-raisin" className="scroll-mt-20 mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">
-              Wie funktioniert Raisin?
-            </h2>
-            
-            <div className="space-y-6">
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Raisin bietet Zugriff auf attraktive Tages- und Festgeldangebote aus Deutschland und dem europäischen Ausland, auf globale ETF-Portfolios sowie auf Produkte zur Altersvorsorge. Die Eröffnung eines Raisin-Kontos erfordert lediglich wenige Minuten. Über das komfortable Onlinebanking ist eine transparente und einfache Kontoführung möglich.
-              </p>
-              
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Mit einem Tagesgeld- oder Festgeldkonto besteht die Chance auf attraktive Zinsen, die im EU-Ausland höher ausfallen können als bei deutschen Banken. Die Angebote von Raisin für diese Fest- und Tagesgeldkonten unterliegen der EU-weiten Einlagensicherung.
-              </p>
-              
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Alle Angebote unterliegen mindestens der gesetzlichen Einlagensicherung. Die Kontoeröffnung und Kontoführung ist kostenlos und erfolgt über ein intuitives Onlinebanking-System.
-              </p>
             </div>
           </div>
         </div>

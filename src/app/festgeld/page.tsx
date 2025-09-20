@@ -8,7 +8,7 @@ import FestgeldProcessSection from "@/components/FestgeldProcessSection";
 /* import TagesgeldAuthorSection from "@/components/TagesgeldAuthorSection";
  */import FestgeldSummary from "@/components/FestgeldSummary";
 import FestgeldWhatIs from '@/components/FestgeldWhatIs';
-import TagesgeldFAQ from "@/components/TagesgeldFAQ";
+import EinlagensicherungFAQ from "@/components/EinlagensicherungFAQ";
 import TrustBadgesSection from "@/components/TrustBadgesSection";
 
 export default function FestgeldPage() {
@@ -32,7 +32,7 @@ export default function FestgeldPage() {
 {/*       <TagesgeldAuthorSection />
  */}      <FestgeldSummary />
       <FestgeldWhatIs />
-      <TagesgeldFAQ />
+      <EinlagensicherungFAQ />
     {/*}  <TagesgeldFeatures />*/}
       <Footer />
     </div>
