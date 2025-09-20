@@ -8,6 +8,62 @@
       "Kostenlose Kontoeröffnung, Kontoführung und frei von laufenden Kosten"
     ],
     "button": "Nachhaltig Festgeld anlegen",
-    "imageAlt": "Mann mit Brille in braunem Pullover"
+    "imageAlt": "Nachhaltiges Festgeld Anleger"
+  },
+  "featuredSavingsSection": {
+    "title": "Unsere nachhaltigen Festgeldangebote",
+    "accounts": [
+      {
+        "name": "Creditplus Bank",
+        "logo": "/earth.svg",
+        "rateAER": 1.80,
+        "term": "3 Monate",
+        "country": "Deutschland (AAA)",
+        "withholdingTax": true,
+        "sustainable": true,
+        "simplifiedTax": true
+      },
+      {
+        "name": "Creditplus Bank",
+        "logo": "/earth.svg",
+        "rateAER": 1.80,
+        "term": "6 Monate",
+        "country": "Deutschland (AAA)",
+        "withholdingTax": true,
+        "sustainable": true,
+        "simplifiedTax": true
+      },
+      {
+        "name": "Creditplus Bank",
+        "logo": "/earth.svg",
+        "rateAER": 1.85,
+        "term": "1 Jahr",
+        "country": "Deutschland (AAA)",
+        "withholdingTax": true,
+        "sustainable": true,
+        "simplifiedTax": true
+      },
+      {
+        "name": "Creditplus Bank",
+        "logo": "/earth.svg",
+        "rateAER": 2.10,
+        "term": "2 Jahre",
+        "country": "Deutschland (AAA)",
+        "withholdingTax": true,
+        "sustainable": true,
+        "simplifiedTax": true
+      },
+      {
+        "name": "Creditplus Bank",
+        "logo": "/earth.svg",
+        "rateAER": 2.25,
+        "term": "3 Jahre",
+        "country": "Deutschland (AAA)",
+        "withholdingTax": true,
+        "sustainable": true,
+        "simplifiedTax": true,
+        "featured": true
+      }
+    ]
   }
 }
