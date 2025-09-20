@@ -194,26 +194,49 @@ export default function EinlagensicherungWhatIs() {
             {/* Weitere Informationen - Placeholder */}
             <div id="weitere-informationen" className="scroll-mt-20 mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8">
-                Weitere Informationen
+                Einlagensicherung in Europa
               </h2>
               
               <div className="space-y-6">
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Weitere Informationen zur Einlagensicherung folgen in Kürze...
+                  Im Jahr 2015 wurde die Entschädigung im EU-Ausland deutlich vereinfacht. Bei einer Bankeninsolvenz haben sich Anleger nicht mehr mit der Entschädigungseinrichtung des jeweiligen Landes auseinanderzusetzen. Die Entschädigung läuft automatisch über die Einlagensicherungssysteme.
                 </p>
+                <div className="bg-blue-50 border-l-4 border-blue-400 p-4">
+                  <p className="text-blue-800 font-medium">
+                    Im internationalen Vergleich gilt die Einlagensicherung in Deutschland und im EU-Ausland als risikoarm.
+                  </p>
+                </div>
               </div>
             </div>
 
             {/* Zusätzliche Details - Placeholder */}
             <div id="zusaetzliche-details" className="scroll-mt-20 mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8">
-                Zusätzliche Details
+                Einlagensicherung in Nicht-EU-Ländern
               </h2>
               
               <div className="space-y-6">
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Zusätzliche Details zur Einlagensicherung folgen in Kürze...
+                  Banken aus Nicht-EU-Ländern können hinsichtlich der Einlagensicherung anders aufgestellt sein. Anleger können sich zunächst darüber informieren, wann eine Bank unter das europäische Recht fällt.
                 </p>
+                <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-4">
+                  <h4 className="font-semibold text-yellow-800 mb-2">Wichtige Unterscheidung:</h4>
+                  <ul className="text-yellow-700 space-y-2">
+                    <li className="flex items-start">
+                      <span className="text-green-500 mr-2">✓</span>
+                      <span><strong>Zweigniederlassungen</strong> von deutschen oder EU-Banken fallen trotz ihres Standortes im Nicht-EU-Land unter die gesetzliche Einlagensicherung der EU</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-red-500 mr-2">✗</span>
+                      <span><strong>Tochtergesellschaften</strong> zählen nicht unter die EU-Einlagensicherung</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="bg-orange-50 border-l-4 border-orange-400 p-4">
+                  <p className="text-orange-800 font-medium">
+                    Neben den gesetzlichen Regelungen sollte ebenfalls die Bonität der Länder berücksichtigt werden.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -242,6 +265,84 @@ export default function EinlagensicherungWhatIs() {
                   ))}
                 </nav>
               </div>
+            </div>
+          </div>
+
+          {/* Abwicklung und Auszahlung Section */}
+          <div className="mb-12 bg-gray-50 p-8 rounded-lg">
+            <div className="text-center mb-8">
+              <div className="bg-white p-6 rounded-lg shadow-sm mb-6">
+                <div className="text-6xl mb-4">📊</div>
+                <h3 className="text-xl font-bold text-gray-900">raisin_de_infographik_einlagensicherung</h3>
+                <p className="text-gray-600 text-sm">Abwicklung und Auszahlung</p>
+              </div>
+            </div>
+            
+            <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Abwicklung und Auszahlungen der Einlagensicherung</h2>
+            
+            <div className="grid md:grid-cols-2 gap-6 mb-6">
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <div className="flex items-center mb-4">
+                  <div className="bg-blue-100 p-2 rounded-full mr-3">
+                    <span className="text-blue-600 text-xl">⏱️</span>
+                  </div>
+                  <h4 className="font-semibold text-gray-900">Auszahlungsfrist</h4>
+                </div>
+                <p className="text-gray-700 text-sm">
+                  Im Schadensfall ist die jeweilige Einlagensicherung eines Landes verpflichtet, die Auszahlung binnen maximal zehn Tagen vorzunehmen – bis 2024 wurde diese Frist schrittweise auf sieben Tage verkürzt.
+                </p>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <div className="flex items-center mb-4">
+                  <div className="bg-orange-100 p-2 rounded-full mr-3">
+                    <span className="text-orange-600 text-xl">📋</span>
+                  </div>
+                  <h4 className="font-semibold text-gray-900">Prüfungsverfahren</h4>
+                </div>
+                <p className="text-gray-700 text-sm">
+                  Insgesamt kann der Vorgang jedoch einige Wochen länger dauern, da zunächst festzustellen ist, ob tatsächlich ein Fall für die Einlagensicherung vorliegt.
+                </p>
+              </div>
+            </div>
+            
+            <div className="bg-blue-50 border-l-4 border-blue-400 p-4">
+              <p className="text-blue-800 font-medium">
+                <strong>Raisin Unterstützung:</strong> Im Fall einer Entschädigungssituation unterstützt Raisin seine Anleger selbstverständlich im Rahmen des rechtlich und praktisch Möglichen.
+              </p>
+            </div>
+          </div>
+
+          {/* Wie funktioniert Raisin Section */}
+          <div className="mb-12">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Wie funktioniert Raisin?</h2>
+            <p className="text-gray-700 leading-relaxed mb-6">
+              Raisin bietet Zugriff auf attraktive Tages- und Festgeldangebote aus Deutschland und dem europäischen Ausland, auf globale ETF-Portfolios sowie auf Produkte zur Altersvorsorge. Die Eröffnung eines Raisin-Kontos erfordert lediglich wenige Minuten. Über das komfortable Onlinebanking ist eine transparente und einfache Kontoführung möglich.
+            </p>
+            <p className="text-gray-700 leading-relaxed mb-6">
+              Mit einem Tagesgeld- oder Festgeldkonto besteht die Chance auf attraktive Zinsen, die im EU-Ausland höher ausfallen können als bei deutschen Banken. Die Angebote von Raisin für diese Fest- und Tagesgeldkonten unterliegen der EU-weiten Einlagensicherung.
+            </p>
+            
+            <div className="bg-green-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold text-green-900 mb-4">Vorteile von Raisin auf einen Blick</h3>
+              <ul className="space-y-3">
+                <li className="flex items-start">
+                  <span className="text-green-500 mr-3 mt-1">✓</span>
+                  <span className="text-green-800">Attraktive Zinsen für Tages- und Festgeld zu verschiedenen Laufzeiten</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-500 mr-3 mt-1">✓</span>
+                  <span className="text-green-800">Alle Angebote unterliegen mindestens der gesetzlichen Einlagensicherung</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-500 mr-3 mt-1">✓</span>
+                  <span className="text-green-800">Kostenlose Kontoeröffnung und Kontoführung</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-500 mr-3 mt-1">✓</span>
+                  <span className="text-green-800">Intuitives Onlinebanking</span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
