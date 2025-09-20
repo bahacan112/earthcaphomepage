@@ -7,6 +7,7 @@ import TagesgeldInfo from "@/components/TagesgeldInfo";
 import DepositsTableSection from "@/components/DepositsTableSection";
 import TagesgeldProcessSection from "@/components/TagesgeldProcessSection";
 import TagesgeldAuthorSection from "@/components/TagesgeldAuthorSection";
+import TrustBadgesSection from "@/components/TrustBadgesSection";
 
 export default function TagesgeldPage() {
   const breadcrumbItems = [
@@ -22,11 +23,12 @@ export default function TagesgeldPage() {
         items={breadcrumbItems} 
         lastUpdated="Zuletzt aktualisiert: 09. September 2025" 
       />
+      <TrustBadgesSection />
       <TagesgeldInfo />
       <DepositsTableSection />
       <TagesgeldProcessSection />
       <TagesgeldAuthorSection />
-      <TagesgeldFeatures />
+    {/*}  <TagesgeldFeatures />*/}
       <Footer />
     </div>
   );
