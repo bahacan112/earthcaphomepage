@@ -9,6 +9,7 @@ import TagesgeldProcessSection from "@/components/TagesgeldProcessSection";
 import TagesgeldAuthorSection from "@/components/TagesgeldAuthorSection";
 import TagesgeldSummary from "@/components/TagesgeldSummary";
 import TagesgeldWhatIs from "@/components/TagesgeldWhatIs";
+import TagesgeldFAQ from "@/components/TagesgeldFAQ";
 import TrustBadgesSection from "@/components/TrustBadgesSection";
 
 export default function TagesgeldPage() {
@@ -32,6 +33,7 @@ export default function TagesgeldPage() {
       <TagesgeldAuthorSection />
       <TagesgeldSummary />
       <TagesgeldWhatIs />
+      <TagesgeldFAQ />
     {/*}  <TagesgeldFeatures />*/}
       <Footer />
     </div>
