@@ -8,8 +8,10 @@ export default function EinlagensicherungWhatIs() {
   const navigationSections = useMemo(() => [
     { id: 'was-ist-einlagensicherung', title: 'Was ist die Einlagensicherung?' },
     { id: 'einlagensicherung-deutschland', title: 'Einlagensicherung in Deutschland' },
-    { id: 'weitere-informationen', title: 'Weitere Informationen' },
-    { id: 'zusaetzliche-details', title: 'Zusätzliche Details' }
+    { id: 'weitere-informationen', title: 'Einlagensicherung in Europa' },
+    { id: 'zusaetzliche-details', title: 'Einlagensicherung in Nicht-EU-Ländern' },
+    { id: 'abwicklung-und-auszahlung', title: 'Abwicklung und Auszahlung' },
+    { id: 'wie-funktioniert-raisin', title: 'Wie funktioniert Raisin?' }
   ], []);
 
   useEffect(() => {
@@ -57,45 +59,24 @@ export default function EinlagensicherungWhatIs() {
               
               <div className="space-y-6">
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Die gesetzliche Einlagensicherung innerhalb der Europäischen Union ist Ausdruck des politischen Willens, um die Einlagen von Privatpersonen und Unternehmen bei Banken und anderen Finanzinstituten vor Verlusten abzusichern. So können europäische Sparer vor den Folgen einer Bankenkrise oder einer finanziellen Schieflage der Banken bewahrt werden. Im Rahmen des gesetzlichen Einlagensicherungssystems sind Bankeinlagen, wie beispielsweise Geld auf Girokonten, Tagesgeld- oder Festgeldkonten, bis zu 100.000 € pro Person und Bank abgesichert. Über die gesetzliche Einlagensicherung hinaus bieten einige Institute eine zusätzliche freiwillige Einlagensicherung an. Dabei handelt es sich um ein System, bei dem Finanzinstitute, wie Banken oder Kreditgenossenschaften, freiwillig zusätzliche Sicherheitsmaßnahmen ergreifen, beispielsweise durch sogenannte Einlagensicherungsfonds. So können Einlagen ihrer Kunden über die gesetzlich vorgeschriebene Mindestabsicherung hinaus abgesichert werden.
+                  Die gesetzliche Einlagensicherung innerhalb der Europäischen Union ist Ausdruck des politischen Willens, um die Einlagen von Privatpersonen und Unternehmen bei Banken und anderen Finanzinstituten vor Verlusten abzusichern. So können europäische Sparer vor den Folgen einer Bankenkrise oder einer finanziellen Schieflage der Banken bewahrt werden.
+                </p>
+                
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Im Rahmen des gesetzlichen Einlagensicherungssystems sind Bankeinlagen, wie beispielsweise Geld auf Girokonten, Tagesgeld- oder Festgeldkonten, bis zu 100.000 € pro Person und Bank abgesichert. Über die gesetzliche Einlagensicherung hinaus bieten einige Institute eine zusätzliche freiwillige Einlagensicherung an.
+                </p>
+                
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Dabei handelt es sich um ein System, bei dem Finanzinstitute, wie Banken oder Kreditgenossenschaften, freiwillig zusätzliche Sicherheitsmaßnahmen ergreifen, beispielsweise durch sogenannte Einlagensicherungsfonds. So können Einlagen ihrer Kunden über die gesetzlich vorgeschriebene Mindestabsicherung hinaus abgesichert werden.
                 </p>
                 
                 <p className="text-lg text-gray-700 leading-relaxed">
                   Außerdem spielt die Staatsgarantie bei der Sicherheit eine wichtige Rolle, die jedoch in Deutschland noch nicht gesetzlich verankert ist. Diese Garantie bedeutet, dass der Staat im Falle eines Ausfalls oder einer Zahlungsunfähigkeit des Schuldners die Verbindlichkeiten übernehmen oder abdecken wird.
                 </p>
-
-                <div className="bg-blue-50 p-6 rounded-lg">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                    Die drei Säulen der Einlagensicherung:
-                  </h3>
-                  <ul className="space-y-2">
-                    <li className="flex items-center">
-                      <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                      <span className="text-gray-700">Gesetzliche Einlagensicherung</span>
-                    </li>
-                    <li className="flex items-center">
-                      <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                      <span className="text-gray-700">Freiwillige Einlagensicherung</span>
-                    </li>
-                    <li className="flex items-center">
-                      <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                      <span className="text-gray-700">Staatsgarantie</span>
-                    </li>
-                  </ul>
-                </div>
-
+                
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  In Europa wurden die Mindestanforderungen an die gesetzlich garantierte Einlagensicherung seit Jahren weiterentwickelt, um die Absicherung der Anleger in der Europäischen Union zu verbessern.
+                  In Europa wurden die Mindestanforderungen an die gesetzlich garantierte Einlagensicherung seit Jahren weiterentwickelt, um die Absicherung der Anleger in der Europäischen Union zu verbessern. Die gesetzliche Einlagensicherung bei Festgeld und anderen Bankeinlagen ist innerhalb der Europäischen Union im Rahmen von EU-Richtlinien geregelt.
                 </p>
-
-                <div className="bg-green-50 p-6 rounded-lg">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                    Einlagensicherung gilt innerhalb der EU
-                  </h3>
-                  <p className="text-gray-700 leading-relaxed">
-                    Die gesetzliche Einlagensicherung bei Festgeld und anderen Bankeinlagen ist innerhalb der Europäischen Union im Rahmen von EU-Richtlinien geregelt. Sie sehen bestimmte Mindestanforderungen für die Absicherung von Einlagen vor. In Deutschland ist dies das Einlagensicherungsgesetz. Andere EU-Staaten haben eigene Umsetzungsvorschriften. Durch die gesetzliche Einlagensicherung sind Einlagen innerhalb der gesamten EU bis zu einem Betrag von 100.000 € pro Person und Bank abgesichert.
-                  </p>
-                </div>
               </div>
             </div>
 
@@ -268,85 +249,49 @@ export default function EinlagensicherungWhatIs() {
             </div>
           </div>
 
-          {/* Abwicklung und Auszahlung Section */}
-          <div className="mb-12 bg-gray-50 p-8 rounded-lg">
-            <div className="text-center mb-8">
-              <div className="bg-white p-6 rounded-lg shadow-sm mb-6">
-                <img 
-                  src="/images/017.png" 
-                  alt="Raisin Einlagensicherung Infografik - Abwicklung und Auszahlung" 
-                  className="w-full max-w-2xl mx-auto h-auto rounded-lg"
-                />
-                <h3 className="text-xl font-bold text-gray-900 mt-4">Einlagensicherung Infografik</h3>
-                <p className="text-gray-600 text-sm">Abwicklung und Auszahlung</p>
-              </div>
-            </div>
+          {/* Abwicklung und Auszahlung */}
+          <div id="abwicklung-und-auszahlung" className="scroll-mt-20 mb-16">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8">
+              Abwicklung und Auszahlung
+            </h2>
             
-            <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Abwicklung und Auszahlungen der Einlagensicherung</h2>
-            
-            <div className="grid md:grid-cols-2 gap-6 mb-6">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <div className="flex items-center mb-4">
-                  <div className="bg-blue-100 p-2 rounded-full mr-3">
-                    <span className="text-blue-600 text-xl">⏱️</span>
-                  </div>
-                  <h4 className="font-semibold text-gray-900">Auszahlungsfrist</h4>
-                </div>
-                <p className="text-gray-700 text-sm">
-                  Im Schadensfall ist die jeweilige Einlagensicherung eines Landes verpflichtet, die Auszahlung binnen maximal zehn Tagen vorzunehmen – bis 2024 wurde diese Frist schrittweise auf sieben Tage verkürzt.
-                </p>
-              </div>
+            <div className="space-y-6">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Die Abwicklung der Einlagensicherung erfolgt durch die jeweiligen nationalen Einlagensicherungssysteme. Im Falle einer Bankinsolvenz werden die Einlagen der Kunden bis zur Höchstgrenze von 100.000 € pro Person und Bank erstattet.
+              </p>
               
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <div className="flex items-center mb-4">
-                  <div className="bg-orange-100 p-2 rounded-full mr-3">
-                    <span className="text-orange-600 text-xl">📋</span>
-                  </div>
-                  <h4 className="font-semibold text-gray-900">Prüfungsverfahren</h4>
-                </div>
-                <p className="text-gray-700 text-sm">
-                  Insgesamt kann der Vorgang jedoch einige Wochen länger dauern, da zunächst festzustellen ist, ob tatsächlich ein Fall für die Einlagensicherung vorliegt.
-                </p>
-              </div>
-            </div>
-            
-            <div className="bg-blue-50 border-l-4 border-blue-400 p-4">
-              <p className="text-blue-800 font-medium">
-                <strong>Raisin Unterstützung:</strong> Im Fall einer Entschädigungssituation unterstützt Raisin seine Anleger selbstverständlich im Rahmen des rechtlich und praktisch Möglichen.
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Im Schadensfall ist die jeweilige Einlagensicherung eines Landes verpflichtet, die Auszahlung binnen maximal zehn Tagen vorzunehmen – bis 2024 wurde diese Frist schrittweise auf sieben Tage verkürzt. Insgesamt kann der Vorgang jedoch einige Wochen länger dauern, da zunächst festzustellen ist, ob tatsächlich ein Fall für die Einlagensicherung vorliegt.
+              </p>
+              
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Die Entschädigung erfolgt automatisch, ohne dass Kunden einen Antrag stellen müssen. Die zuständige Einlagensicherungseinrichtung kontaktiert die betroffenen Kunden direkt und informiert sie über das weitere Vorgehen.
+              </p>
+              
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Im Fall einer Entschädigungssituation unterstützt Raisin seine Anleger selbstverständlich im Rahmen des rechtlich und praktisch Möglichen.
               </p>
             </div>
           </div>
 
-          {/* Wie funktioniert Raisin Section */}
-          <div className="mb-12">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Wie funktioniert Raisin?</h2>
-            <p className="text-gray-700 leading-relaxed mb-6">
-              Raisin bietet Zugriff auf attraktive Tages- und Festgeldangebote aus Deutschland und dem europäischen Ausland, auf globale ETF-Portfolios sowie auf Produkte zur Altersvorsorge. Die Eröffnung eines Raisin-Kontos erfordert lediglich wenige Minuten. Über das komfortable Onlinebanking ist eine transparente und einfache Kontoführung möglich.
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-6">
-              Mit einem Tagesgeld- oder Festgeldkonto besteht die Chance auf attraktive Zinsen, die im EU-Ausland höher ausfallen können als bei deutschen Banken. Die Angebote von Raisin für diese Fest- und Tagesgeldkonten unterliegen der EU-weiten Einlagensicherung.
-            </p>
+          {/* Wie funktioniert Raisin */}
+          <div id="wie-funktioniert-raisin" className="scroll-mt-20 mb-16">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8">
+              Wie funktioniert Raisin?
+            </h2>
             
-            <div className="bg-green-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-green-900 mb-4">Vorteile von Raisin auf einen Blick</h3>
-              <ul className="space-y-3">
-                <li className="flex items-start">
-                  <span className="text-green-500 mr-3 mt-1">✓</span>
-                  <span className="text-green-800">Attraktive Zinsen für Tages- und Festgeld zu verschiedenen Laufzeiten</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-green-500 mr-3 mt-1">✓</span>
-                  <span className="text-green-800">Alle Angebote unterliegen mindestens der gesetzlichen Einlagensicherung</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-green-500 mr-3 mt-1">✓</span>
-                  <span className="text-green-800">Kostenlose Kontoeröffnung und Kontoführung</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-green-500 mr-3 mt-1">✓</span>
-                  <span className="text-green-800">Intuitives Onlinebanking</span>
-                </li>
-              </ul>
+            <div className="space-y-6">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Raisin bietet Zugriff auf attraktive Tages- und Festgeldangebote aus Deutschland und dem europäischen Ausland, auf globale ETF-Portfolios sowie auf Produkte zur Altersvorsorge. Die Eröffnung eines Raisin-Kontos erfordert lediglich wenige Minuten. Über das komfortable Onlinebanking ist eine transparente und einfache Kontoführung möglich.
+              </p>
+              
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Mit einem Tagesgeld- oder Festgeldkonto besteht die Chance auf attraktive Zinsen, die im EU-Ausland höher ausfallen können als bei deutschen Banken. Die Angebote von Raisin für diese Fest- und Tagesgeldkonten unterliegen der EU-weiten Einlagensicherung.
+              </p>
+              
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Alle Angebote unterliegen mindestens der gesetzlichen Einlagensicherung. Die Kontoeröffnung und Kontoführung ist kostenlos und erfolgt über ein intuitives Onlinebanking-System.
+              </p>
             </div>
           </div>
         </div>
