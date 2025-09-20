@@ -390,6 +390,35 @@
       "finanzwissen": "Finanzwissen",
       "hilfe": "Hilfe"
     },
+    "dropdown": {
+      "sparen": {
+        "festgeld": {
+          "title": "Festgeld",
+          "description": "Einlage mit fester Laufzeit und festem Zinssatz",
+          "link": "/festgeld"
+        },
+        "nachhaltiges_festgeld": {
+          "title": "Nachhaltiges Festgeld", 
+          "description": "Einlagen mit festem Zinssatz, die in verantwortungsvolle Projekte fließen",
+          "link": "/nachhaltiges-festgeld"
+        },
+        "tagesgeld": {
+          "title": "Tagesgeld",
+          "description": "Flexible Einlage ohne feste Laufzeit und mit variablem Zinssatz",
+          "link": "/tagesgeld"
+        },
+        "kuendigungsgeld": {
+          "title": "Kündigungsgeld",
+          "description": "Einlage ohne feste Laufzeit mit variablem Zinssatz und Kündigungsfrist",
+          "link": "/kuendigungsgeld"
+        },
+        "zinsportfolio": {
+          "title": "Zinsportfolio",
+          "description": "Flexibel sparen am Geldmarkt mit Zinsoptimierung",
+          "link": "/zinsportfolio"
+        }
+      }
+    },
     "buttons": {
       "depot": "Depot"
     }
