@@ -138,7 +138,7 @@ export default function FestgeldWhatIs() {
             <div className="lg:sticky lg:top-8">
               <div className="bg-gray-50 rounded-lg p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-6">
-                  Inhaltsverzeichnis
+                  Seitenübersicht
                 </h3>
                 
                 <nav className="space-y-2">
