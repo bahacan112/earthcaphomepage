@@ -62,7 +62,7 @@
     "accounts": [
       {
         "name": "Earth Capital Management GmbH",
-        "logo": "/earth.png",
+        "logo": "/earth.svg",
         "rateAER": 3.70,
         "term": "über 1 Jahre",
         "country": "Germany (AAA)",
@@ -70,7 +70,7 @@
       },
       {
         "name": "Earth Capital Management GmbH",
-        "logo": "/earth.png",
+        "logo": "/earth.svg",
         "rateAER": 4.10,
         "term": "3 Jahr",
         "country": "Germany (AAA)",
@@ -78,7 +78,7 @@
       },
       {
         "name": "Earth Capital Management GmbH",
-        "logo": "/earth.png",
+        "logo": "/earth.svg",
         "rateAER": 4.50,
         "term": "5 Jahre",
         "country": "Germany (AAA)",
@@ -86,7 +86,7 @@
       },
       {
         "name": "Earth Capital Management GmbH",
-        "logo": "/earth.png",
+        "logo": "/earth.svg",
         "rateAER": 2.85,
         "term": "Tagesgeld",
         "country": "Germany (AAA)",

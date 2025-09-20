@@ -13,9 +13,9 @@ export default function FeaturedSavingsSection() {
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {featuredSavingsSection.accounts.map((acc) => (
+          {featuredSavingsSection.accounts.map((acc, index) => (
             <div
-              key={acc.name}
+              key={`${acc.name}-${acc.term}-${index}`}
               className={
                 "group h-full bg-white rounded-2xl border p-6 transition-all border-gray-200 hover:border-2 hover:border-blue-500 hover:shadow-[0_0_0_4px_rgba(59,130,246,0.15)]"
               }
