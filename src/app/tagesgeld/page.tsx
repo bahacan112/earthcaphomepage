@@ -2,7 +2,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import TagesgeldHero from "@/components/TagesgeldHero";
 import Breadcrumb from "@/components/Breadcrumb";
-import TagesgeldFeatures from "@/components/TagesgeldFeatures";
 import TagesgeldInfo from "@/components/TagesgeldInfo";
 import DepositsTableSection from "@/components/DepositsTableSection";
 import TagesgeldProcessSection from "@/components/TagesgeldProcessSection";

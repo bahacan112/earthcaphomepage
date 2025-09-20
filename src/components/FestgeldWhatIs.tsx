@@ -1,20 +1,20 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import festgeldData from '../../languages/festgeld.json';
 
 export default function FestgeldWhatIs() {
   const [activeSection, setActiveSection] = useState('zinsen-beim-festgeld');
 
-  const { zinsenBeimFestgeld, wasIstFestgeld, festgeldVergleichLaufzeit, fuerWenLohntSich, howItWorks, septemberUpdate } = festgeldData;
+  const { zinsenBeimFestgeld, wasIstFestgeld, festgeldVergleichLaufzeit, fuerWenLohntSich, howItWorks } = festgeldData;
 
-  const navigationSections = [
+  const navigationSections = useMemo(() => [
     { id: 'zinsen-beim-festgeld', title: 'Wie hoch sind die Zinsen beim Festgeld?' },
     { id: 'was-ist-festgeld', title: 'Was ist Festgeld?' },
     { id: 'festgeld-vergleich-laufzeit', title: 'Festgeld-Vergleich: Die richtige Laufzeit bei Festgeld wählen' },
     { id: 'fuer-wen-lohnt-sich', title: 'Für wen lohnt sich ein Festgeldkonto als Anlage?' },
     { id: 'wie-funktioniert', title: 'Wie funktioniert die Festgeldanlage bei Raisin?' }
-  ];
+  ], []);
 
   useEffect(() => {
     const handleScroll = () => {

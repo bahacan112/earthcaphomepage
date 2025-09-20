@@ -33,7 +33,7 @@ export default function TagesgeldWhatIs() {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [navigationSections]);
 
   // Smooth scroll to section
   const scrollToSection = (sectionId: string) => {
