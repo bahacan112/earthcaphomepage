@@ -210,7 +210,11 @@
         "title": "Kosten:",
         "description": "Tagesgeldkonten sind in der Regel kostenlos. Es fallen keine Kontoführungsgebühren an und auch Ein- sowie Auszahlungen sind gebührenfrei. Dennoch lohnt es sich, zum Beispiel beim Währungsumtausch Kosten entstehen. Bei Raisin sind alle Gebühren transparent aufgeführt. Für unsere Tages- und Festgeldangebote fallen keine Kosten oder Gebühren an."
       }
-    ]
+    ],
+    "button": {
+      "text": "Jetzt Tagesgeld vergleichen",
+      "url": "#"
+    }
   },
   "highInterestRates": {
     "title": "Wo gibt es hohe Zinsen für Tagesgeld?",

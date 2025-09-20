@@ -56,6 +56,15 @@ export interface LanguageData {
       text: string;
     }>;
   };
+  trustBadgesSection: {
+    items: Array<{
+      icon: string;
+      title: string;
+      description: string;
+      rating?: string;
+    }>;
+    bgColor: string;
+  };
   tagesgeldPage: {
     hero: {
       badge: string;

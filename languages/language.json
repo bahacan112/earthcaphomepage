@@ -169,6 +169,12 @@
         "description": ""
       },
       {
+        "icon": "/images/trustpilot.svg",
+        "title": "Trustpilot",
+        "description": "Basierend auf 10.729 Bewertungen",
+        "rating": "4.5"
+      },
+      {
         "icon": "/images/7.svg",
         "title": "Die besten Tages- und Festgeldangebote in Deutschland",
         "description": ""
