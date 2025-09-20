@@ -7,7 +7,7 @@ export default function TagesgeldInfo() {
             Die aktuellen Tagesgeldkonten im Tagesgeld-Vergleich von Raisin
           </h2>
           
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <p className="text-[16px] md:text-[18px] leading-relaxed text-slate-700 text-center">
               Der Tagesgeld-Vergleich von Raisin erleichtert Ihnen die Auswahl, das für Sie passende Angebot zu finden. 
               Aktuell ermöglichen Ihnen unsere Tagesgeldkonten Zinsen von <strong>bis zu 2,85 % p.a.</strong> und liegen damit 

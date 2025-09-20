@@ -7,7 +7,7 @@ export default function FestgeldInfo() {
             Festgeld vergleichen – von Top-Zinsen profitieren
           </h2>
           
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             {/* İçerik kaldırıldı */}
           </div>
         </div>

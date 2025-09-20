@@ -1,20 +1,20 @@
 'use client';
 
 import tagesgeldData from '../../languages/tagesgeld.json';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 
 export default function TagesgeldWhatIs() {
   const { whatIs, howItWorks, septemberUpdate, advantages, disadvantages, isTagesgeldWorthwhile, comparisonTips, highInterestRates, tagesgeldVsFestgeld, whyRaisin } = tagesgeldData;
   const [activeSection, setActiveSection] = useState('was-ist-tagesgeld');
 
   // Navigasyon menüsü için bölümler
-  const navigationSections = [
+  const navigationSections = useMemo(() => [
     { id: 'was-ist-tagesgeld', title: 'Was ist ein Tagesgeldkonto?' },
     { id: 'vorteile-tagesgeld', title: 'Ihre Vorteile von Tagesgeld auf einen Blick' },
     { id: 'vergleich-tagesgeld', title: 'Worauf ist beim Vergleich von Tagesgeldkonten zu achten?' },
     { id: 'hohe-zinsen', title: 'Wo gibt es hohe Zinsen für Tagesgeld?' },
     { id: 'vorteile-raisin', title: 'Ihre Vorteile bei Raisin' }
-  ];
+  ], []);
 
   // Scroll spy functionality
   useEffect(() => {

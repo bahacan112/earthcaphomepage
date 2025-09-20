@@ -1,19 +1,18 @@
 'use client';
 
-import nachhaltigData from '../../languages/nachhaltig.json';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 
 export default function NachhaltigWhatIs() {
   const [activeSection, setActiveSection] = useState('section-1');
 
   // Navigasyon menüsü için 5 bölüm
-  const navigationSections = [
+  const navigationSections = useMemo(() => [
     { id: 'section-1', title: 'Was ist nachhaltiges Festgeld?' },
     { id: 'section-2', title: 'Optimale Laufzeit für nachhaltiges Festgeld' },
     { id: 'section-3', title: 'Zinsen bei nachhaltigem Festgeld' },
     { id: 'section-4', title: 'Sicherheit von nachhaltigem Festgeld' },
     { id: 'section-5', title: 'Nachhaltige Festgeldanlagen bei Raisin' }
-  ];
+  ], []);
 
   // Scroll spy functionality
   useEffect(() => {

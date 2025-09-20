@@ -6,7 +6,7 @@ export default function CTASection() {
   const { ctaSection } = languageData;
   return (
     <section className="bg-white py-16">
-      <div className="max-w-5xl mx-auto px-4 text-center">
+      <div className="max-w-7xl mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-slate-900">
           {ctaSection.title}
         </h2>

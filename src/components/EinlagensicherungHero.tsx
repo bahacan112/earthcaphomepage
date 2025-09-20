@@ -4,7 +4,7 @@ import Image from 'next/image';
 const EinlagensicherungHero = () => {
   return (
     <section className="relative bg-gradient-to-br from-blue-50 via-slate-50 to-gray-50 py-16 overflow-hidden">
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="space-y-8">
@@ -15,7 +15,7 @@ const EinlagensicherungHero = () => {
 
             {/* Subtitle */}
             <p className="text-lg text-gray-600 leading-relaxed">
-              „Die Sicherung der geschützten Einlagen bei Bankeninsolvenzen ist eines der vorrangigsten Ziele der Behörden, der EU und des Rechtsrahmens." Europäische Bankenaufsicht, 2017
+              &ldquo;Die Sicherung der geschützten Einlagen bei Bankeninsolvenzen ist eines der vorrangigsten Ziele der Behörden, der EU und des Rechtsrahmens.&rdquo; Europäische Bankenaufsicht, 2017
             </p>
 
             {/* Features List */}
