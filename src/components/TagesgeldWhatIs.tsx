@@ -51,19 +51,19 @@ export default function TagesgeldWhatIs() {
     <section className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="flex gap-8">
+        <div className="flex flex-col lg:flex-row gap-8">
           {/* Ana İçerik - Sol taraf (2/3) */}
-          <div className="flex-1 w-2/3">
+          <div className="flex-1 lg:w-2/3">
             
             {/* Was ist ein Tagesgeldkonto? */}
             <div id="was-ist-tagesgeld" className="mb-16">
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">
+              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6 sm:mb-8">
                 {whatIs.title}
               </h2>
               
-              <div className="space-y-6 text-gray-700 leading-relaxed">
+              <div className="space-y-4 sm:space-y-6 text-gray-700 leading-relaxed">
                 {whatIs.content.map((paragraph, index) => (
-                  <p key={index} className="text-lg">
+                  <p key={index} className="text-base sm:text-lg">
                     {paragraph.text}
                     {paragraph.link && (
                       <>
@@ -85,14 +85,14 @@ export default function TagesgeldWhatIs() {
 
             {/* Yeni eklenen "Wie funktioniert ein Tagesgeldkonto?" bölümü */}
             {howItWorks && (
-              <div className="mt-12">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">
+              <div className="mt-8 sm:mt-12">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
                   {howItWorks.title}
                 </h3>
                 
-                <div className="space-y-4 text-gray-700 leading-relaxed">
+                <div className="space-y-3 sm:space-y-4 text-gray-700 leading-relaxed">
                   {howItWorks.content.map((paragraph, index) => (
-                    <p key={index} className="text-lg">
+                    <p key={index} className="text-base sm:text-lg">
                       {paragraph.text}
                     </p>
                   ))}
@@ -102,18 +102,18 @@ export default function TagesgeldWhatIs() {
 
             {/* September-Update bölümü */}
             {septemberUpdate && (
-              <div className="mt-12">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              <div className="mt-8 sm:mt-12">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
                   {septemberUpdate.title}
                 </h3>
                 
-                <p className="text-sm text-gray-600 italic mb-6">
+                <p className="text-xs sm:text-sm text-gray-600 italic mb-4 sm:mb-6">
                   {septemberUpdate.lastUpdated}
                 </p>
                 
-                <div className="space-y-4 text-gray-700 leading-relaxed">
+                <div className="space-y-3 sm:space-y-4 text-gray-700 leading-relaxed">
                   {septemberUpdate.content.map((paragraph, index) => (
-                    <p key={index} className="text-lg">
+                    <p key={index} className="text-base sm:text-lg">
                       {paragraph.text}
                       {paragraph.link && (
                         <>
@@ -134,32 +134,32 @@ export default function TagesgeldWhatIs() {
 
             {/* Ihre Vorteile von Tagesgeld auf einen Blick */}
             {advantages && (
-              <div id="vorteile-tagesgeld" className="mt-16">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">
+              <div id="vorteile-tagesgeld" className="mt-12 sm:mt-16">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
                   {advantages.title}
                 </h3>
                 
-                <div className="space-y-4">
+                <div className="space-y-3 sm:space-y-4">
                   {advantages.items.map((item, index) => (
                     <div key={index} className="flex items-start space-x-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mt-1">
-                        <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <div className="flex-shrink-0 w-5 h-5 sm:w-6 sm:h-6 bg-green-500 rounded-full flex items-center justify-center mt-1">
+                        <svg className="w-3 h-3 sm:w-4 sm:h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
                       </div>
                       <div>
-                        <span className="font-semibold text-gray-900">{item.title}</span>
-                        <span className="text-gray-700"> {item.description}</span>
+                        <span className="font-semibold text-gray-900 text-sm sm:text-base">{item.title}</span>
+                        <span className="text-gray-700 text-sm sm:text-base"> {item.description}</span>
                       </div>
                     </div>
                   ))}
                 </div>
                 
                 {advantages.button && (
-                  <div className="mt-6">
+                  <div className="mt-4 sm:mt-6">
                     <a
                       href={advantages.button.url}
-                      className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200"
+                      className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200 text-sm sm:text-base"
                     >
                       {advantages.button.text}
                     </a>
@@ -170,22 +170,22 @@ export default function TagesgeldWhatIs() {
 
             {/* Nachteile bölümü */}
             {disadvantages && (
-              <div className="mt-12">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">
+              <div className="mt-8 sm:mt-12">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
                   {disadvantages.title}
                 </h3>
                 
-                <div className="space-y-4">
+                <div className="space-y-3 sm:space-y-4">
                   {disadvantages.items.map((item, index) => (
                     <div key={index} className="flex items-start space-x-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mt-1">
-                        <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <div className="flex-shrink-0 w-5 h-5 sm:w-6 sm:h-6 bg-green-500 rounded-full flex items-center justify-center mt-1">
+                        <svg className="w-3 h-3 sm:w-4 sm:h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
                       </div>
                       <div>
-                        <span className="font-semibold text-gray-900">{item.title}</span>
-                        <span className="text-gray-700"> {item.description}</span>
+                        <span className="font-semibold text-gray-900 text-sm sm:text-base">{item.title}</span>
+                        <span className="text-gray-700 text-sm sm:text-base"> {item.description}</span>
                       </div>
                     </div>
                   ))}
@@ -195,14 +195,14 @@ export default function TagesgeldWhatIs() {
 
             {/* Ist ein Tagesgeldkonto noch sinnvoll? bölümü */}
             {isTagesgeldWorthwhile && (
-              <div className="mt-12">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">
+              <div className="mt-8 sm:mt-12">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
                   {isTagesgeldWorthwhile.title}
                 </h3>
                 
-                <div className="space-y-4 text-gray-700 leading-relaxed">
+                <div className="space-y-3 sm:space-y-4 text-gray-700 leading-relaxed">
                   {isTagesgeldWorthwhile.content.map((paragraph, index) => (
-                    <p key={index} className="text-lg">
+                    <p key={index} className="text-base sm:text-lg">
                       {paragraph.text}
                       {paragraph.link && (
                         <>
@@ -223,50 +223,61 @@ export default function TagesgeldWhatIs() {
 
             {/* Worauf ist beim Vergleich von Tagesgeldkonten zu achten? */}
             {comparisonTips && (
-              <div id="vergleich-tagesgeld" className="mt-16">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              <div id="vergleich-tagesgeld" className="mt-12 sm:mt-16">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
                   {comparisonTips.title}
                 </h3>
                 
-                <p className="text-lg text-gray-700 mb-6">
+                <p className="text-base sm:text-lg text-gray-700 mb-4 sm:mb-6">
                   {comparisonTips.subtitle}
                 </p>
                 
-                <div className="space-y-6">
+                <div className="space-y-4 sm:space-y-6">
                   {comparisonTips.items.map((item, index) => (
-                    <div key={index} className="bg-white border border-gray-200 rounded-lg p-6">
-                      <h4 className="font-semibold text-gray-900 mb-2">
+                    <div key={index} className="bg-white border border-gray-200 rounded-lg p-4 sm:p-6">
+                      <h4 className="font-semibold text-gray-900 mb-2 text-sm sm:text-base">
                         {item.title}
                       </h4>
-                      <p className="text-gray-700 leading-relaxed">
+                      <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
                         {item.description}
                       </p>
                     </div>
                   ))}
                 </div>
+                
+                {comparisonTips.button && (
+                  <div className="mt-4 sm:mt-6">
+                    <a
+                      href={comparisonTips.button.url}
+                      className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200 text-sm sm:text-base"
+                    >
+                      {comparisonTips.button.text}
+                    </a>
+                  </div>
+                )}
               </div>
             )}
 
             {/* Wo gibt es hohe Zinsen für Tagesgeld? */}
             {highInterestRates && (
-              <div id="hohe-zinsen" className="mt-16">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">
+              <div id="hohe-zinsen" className="mt-12 sm:mt-16">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
                   {highInterestRates.title}
                 </h3>
                 
-                <div className="space-y-4 text-gray-700 leading-relaxed">
+                <div className="space-y-3 sm:space-y-4 text-gray-700 leading-relaxed">
                   {highInterestRates.content.map((paragraph, index) => (
-                    <p key={index} className="text-lg">
+                    <p key={index} className="text-base sm:text-lg">
                       {paragraph.text}
                     </p>
                   ))}
                 </div>
                 
                 {highInterestRates.button && (
-                  <div className="mt-6">
+                  <div className="mt-4 sm:mt-6">
                     <a
                       href={highInterestRates.button.url}
-                      className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200"
+                      className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200 text-sm sm:text-base"
                     >
                       {highInterestRates.button.text}
                     </a>
@@ -277,14 +288,14 @@ export default function TagesgeldWhatIs() {
 
             {/* Tagesgeld oder Festgeld bölümü */}
             {tagesgeldVsFestgeld && (
-              <div className="mt-12">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">
+              <div className="mt-8 sm:mt-12">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
                   {tagesgeldVsFestgeld.title}
                 </h3>
                 
-                <div className="space-y-4 text-gray-700 leading-relaxed">
+                <div className="space-y-3 sm:space-y-4 text-gray-700 leading-relaxed">
                   {tagesgeldVsFestgeld.content.map((paragraph, index) => (
-                    <p key={index} className="text-lg">
+                    <p key={index} className="text-base sm:text-lg">
                       {paragraph.text}
                     </p>
                   ))}
@@ -294,18 +305,18 @@ export default function TagesgeldWhatIs() {
 
             {/* Ihre Vorteile bei Raisin */}
             {whyRaisin && (
-              <div id="vorteile-raisin" className="mt-16">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">
+              <div id="vorteile-raisin" className="mt-12 sm:mt-16">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
                   {whyRaisin.title}
                 </h3>
                 
-                <div className="space-y-6">
+                <div className="space-y-4 sm:space-y-6">
                   {whyRaisin.features.map((feature, index) => (
-                    <div key={index} className="bg-white border border-gray-200 rounded-lg p-6">
-                      <h4 className="font-semibold text-gray-900 mb-2">
+                    <div key={index} className="bg-white border border-gray-200 rounded-lg p-4 sm:p-6">
+                      <h4 className="font-semibold text-gray-900 mb-2 text-sm sm:text-base">
                         {feature.title}
                       </h4>
-                      <p className="text-gray-700 leading-relaxed">
+                      <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
                         {feature.description}
                       </p>
                     </div>
@@ -316,8 +327,8 @@ export default function TagesgeldWhatIs() {
             )}
           </div>
 
-          {/* Sağ Taraf - Navigasyon Menüsü (1/3) */}
-          <div className="w-1/3">
+          {/* Sağ Taraf - Navigasyon Menüsü (1/3) - Hidden on mobile */}
+          <div className="hidden lg:block lg:w-1/3">
             <div className="sticky top-4">
               <div className="bg-white shadow-sm rounded-lg p-6">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">Seitenübersicht</h3>

@@ -8,19 +8,19 @@ export default function TagesgeldSummary() {
   }
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-12 sm:py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">
+        <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-gray-100">
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6 sm:mb-8">
             {summary.title}
           </h2>
           
-          <div className="space-y-6">
+          <div className="space-y-4 sm:space-y-6">
             {summary.items.map((item, index) => (
-              <div key={index} className="flex items-start space-x-4">
+              <div key={index} className="flex items-start space-x-3 sm:space-x-4">
                 <div className="flex-shrink-0 mt-1">
                   <svg 
-                    className="w-5 h-5 text-blue-600" 
+                    className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600" 
                     fill="currentColor" 
                     viewBox="0 0 20 20"
                   >
@@ -32,10 +32,10 @@ export default function TagesgeldSummary() {
                   </svg>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                  <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-1 sm:mb-2">
                     {item.title}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                     {item.description}
                   </p>
                 </div>

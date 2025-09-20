@@ -20,33 +20,33 @@ export default function TagesgeldProcessSection() {
   ];
   
   return (
-    <section className="bg-white py-16">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+    <section className="bg-white py-12 sm:py-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
             So einfach funktioniert&apos;s
           </h2>
-          <p className="text-lg text-gray-600">
+          <p className="text-base sm:text-lg text-gray-600">
             In nur wenigen Schritten zu Ihrem Tagesgeld-Konto
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
           {steps.map((step, index) => (
             <div key={index} className="flex flex-col items-center text-center">
-              <div className="mb-6">
+              <div className="mb-4 sm:mb-6">
                 <Image 
                   src={step.image} 
                   alt={step.title} 
                   width={300} 
                   height={200} 
-                  className="w-full h-48 object-cover rounded-lg shadow-sm"
+                  className="w-full h-40 sm:h-48 object-cover rounded-lg shadow-sm"
                 />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+              <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2 sm:mb-3">
                 {step.title}
               </h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                 {step.description}
               </p>
             </div>
