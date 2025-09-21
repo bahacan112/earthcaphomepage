@@ -19,6 +19,19 @@ export const metadata: Metadata = {
   keywords: "Tagesgeld, Festgeld, Zinsen, Geldanlage, Einlagensicherung, Earth Capital Management, Europa, Sparen",
   authors: [{ name: "Earth Capital Management GmbH" }],
   robots: "index, follow",
+  icons: {
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon.ico', sizes: 'any' }
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }
+    ],
+    other: [
+      { rel: 'manifest', url: '/site.webmanifest' }
+    ]
+  },
   openGraph: {
     title: "Earth Capital Management - Europas beste Zinsen für Ihre Geldanlage",
     description: "Entdecken Sie attraktive Zinsen von bis zu 3,20% p.a. bei sicheren europäischen Banken. Kostenlos, sicher und flexibel.",
