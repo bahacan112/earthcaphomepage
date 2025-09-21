@@ -12,7 +12,6 @@ import {
 } from "@/components/ui/navigation-menu";
 import languageData from '../../languages/language.json';
 
-type LanguageData = typeof languageData;
 
 export default function Header() {
   const header = languageData.header;
@@ -115,7 +114,17 @@ export default function Header() {
                         </div>
                       </Link>
 
-                      {/* Andere Finanzwissen Seiten können buraya eklenebilir */}
+                      <Link 
+                        href="/einlagensicherung" 
+                        className="block px-4 py-3 hover:bg-gray-50 border-b border-gray-100 last:border-b-0"
+                      >
+                        <div className="text-sm font-medium text-gray-900 mb-1">
+                          Einlagensicherung
+                        </div>
+                        <div className="text-xs text-gray-600">
+                          Schutz Ihrer Einlagen bis 100.000 € pro Bank
+                        </div>
+                      </Link>
                     </div>
                   </div>
                 </NavigationMenuContent>
