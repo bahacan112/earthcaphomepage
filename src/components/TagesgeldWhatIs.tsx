@@ -4,7 +4,7 @@ import tagesgeldData from '../../languages/tagesgeld.json';
 import { useState, useEffect, useMemo } from 'react';
 
 export default function TagesgeldWhatIs() {
-  const { whatIs, howItWorks, septemberUpdate, advantages, disadvantages, isTagesgeldWorthwhile, comparisonTips, highInterestRates, tagesgeldVsFestgeld, whyRaisin } = tagesgeldData;
+  const { whatIs, howItWorks, septemberUpdate, advantages, disadvantages, isTagesgeldWorthwhile, comparisonTips, highInterestRates, tagesgeldVsFestgeld } = tagesgeldData;
   const [activeSection, setActiveSection] = useState('was-ist-tagesgeld');
 
   // Navigasyon menüsü için bölümler
@@ -300,29 +300,6 @@ export default function TagesgeldWhatIs() {
                     </p>
                   ))}
                 </div>
-              </div>
-            )}
-
-            {/* Ihre Vorteile bei Raisin */}
-            {whyRaisin && (
-              <div id="vorteile-raisin" className="mt-12 sm:mt-16">
-                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  {whyRaisin.title}
-                </h3>
-                
-                <div className="space-y-4 sm:space-y-6">
-                  {whyRaisin.features.map((feature, index) => (
-                    <div key={index} className="bg-white border border-gray-200 rounded-lg p-4 sm:p-6">
-                      <h4 className="font-semibold text-gray-900 mb-2 text-sm sm:text-base">
-                        {feature.title}
-                      </h4>
-                      <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-                        {feature.description}
-                      </p>
-                    </div>
-                  ))}
-                </div>
-                
               </div>
             )}
           </div>

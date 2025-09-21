@@ -88,7 +88,7 @@ export default function EinlagensicherungWhatIs() {
                     )}
                     {item.type === 'list' && (
                       <ul className="space-y-2 ml-6">
-                        {item.items.map((listItem, listIndex) => (
+                        {item.items?.map((listItem, listIndex) => (
                           <li key={listIndex} className="text-gray-700 list-disc">
                             {listItem}
                           </li>
@@ -152,7 +152,7 @@ export default function EinlagensicherungWhatIs() {
                     )}
                     {item.type === 'list' && (
                       <ul className="space-y-2 ml-6">
-                        {item.items.map((listItem, listIndex) => (
+                        {item.items?.map((listItem, listIndex) => (
                           <li key={listIndex} className="text-gray-700 list-disc">
                             {listItem}
                           </li>

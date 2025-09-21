@@ -1,12 +1,10 @@
 import tagesgeldData from "../../languages/tagesgeld.json";
 
 export default function TagesgeldFeatures() {
-  const { whyRaisin } = tagesgeldData;
+  // whyRaisin property tagesgeld.json'da mevcut değil, bu component'i kaldırıyoruz
+  return null;
 
-  // Güvenlik kontrolü
-  if (!whyRaisin) {
-    return <div>Loading...</div>;
-  }
+
 
   return (
     <section className="bg-gray-50 py-12 sm:py-16">
