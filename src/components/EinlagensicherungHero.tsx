@@ -34,8 +34,8 @@ export default function EinlagensicherungHero() {
           <div className="relative">
             <div className="relative overflow-hidden rounded-xl shadow-lg">
               <Image
-                src={hero.image}
-                alt={hero.imageAlt}
+                src={hero.image.src}
+                alt={hero.image.alt}
                 width={600}
                 height={400}
                 className="w-full h-auto object-cover"
