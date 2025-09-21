@@ -392,9 +392,9 @@
   "header": {
     "navigation": {
       "sparen": "Sparen",
-      "investieren": "Investieren", 
       "finanzwissen": "Finanzwissen",
-      "hilfe": "Hilfe"
+      "about": "Über uns",
+      "kontakt": "Kontakt"
     },
     "dropdown": {
       "sparen": {
@@ -405,7 +405,6 @@
         },
         "nachhaltiges_festgeld": {
           "title": "Nachhaltiges Festgeld", 
-          "description": "Einlagen mit festem Zinssatz, die in verantwortungsvolle Projekte fließen",
           "link": "/nachhaltiges-festgeld"
         },
         "tagesgeld": {

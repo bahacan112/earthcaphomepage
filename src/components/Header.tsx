@@ -87,41 +87,51 @@ export default function Header() {
                         </div>
                       </Link>
 
-                      {/* Nachhaltiges Festgeld */}
-                      <Link 
-                        href={header.dropdown?.sparen?.nachhaltiges_festgeld?.link || "/nachhaltig"} 
-                        className="block px-4 py-3 hover:bg-gray-50 border-b border-gray-100 last:border-b-0"
-                      >
-                        <div className="text-sm font-medium text-gray-900 mb-1">
-                          {header.dropdown?.sparen?.nachhaltiges_festgeld?.title || "Nachhaltiges Festgeld"}
-                        </div>
-                        <div className="text-xs text-gray-600">
-                          Nachhaltige Geldanlage mit ESG-Kriterien
-                        </div>
-                      </Link>
+                
+                
                     </div>
                   </div>
                 </NavigationMenuContent>
               </NavigationMenuItem>
 
-              {/* Investieren */}
+              {/* Finanzwissen Dropdown */}
               <NavigationMenuItem>
-                <Link href="/investieren" className="text-gray-700 hover:text-blue-600 font-medium">
-                  {header.navigation.investieren}
-                </Link>
-              </NavigationMenuItem>
-
-              {/* Finanzwissen */}
-              <NavigationMenuItem>
-                <Link href="/finanzwissen" className="text-gray-700 hover:text-blue-600 font-medium">
+                <NavigationMenuTrigger className="text-gray-700 hover:text-blue-600 font-medium">
                   {header.navigation.finanzwissen}
+                </NavigationMenuTrigger>
+                <NavigationMenuContent>
+                  <div className="w-80 bg-white border border-gray-200 shadow-lg rounded-md">
+                    <div className="py-3">
+                      {/* Nachhaltig */}
+                      <Link 
+                        href="/nachhaltig" 
+                        className="block px-4 py-3 hover:bg-gray-50 border-b border-gray-100 last:border-b-0"
+                      >
+                        <div className="text-sm font-medium text-gray-900 mb-1">
+                          Nachhaltiges Festgeld
+                        </div>
+                        <div className="text-xs text-gray-600">
+                          Nachhaltige Geldanlage mit ESG-Kriterien
+                        </div>
+                      </Link>
+
+                      {/* Andere Finanzwissen Seiten können buraya eklenebilir */}
+                    </div>
+                  </div>
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+
+              {/* About */}
+              <NavigationMenuItem>
+                <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">
+                  {header.navigation.about}
                 </Link>
               </NavigationMenuItem>
 
-              {/* Hilfe */}
+              {/* Kontakt */}
               <NavigationMenuItem>
-                <Link href="/hilfe" className="text-gray-700 hover:text-blue-600 font-medium">
-                  {header.navigation.hilfe}
+                <Link href="/kontakt" className="text-gray-700 hover:text-blue-600 font-medium">
+                  {header.navigation.kontakt}
                 </Link>
               </NavigationMenuItem>
             </NavigationMenuList>
