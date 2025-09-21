@@ -1,16 +1,13 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
+import einlagensicherungData from '../../languages/einlagensicherung.json';
 
 export default function EinlagensicherungWhatIs() {
   const [activeSection, setActiveSection] = useState('was-ist-einlagensicherung');
+  const { whatIs } = einlagensicherungData;
 
-  const navigationSections = useMemo(() => [
-    { id: 'was-ist-einlagensicherung', title: 'Was ist die Einlagensicherung?' },
-    { id: 'einlagensicherung-deutschland', title: 'Einlagensicherung in Deutschland' },
-    { id: 'weitere-informationen', title: 'Einlagensicherung in Europa' },
-    { id: 'zusaetzliche-details', title: 'Einlagensicherung in Nicht-EU-Ländern' }
-  ], []);
+  const navigationSections = useMemo(() => whatIs.navigationSections, [whatIs.navigationSections]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -52,170 +49,125 @@ export default function EinlagensicherungWhatIs() {
             {/* Was ist die Einlagensicherung? */}
             <div id="was-ist-einlagensicherung" className="scroll-mt-20 mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8">
-                Was ist die Einlagensicherung?
+                {whatIs.sections.wasIstEinlagensicherung.title}
               </h2>
               
               <div className="space-y-6">
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  Die gesetzliche Einlagensicherung innerhalb der Europäischen Union ist Ausdruck des politischen Willens, um die Einlagen von Privatpersonen und Unternehmen bei Banken und anderen Finanzinstituten vor Verlusten abzusichern. So können europäische Sparer vor den Folgen einer Bankenkrise oder einer finanziellen Schieflage der Banken bewahrt werden.
-                </p>
-                
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  Im Rahmen des gesetzlichen Einlagensicherungssystems sind Bankeinlagen, wie beispielsweise Geld auf Girokonten, Tagesgeld- oder Festgeldkonten, bis zu 100.000 € pro Person und Bank abgesichert. Über die gesetzliche Einlagensicherung hinaus bieten einige Institute eine zusätzliche freiwillige Einlagensicherung an.
-                </p>
-                
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  Dabei handelt es sich um ein System, bei dem Finanzinstitute, wie Banken oder Kreditgenossenschaften, freiwillig zusätzliche Sicherheitsmaßnahmen ergreifen, beispielsweise durch sogenannte Einlagensicherungsfonds. So können Einlagen ihrer Kunden über die gesetzlich vorgeschriebene Mindestabsicherung hinaus abgesichert werden.
-                </p>
-                
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  Außerdem spielt die Staatsgarantie bei der Sicherheit eine wichtige Rolle, die jedoch in Deutschland noch nicht gesetzlich verankert ist. Diese Garantie bedeutet, dass der Staat im Falle eines Ausfalls oder einer Zahlungsunfähigkeit des Schuldners die Verbindlichkeiten übernehmen oder abdecken wird.
-                </p>
-                
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  In Europa wurden die Mindestanforderungen an die gesetzlich garantierte Einlagensicherung seit Jahren weiterentwickelt, um die Absicherung der Anleger in der Europäischen Union zu verbessern. Die gesetzliche Einlagensicherung bei Festgeld und anderen Bankeinlagen ist innerhalb der Europäischen Union im Rahmen von EU-Richtlinien geregelt.
-                </p>
+                {whatIs.sections.wasIstEinlagensicherung.content.map((item, index) => (
+                  <div key={index}>
+                    {item.type === 'paragraph' && (
+                      <p className="text-lg text-gray-700 leading-relaxed">
+                        {item.text}
+                      </p>
+                    )}
+                    {item.type === 'highlight' && (
+                      <div className="bg-blue-50 border-l-4 border-blue-400 p-4">
+                        <p className="text-blue-800 font-medium">
+                          {item.text}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                ))}
               </div>
             </div>
 
             {/* Einlagensicherung in Deutschland */}
             <div id="einlagensicherung-deutschland" className="scroll-mt-20 mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8">
-                Einlagensicherung in Deutschland
+                {whatIs.sections.einlagensicherungDeutschland.title}
               </h2>
               
               <div className="space-y-6">
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  In Deutschland gibt es ein umfassendes Einlagensicherungssystem, das darauf abzielt, die Einlagen der Kunden bei Banken und Finanzinstituten abzusichern. Dieses System umfasst sowohl gesetzliche als auch freiwillige Einlagensicherungsmaßnahmen.
-                </p>
-
-                <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                    Gesetzliche Einlagensicherung:
-                  </h3>
-                  <p className="text-gray-700 leading-relaxed">
-                    Die gesetzliche Einlagensicherung in Deutschland ist durch das Einlagensicherungsgesetz (EinSiG) geregelt. Gemäß diesem Gesetz sind alle Banken in Deutschland dazu verpflichtet, einem Einlagensicherungsfonds beizutreten. Dieser Fonds wird von der Entschädigungseinrichtung deutscher Banken GmbH (EdB) verwaltet. Die EdB ist für nahezu alle Banken und Kreditinstitute in Deutschland verpflichtend, unabhängig von ihrer Größe oder ihrer Organisationsstruktur. Dies schließt Volksbanken, Raiffeisenbanken, Sparkassen, Privatbanken und andere Finanzinstitute ein.
-                  </p>
-                </div>
-
-                <div className="bg-blue-50 p-6 rounded-lg">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                    Zusätzliches Sicherungssystem:
-                  </h3>
-                  <p className="text-gray-700 leading-relaxed mb-4">
-                    Darüber hinaus gibt es in Deutschland eine sogenannte freiwillige zusätzliche Einlagensicherung, die über die gesetzliche Einlagensicherung hinausgeht. Dabei sind einige deutsche Banken und Genossenschaften Mitglied bei einem Verband wie dem Bundesverband deutscher Banken (BdB), dem Bundesverband Öffentlicher Banken Deutschlands (VÖB) oder nutzen die Institutionssicherung:
-                  </p>
-                </div>
-
-                {/* Private Banken */}
-                <div className="border-l-4 border-blue-500 pl-6">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-3">
-                    Private Banken
-                  </h4>
-                  <p className="text-gray-700 leading-relaxed">
-                    Viele private Banken sind Mitglied im freiwilligen Einlagensicherungsfonds des Bundesverbandes deutscher Banken (BdB). Der BdB ist der Interessenverband der privaten Banken und Kreditinstitute in Deutschland. Er setzt sich für die gemeinsamen Interessen seiner Mitgliedsbanken in verschiedenen Bereichen ein, einschließlich der Einlagensicherung. Dabei sind Einlagen oberhalb der gesetzlichen Einlagensicherung mit bis zu 8,75 % (Stand: 2025) des Eigenkapitals der Bank gesichert.
-                  </p>
-                </div>
-
-                {/* Öffentliche Banken */}
-                <div className="border-l-4 border-green-500 pl-6">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-3">
-                    Öffentliche Banken
-                  </h4>
-                  <p className="text-gray-700 leading-relaxed">
-                    Mitglieder des Bundesverbandes Öffentlicher Banken Deutschlands (VÖB) stützen sich in der Regel auf ihre eigene Form der freiwilligen Einlagensicherung und sind oft Mitglieder eines Dachverbandes, der ihre Interessen in Bezug auf die Einlagensicherung und andere Angelegenheiten vertritt. Der VÖB ist der Dachverband der öffentlich-rechtlichen Banken in Deutschland. Hierzu gehören unter anderem Sparkassen, Landesbanken und Förderbanken.
-                  </p>
-                </div>
-
-                <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-                  Sparkassen und Genossenschaftsbanken
-                </h3>
-                <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                  Sparkassen und Genossenschaftsbanken (Volksbanken und Raiffeisenbanken) sind zwei verschiedene Arten von Finanzinstituten in Deutschland. Diese haben jeweils ihre eigenen Ansätze zur Einlagensicherung und Institutssicherung.
-                </p>
-
-                {/* Sparkassen */}
-                <div className="border-l-4 border-red-500 pl-6 mb-6">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-3">
-                    Sparkassen
-                  </h4>
-                  <div className="space-y-3">
-                    <div>
-                      <span className="font-medium text-gray-900">Freiwillige Einlagensicherung:</span>
-                      <span className="text-gray-700"> Die Sparkassen sind Mitglieder des Deutschen Sparkassen- und Giroverbandes (DSGV). Der DSGV betreibt eine freiwillige Einlagensicherung für seine Mitglieder.</span>
-                    </div>
-                    <div>
-                      <span className="font-medium text-gray-900">Institutssicherung:</span>
-                      <span className="text-gray-700"> Die einzelnen Sparkassen haben interne Maßnahmen zur Institutssicherung implementiert, um ihre finanzielle Stabilität und Widerstandsfähigkeit zu gewährleisten. Dies kann Risikomanagement, Liquiditätsmanagement und andere Praktiken umfassen, um die Funktionsfähigkeit der Sparkassen abzusichern.</span>
-                    </div>
+                {whatIs.sections.einlagensicherungDeutschland.content.map((item, index) => (
+                  <div key={index}>
+                    {item.type === 'paragraph' && (
+                      <p className="text-lg text-gray-700 leading-relaxed">
+                        {item.text}
+                      </p>
+                    )}
+                    {item.type === 'list' && (
+                      <ul className="space-y-2 ml-6">
+                        {item.items.map((listItem, listIndex) => (
+                          <li key={listIndex} className="text-gray-700 list-disc">
+                            {listItem}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                    {item.type === 'subsection' && (
+                      <div className="border-l-4 border-blue-500 pl-6">
+                        <h4 className="text-lg font-semibold text-gray-900 mb-3">
+                          {item.title}
+                        </h4>
+                        <p className="text-gray-700 leading-relaxed">
+                          {item.text}
+                        </p>
+                      </div>
+                    )}
                   </div>
-                </div>
-
-                {/* Genossenschaft */}
-                <div className="border-l-4 border-purple-500 pl-6">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-3">
-                    Genossenschaft
-                  </h4>
-                  <div className="space-y-3">
-                    <div>
-                      <span className="font-medium text-gray-900">Freiwillige Einlagensicherung:</span>
-                      <span className="text-gray-700"> Die Genossenschaftsbanken sind Mitglieder des Bundesverbandes der Deutschen Volksbanken und Raiffeisenbanken (BVR). Der BVR betreibt einen Einlagensicherungsfonds für seine Mitglieder.</span>
-                    </div>
-                    <div>
-                      <span className="font-medium text-gray-900">Institutssicherung:</span>
-                      <span className="text-gray-700"> Ähnlich wie bei den Sparkassen haben auch Genossenschaftsbanken Maßnahmen zur Institutssicherung implementiert. Diese Maßnahmen sollen sicherstellen, dass die Banken stabil und widerstandsfähig sind, um potenzielle Krisen zu bewältigen.</span>
-                    </div>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
 
-            {/* Weitere Informationen - Placeholder */}
+            {/* Weitere Informationen */}
             <div id="weitere-informationen" className="scroll-mt-20 mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8">
-                Einlagensicherung in Europa
+                {whatIs.sections.weitereInformationen.title}
               </h2>
               
               <div className="space-y-6">
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  Im Jahr 2015 wurde die Entschädigung im EU-Ausland deutlich vereinfacht. Bei einer Bankeninsolvenz haben sich Anleger nicht mehr mit der Entschädigungseinrichtung des jeweiligen Landes auseinanderzusetzen. Die Entschädigung läuft automatisch über die Einlagensicherungssysteme.
-                </p>
-                <div className="bg-blue-50 border-l-4 border-blue-400 p-4">
-                  <p className="text-blue-800 font-medium">
-                    Im internationalen Vergleich gilt die Einlagensicherung in Deutschland und im EU-Ausland als risikoarm.
-                  </p>
-                </div>
+                {whatIs.sections.weitereInformationen.content.map((item, index) => (
+                  <div key={index}>
+                    {item.type === 'paragraph' && (
+                      <p className="text-lg text-gray-700 leading-relaxed">
+                        {item.text}
+                      </p>
+                    )}
+                    {item.type === 'highlight' && (
+                      <div className="bg-blue-50 border-l-4 border-blue-400 p-4">
+                        <p className="text-blue-800 font-medium">
+                          {item.text}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                ))}
               </div>
             </div>
 
-            {/* Zusätzliche Details - Placeholder */}
+            {/* Zusätzliche Details */}
             <div id="zusaetzliche-details" className="scroll-mt-20 mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8">
-                Einlagensicherung in Nicht-EU-Ländern
+                {whatIs.sections.zusaetzlicheDetails.title}
               </h2>
               
               <div className="space-y-6">
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  Banken aus Nicht-EU-Ländern können hinsichtlich der Einlagensicherung anders aufgestellt sein. Anleger können sich zunächst darüber informieren, wann eine Bank unter das europäische Recht fällt.
-                </p>
-                <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-4">
-                  <h4 className="font-semibold text-yellow-800 mb-2">Wichtige Unterscheidung:</h4>
-                  <ul className="text-yellow-700 space-y-2">
-                    <li className="flex items-start">
-                      <span className="text-green-500 mr-2">✓</span>
-                      <span><strong>Zweigniederlassungen</strong> von deutschen oder EU-Banken fallen trotz ihres Standortes im Nicht-EU-Land unter die gesetzliche Einlagensicherung der EU</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-red-500 mr-2">✗</span>
-                      <span><strong>Tochtergesellschaften</strong> zählen nicht unter die EU-Einlagensicherung</span>
-                    </li>
-                  </ul>
-                </div>
-                <div className="bg-orange-50 border-l-4 border-orange-400 p-4">
-                  <p className="text-orange-800 font-medium">
-                    Neben den gesetzlichen Regelungen sollte ebenfalls die Bonität der Länder berücksichtigt werden.
-                  </p>
-                </div>
+                {whatIs.sections.zusaetzlicheDetails.content.map((item, index) => (
+                  <div key={index}>
+                    {item.type === 'paragraph' && (
+                      <p className="text-lg text-gray-700 leading-relaxed">
+                        {item.text}
+                      </p>
+                    )}
+                    {item.type === 'list' && (
+                      <ul className="space-y-2 ml-6">
+                        {item.items.map((listItem, listIndex) => (
+                          <li key={listIndex} className="text-gray-700 list-disc">
+                            {listItem}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                    {item.type === 'highlight' && (
+                      <div className="bg-orange-50 border-l-4 border-orange-400 p-4">
+                        <p className="text-orange-800 font-medium">
+                          {item.text}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -225,7 +177,7 @@ export default function EinlagensicherungWhatIs() {
             <div className="lg:sticky lg:top-8">
               <div className="bg-gray-50 rounded-lg p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-6">
-                  Seitenübersicht
+                  {whatIs.navigation.title}
                 </h3>
                 
                 <nav className="space-y-2">

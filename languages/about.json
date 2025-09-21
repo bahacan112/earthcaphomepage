@@ -1,0 +1,100 @@
+{
+  "hero": {
+    "title": "Eart Capital Management GMBH",
+    "subtitle": "Wir machen Sparen einfach, transparent und rentabel. Seit 2013 helfen wir Millionen von Kunden dabei, das Beste aus ihren Ersparnissen zu machen."
+  },
+  "mission": {
+    "badge": "Unsere Mission",
+    "title": "Finanzielle Freiheit für alle",
+    "description": "Wir glauben, dass jeder Zugang zu den besten Sparprodukten haben sollte. Deshalb haben wir eine Plattform geschaffen, die Transparenz, Sicherheit und attraktive Zinsen miteinander verbindet.",
+    "features": [
+      "Transparente und faire Konditionen",
+      "Höchste Sicherheitsstandards",
+      "Einfache und intuitive Bedienung"
+    ]
+  },
+  "vision": {
+    "badge": "Unsere Vision",
+    "title": "Die Zukunft des Sparens",
+    "description": "Wir arbeiten daran, das Sparen zu revolutionieren und unseren Kunden dabei zu helfen, ihre finanziellen Ziele zu erreichen. Mit innovativen Technologien und einem starken Partnernetzwerk.",
+    "values": {
+      "title": "Unsere Werte",
+      "stats": [
+        {
+          "value": "2013",
+          "label": "Gegründet"
+        },
+        {
+          "value": "1M+",
+          "label": "Kunden"
+        },
+        {
+          "value": "400+",
+          "label": "Partnerbanken"
+        },
+        {
+          "value": "25B€",
+          "label": "Vermittelt"
+        }
+      ]
+    }
+  },
+  "team": {
+    "title": "Unser Team",
+    "subtitle": "Erfahrene Finanzexperten und Technologie-Enthusiasten arbeiten gemeinsam daran, Ihnen die beste Spererfahrung zu bieten.",
+    "members": [
+      {
+        "initials": "TK",
+        "name": "Tamaz Koberidze",
+        "position": "CEO & Gründer",
+        "description": "Über 15 Jahre Erfahrung in der Finanzbranche und Visionär für digitale Finanzdienstleistungen.",
+        "color": "blue"
+      },
+      {
+        "initials": "FS",
+        "name": "Frank Schwab",
+        "position": "CTO",
+        "description": "Technologie-Experte mit Leidenschaft für sichere und skalierbare Finanzplattformen.",
+        "color": "green"
+      },
+      {
+        "initials": "MH",
+        "name": "Maria Hoffmann",
+        "position": "Head of Customer Success",
+        "description": "Sorgt dafür, dass unsere Kunden die bestmögliche Erfahrung mit unseren Produkten machen.",
+        "color": "purple"
+      }
+    ]
+  },
+  "security": {
+    "title": "Sicherheit & Vertrauen",
+    "subtitle": "Ihre Sicherheit steht bei uns an erster Stelle. Wir arbeiten nur mit regulierten Banken zusammen und erfüllen höchste Sicherheitsstandards.",
+    "features": [
+      {
+        "title": "SSL-Verschlüsselung",
+        "description": "Alle Daten werden mit modernster SSL-Technologie verschlüsselt übertragen.",
+        "color": "blue"
+      },
+      {
+        "title": "Einlagensicherung",
+        "description": "Bis zu 100.000 € pro Kunde und Bank durch die gesetzliche Einlagensicherung geschützt.",
+        "color": "green"
+      },
+      {
+        "title": "Regulierte Banken",
+        "description": "Wir arbeiten ausschließlich mit regulierten und lizenzierten Banken zusammen.",
+        "color": "purple"
+      },
+      {
+        "title": "24/7 Monitoring",
+        "description": "Unsere Systeme werden rund um die Uhr überwacht und geschützt.",
+        "color": "orange"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, mit uns zu sparen?",
+    "subtitle": "Entdecken Sie unsere attraktiven Sparprodukte und starten Sie noch heute in eine bessere finanzielle Zukunft.",
+    "button": "Produkte vergleichen"
+  }
+}

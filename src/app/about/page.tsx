@@ -1,8 +1,10 @@
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import aboutData from '../../../languages/about.json';
 
 export default function AboutPage() {
+  const { hero, mission, vision, team, security, cta } = aboutData;
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -11,11 +13,10 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-              Eart Capital Management GMBH
+              {hero.title}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Wir machen Sparen einfach, transparent und rentabel. Seit 2013 helfen wir Millionen von Kunden dabei, 
-              das Beste aus ihren Ersparnissen zu machen.
+              {hero.subtitle}
             </p>
           </div>
         </div>
@@ -28,66 +29,46 @@ export default function AboutPage() {
             {/* Mission */}
             <div className="space-y-6">
               <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
-                Unsere Mission
+                {mission.badge}
               </div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-                Finanzielle Freiheit für alle
+                {mission.title}
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Wir glauben, dass jeder Zugang zu den besten Sparprodukten haben sollte. 
-                Deshalb haben wir eine Plattform geschaffen, die Transparenz, Sicherheit und 
-                attraktive Zinsen miteinander verbindet.
+                {mission.description}
               </p>
               <ul className="space-y-3">
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
-                  <span className="text-gray-700">Transparente und faire Konditionen</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
-                  <span className="text-gray-700">Höchste Sicherheitsstandards</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
-                  <span className="text-gray-700">Einfache und intuitive Bedienung</span>
-                </li>
+                {mission.features.map((feature, index) => (
+                  <li key={index} className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                    <span className="text-gray-700">{feature}</span>
+                  </li>
+                ))}
               </ul>
             </div>
 
             {/* Vision */}
             <div className="space-y-6">
               <div className="inline-flex items-center px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-medium">
-                Unsere Vision
+                {vision.badge}
               </div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-                Die Zukunft des Sparens
+                {vision.title}
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Wir arbeiten daran, das Sparen zu revolutionieren und unseren Kunden 
-                dabei zu helfen, ihre finanziellen Ziele zu erreichen. Mit innovativen 
-                Technologien und einem starken Partnernetzwerk.
+                {vision.description}
               </p>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                  Unsere Werte
+                  {vision.values.title}
                 </h3>
                 <div className="grid grid-cols-2 gap-4">
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-blue-600">2013</div>
-                    <div className="text-sm text-gray-600">Gegründet</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-blue-600">1M+</div>
-                    <div className="text-sm text-gray-600">Kunden</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-blue-600">400+</div>
-                    <div className="text-sm text-gray-600">Partnerbanken</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-blue-600">25B€</div>
-                    <div className="text-sm text-gray-600">Vermittelt</div>
-                  </div>
+                  {vision.values.stats.map((stat, index) => (
+                    <div key={index} className="text-center">
+                      <div className="text-2xl font-bold text-blue-600">{stat.value}</div>
+                      <div className="text-sm text-gray-600">{stat.label}</div>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
@@ -100,59 +81,28 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Unser Team
+              {team.title}
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Erfahrene Finanzexperten und Technologie-Enthusiasten arbeiten gemeinsam 
-              daran, Ihnen die beste Spererfahrung zu bieten.
+              {team.subtitle}
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Team Member 1 */}
-            <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-20 h-20 bg-blue-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-2xl font-bold text-blue-600">TK</span>
+            {team.members.map((member, index) => (
+              <div key={index} className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <div className={`w-20 h-20 bg-${member.color}-100 rounded-full mx-auto mb-4 flex items-center justify-center`}>
+                  <span className={`text-2xl font-bold text-${member.color}-600`}>{member.initials}</span>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 text-center mb-2">
+                  {member.name}
+                </h3>
+                <p className={`text-${member.color}-600 text-center mb-3`}>{member.position}</p>
+                <p className="text-gray-600 text-center text-sm">
+                  {member.description}
+                </p>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 text-center mb-2">
-                Tamaz Koberidze
-              </h3>
-              <p className="text-blue-600 text-center mb-3">CEO & Gründer</p>
-              <p className="text-gray-600 text-center text-sm">
-                Über 15 Jahre Erfahrung in der Finanzbranche und Visionär 
-                für digitale Finanzdienstleistungen.
-              </p>
-            </div>
-
-            {/* Team Member 2 */}
-            <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-20 h-20 bg-green-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-2xl font-bold text-green-600">FS</span>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 text-center mb-2">
-                Frank Schwab
-              </h3>
-              <p className="text-green-600 text-center mb-3">CTO</p>
-              <p className="text-gray-600 text-center text-sm">
-                Technologie-Experte mit Leidenschaft für sichere und 
-                skalierbare Finanzplattformen.
-              </p>
-            </div>
-
-            {/* Team Member 3 */}
-            <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-20 h-20 bg-purple-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-2xl font-bold text-purple-600">MH</span>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 text-center mb-2">
-                Maria Hoffmann
-              </h3>
-              <p className="text-purple-600 text-center mb-3">Head of Customer Success</p>
-              <p className="text-gray-600 text-center text-sm">
-                Sorgt dafür, dass unsere Kunden die bestmögliche 
-                Erfahrung mit unseren Produkten machen.
-              </p>
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -162,42 +112,47 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Sicherheit & Vertrauen
+              {security.title}
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Ihre Sicherheit steht bei uns an erster Stelle. Wir arbeiten nur mit 
-              regulierten Banken zusammen und erfüllen höchste Sicherheitsstandards.
+              {security.subtitle}
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Security Feature 1 */}
-            <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                </svg>
+            {security.features.map((feature, index) => (
+              <div key={index} className="text-center">
+                <div className={`w-16 h-16 bg-${feature.color}-100 rounded-full mx-auto mb-4 flex items-center justify-center`}>
+                  {index === 0 && (
+                    <svg className={`w-8 h-8 text-${feature.color}-600`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                    </svg>
+                  )}
+                  {index === 1 && (
+                    <svg className={`w-8 h-8 text-${feature.color}-600`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                  )}
+                  {index === 2 && (
+                    <svg className={`w-8 h-8 text-${feature.color}-600`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                    </svg>
+                  )}
+                  {index === 3 && (
+                    <svg className={`w-8 h-8 text-${feature.color}-600`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                  )}
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                  {feature.title}
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  {feature.description}
+                </p>
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                SSL-Verschlüsselung
-              </h3>
-              <p className="text-gray-600 text-sm">
-                Alle Daten werden mit modernster SSL-Technologie verschlüsselt übertragen.
-              </p>
-            </div>
-
-            {/* Security Feature 2 */}
-            <div className="text-center">
-              <div className="w-16 h-16 bg-green-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                </svg>
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                Einlagensicherung
-              </h3>
-              <p className="text-gray-600 text-sm">
-                Bis zu 100.000 € pro Kunde und Bank durch die gesetzliche Einlagensicherung geschützt.
+            ))}
+          </div>
               </p>
             </div>
 
@@ -238,15 +193,14 @@ export default function AboutPage() {
       <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Bereit, mit uns zu sparen?
+            {cta.title}
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Entdecken Sie unsere attraktiven Sparprodukte und starten Sie noch heute 
-            in eine bessere finanzielle Zukunft.
+            {cta.subtitle}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-blue-600 transition-colors">
-              Produkte vergleichen
+              {cta.button}
             </button>
           </div>
         </div>

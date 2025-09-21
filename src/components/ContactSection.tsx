@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
-import languageData from '../../languages/language.json';
+import contactData from '../../languages/contact.json';
 
 export default function ContactSection() {
-  const { contact } = languageData;
+  const contact = contactData;
 
   return (
     <section className="bg-[#F8F6F4] py-12">

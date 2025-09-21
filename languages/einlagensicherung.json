@@ -1,0 +1,123 @@
+{
+  "hero": {
+    "title": "Einlagensicherung",
+    "subtitle": "\"Die Sicherung der geschützten Einlagen bei Bankeninsolvenzen ist eines der vorrangigsten Ziele der Behörden, der EU und des Rechtsrahmens.\" Europäische Bankenaufsicht, 2017",
+    "features": [
+      "Schutz Ihrer Einlagen bis zu 100.000 € pro Bank und Kunde",
+      "Gesetzliche Einlagensicherung in der gesamten EU",
+      "Zusätzliche freiwillige Sicherungssysteme vieler Banken"
+    ],
+    "button": {
+      "text": "Mehr über Einlagensicherung erfahren",
+      "url": "https://investor.earthcap.de"
+    },
+    "image": {
+      "src": "/images/016.png",
+      "alt": "Paar mit Laptop auf dem Sofa"
+    }
+  },
+  "summary": {
+    "title": "Das Wichtigste in Kürze",
+    "items": [
+      {
+        "title": "Definition:",
+        "description": "Durch die EU-weit harmonisierte nationale Einlagensicherung sind Spareinlagen bis zu 100.000 € pro Person und Bank abgesichert."
+      },
+      {
+        "title": "Absicherung:",
+        "description": "Die Einlagensicherung gilt für Spareinlagen wie Festgeld-, Tagesgeld-, Girokonten, Sparbücher und Sparbriefe."
+      },
+      {
+        "title": "Auszahlung:",
+        "description": "Kommt es zur Insolvenz der Bank, stellt das Sicherungssystem den Entschädigungsbetrag nach sieben Tagen zur Verfügung."
+      }
+    ]
+  },
+  "whatIs": {
+    "navigationSections": [
+      { "id": "was-ist-einlagensicherung", "title": "Was ist die Einlagensicherung?" },
+      { "id": "einlagensicherung-deutschland", "title": "Einlagensicherung in Deutschland" },
+      { "id": "weitere-informationen", "title": "Einlagensicherung in Europa" },
+      { "id": "zusaetzliche-details", "title": "Einlagensicherung in Nicht-EU-Ländern" }
+    ],
+    "sections": {
+      "wasIstEinlagensicherung": {
+        "title": "Was ist die Einlagensicherung?",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Die Einlagensicherung ist ein Schutzmechanismus für Sparer, der sicherstellt, dass ihre Einlagen bei Banken auch im Falle einer Bankeninsolvenz geschützt sind. In der Europäischen Union sind Einlagen bis zu 100.000 € pro Person und Bank durch die gesetzliche Einlagensicherung abgesichert."
+          },
+          {
+            "type": "highlight",
+            "text": "Die Einlagensicherung ist ein fundamentaler Baustein des europäischen Bankensystems und schützt Millionen von Sparern."
+          }
+        ]
+      },
+      "einlagensicherungDeutschland": {
+        "title": "Einlagensicherung in Deutschland",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "In Deutschland wird die Einlagensicherung durch verschiedene Systeme gewährleistet:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Gesetzliche Einlagensicherung: Schutz bis 100.000 € pro Kunde und Bank",
+              "Freiwillige Einlagensicherung der privaten Banken",
+              "Institutssicherung der Sparkassen und Genossenschaftsbanken"
+            ]
+          },
+          {
+            "type": "subsection",
+            "title": "Sparkassen",
+            "text": "Sparkassen sind Teil eines Haftungsverbundes, der über die gesetzliche Einlagensicherung hinausgeht. Durch die Institutssicherung wird nicht nur die Einlage, sondern die gesamte Institution geschützt."
+          },
+          {
+            "type": "subsection",
+            "title": "Genossenschaftsbanken",
+            "text": "Ähnlich wie bei den Sparkassen haben auch Genossenschaftsbanken Maßnahmen zur Institutssicherung implementiert. Diese Maßnahmen sollen sicherstellen, dass die Banken stabil und widerstandsfähig sind, um potenzielle Krisen zu bewältigen."
+          }
+        ]
+      },
+      "weitereInformationen": {
+        "title": "Einlagensicherung in Europa",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Im Jahr 2015 wurde die Entschädigung im EU-Ausland deutlich vereinfacht. Bei einer Bankeninsolvenz haben sich Anleger nicht mehr mit der Entschädigungseinrichtung des jeweiligen Landes auseinanderzusetzen. Die Entschädigung läuft automatisch über die Einlagensicherungssysteme."
+          },
+          {
+            "type": "highlight",
+            "text": "Im internationalen Vergleich gilt die Einlagensicherung in Deutschland und im EU-Ausland als risikoarm."
+          }
+        ]
+      },
+      "zusaetzlicheDetails": {
+        "title": "Einlagensicherung in Nicht-EU-Ländern",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Auch außerhalb der EU gibt es Einlagensicherungssysteme, die jedoch unterschiedlich ausgestaltet sein können:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "USA: FDIC-Versicherung bis zu 250.000 USD pro Einleger und Bank",
+              "Schweiz: Einlagensicherung bis zu 100.000 CHF pro Kunde und Bank",
+              "Vereinigtes Königreich: FSCS-Schutz bis zu 85.000 GBP pro Person und Bank"
+            ]
+          },
+          {
+            "type": "highlight",
+            "text": "Neben den gesetzlichen Regelungen sollte ebenfalls die Bonität der Länder berücksichtigt werden."
+          }
+        ]
+      }
+    },
+    "navigation": {
+      "title": "Seitenübersicht"
+    }
+  }
+}
