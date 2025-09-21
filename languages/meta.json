@@ -71,8 +71,6 @@
     "twitterCard": "summary_large_image",
     "twitterSite": "@earthcapital",
     "author": "Earth Capital Management GmbH",
-    "robots": "index, follow",
-    "viewport": "width=device-width, initial-scale=1",
-    "themeColor": "#1e40af"
+    "robots": "index, follow"
   }
 }
