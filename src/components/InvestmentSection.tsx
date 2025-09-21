@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import languageData from '../../languages/language.json';
 
 export default function InvestmentSection() {
