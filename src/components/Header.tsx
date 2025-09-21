@@ -5,14 +5,17 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import {
   NavigationMenu,
-
+  NavigationMenuContent,
   NavigationMenuItem,
-
+  NavigationMenuTrigger,
   NavigationMenuList,
-
 } from "@/components/ui/navigation-menu";
+import languageData from '../../languages/language.json';
+
+type LanguageData = typeof languageData;
 
 export default function Header() {
+  const header = languageData.header;
   return (
     <header className="w-full bg-white border-b border-gray-200">
       {/* Country Selection Bar */}
@@ -50,24 +53,60 @@ export default function Header() {
           {/* Navigation Menu */}
           <NavigationMenu>
             <NavigationMenuList className="flex items-center space-x-8">
+              {/* Sparen Dropdown */}
               <NavigationMenuItem>
-                <Link href="/savings-accounts" className="text-gray-700 hover:text-blue-600 font-medium">
-                  Savings accounts
+                <NavigationMenuTrigger className="text-gray-700 hover:text-blue-600 font-medium bg-transparent hover:bg-transparent data-[state=open]:bg-transparent">
+                  {header.navigation.sparen}
+                </NavigationMenuTrigger>
+                <NavigationMenuContent>
+                  <div className="w-64 bg-white border border-gray-200 shadow-lg rounded-md">
+                    <div className="py-2">
+                      {/* Festgeld */}
+                      <Link 
+                        href={header.dropdown?.sparen?.festgeld?.link || "/festgeld"} 
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                      >
+                        {header.dropdown?.sparen?.festgeld?.title || "Festgeld"}
+                      </Link>
+
+                      {/* Tagesgeld */}
+                      <Link 
+                        href={header.dropdown?.sparen?.tagesgeld?.link || "/tagesgeld"} 
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                      >
+                        {header.dropdown?.sparen?.tagesgeld?.title || "Tagesgeld"}
+                      </Link>
+
+                      {/* Nachhaltiges Festgeld */}
+                      <Link 
+                        href={header.dropdown?.sparen?.nachhaltiges_festgeld?.link || "/nachhaltig"} 
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                      >
+                        {header.dropdown?.sparen?.nachhaltiges_festgeld?.title || "Nachhaltiges Festgeld"}
+                      </Link>
+                    </div>
+                  </div>
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+
+              {/* Investieren */}
+              <NavigationMenuItem>
+                <Link href="/investieren" className="text-gray-700 hover:text-blue-600 font-medium">
+                  {header.navigation.investieren}
                 </Link>
               </NavigationMenuItem>
+
+              {/* Finanzwissen */}
               <NavigationMenuItem>
-                <Link href="/about-us" className="text-gray-700 hover:text-blue-600 font-medium">
-                  About us
+                <Link href="/finanzwissen" className="text-gray-700 hover:text-blue-600 font-medium">
+                  {header.navigation.finanzwissen}
                 </Link>
               </NavigationMenuItem>
+
+              {/* Hilfe */}
               <NavigationMenuItem>
-                <Link href="/information" className="text-gray-700 hover:text-blue-600 font-medium">
-                  Information
-                </Link>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <Link href="/help" className="text-gray-700 hover:text-blue-600 font-medium">
-                  Help
+                <Link href="/hilfe" className="text-gray-700 hover:text-blue-600 font-medium">
+                  {header.navigation.hilfe}
                 </Link>
               </NavigationMenuItem>
             </NavigationMenuList>
@@ -76,10 +115,10 @@ export default function Header() {
           {/* Action Buttons */}
           <div className="flex items-center space-x-3">
             <Button variant="outline" className="text-gray-700 border-gray-300">
-              My Account
+              {header.buttons?.depot || "Depot"}
             </Button>
             <Button className="bg-blue-600 hover:bg-blue-700 text-white">
-              Register
+              Registrieren
             </Button>
           </div>
         </div>
