@@ -153,39 +153,6 @@ export default function AboutPage() {
               </div>
             ))}
           </div>
-              </p>
-            </div>
-
-            {/* Security Feature 3 */}
-            <div className="text-center">
-              <div className="w-16 h-16 bg-purple-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <svg className="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                </svg>
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                Regulierte Banken
-              </h3>
-              <p className="text-gray-600 text-sm">
-                Wir arbeiten ausschließlich mit regulierten und lizenzierten Banken zusammen.
-              </p>
-            </div>
-
-            {/* Security Feature 4 */}
-            <div className="text-center">
-              <div className="w-16 h-16 bg-orange-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <svg className="w-8 h-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                24/7 Monitoring
-              </h3>
-              <p className="text-gray-600 text-sm">
-                Unsere Systeme werden rund um die Uhr überwacht und geschützt.
-              </p>
-            </div>
-          </div>
         </div>
       </section>
 
