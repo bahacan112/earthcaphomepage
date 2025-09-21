@@ -1,5 +1,3 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import languageData from '../../languages/language.json';
 
 export default function CTASection() {

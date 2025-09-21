@@ -1,10 +1,8 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-
+import React from "react";
 import Image from "next/image";
-import Link from "next/link";
-import languageData from "../../languages/language.json";
+import languageData from '../../languages/language.json';
 
 export default function HeroSection() {
   const { heroSection } = languageData;
