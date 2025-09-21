@@ -213,7 +213,7 @@
     ],
     "button": {
       "text": "Jetzt Tagesgeld vergleichen",
-      "url": "#"
+      "url": "https://investor.earthcap.de"
     }
   },
   "highInterestRates": {
@@ -228,7 +228,7 @@
     ],
     "button": {
       "text": "Zum Tagesgeld-Vergleich",
-      "url": "#"
+      "url": "https://investor.earthcap.de"
     }
   },
   "tagesgeldVsFestgeld": {

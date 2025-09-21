@@ -43,7 +43,7 @@ const DepositProtectionSection: React.FC = () => {
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
               <button
                 className="px-6 py-3 rounded-lg font-semibold transition-all duration-300 bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-                onClick={() => window.location.href = '/einlagensicherung'}
+                onClick={() => window.location.href = 'https://investor.earthcap.de'}
               >
                 {content.buttons[0].text}
               </button>

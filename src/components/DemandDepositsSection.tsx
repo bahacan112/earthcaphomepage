@@ -31,7 +31,7 @@ export default function DemandDepositsSection() {
 
                   <div className="mt-6">
                     <Button asChild className="rounded-lg bg-blue-600 px-6 py-3 text-[16px] font-medium text-white hover:bg-blue-700">
-                      <Link href={index === 0 ? "/tagesgeld" : "#"}>{index === 0 ? card.button : ""}</Link>
+                      <Link href={index === 0 ? "https://investor.earthcap.de" : "#"}>{index === 0 ? card.button : ""}</Link>
                     </Button>
                   </div>
                 </div>

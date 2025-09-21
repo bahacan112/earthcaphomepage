@@ -40,7 +40,7 @@ const NachhaltigHero = () => {
             {/* CTA Button */}
             <div className="pt-4">
               <button 
-                onClick={() => window.location.href = '/festgeld'}
+                onClick={() => window.location.href = 'https://investor.earthcap.de'}
                 className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
               >
                 Nachhaltig Festgeld anlegen

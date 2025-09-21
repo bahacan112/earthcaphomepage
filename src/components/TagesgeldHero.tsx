@@ -29,7 +29,7 @@ export default function TagesgeldHero() {
             
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <button 
-                onClick={() => window.location.href = '/tagesgeld'}
+                onClick={() => window.location.href = 'https://investor.earthcap.de'}
                 className="rounded-lg bg-[#4A90E2] px-6 py-3 text-[16px] font-medium text-white hover:bg-[#357ABD] transition-colors"
               >
                 {hero.buttons.compare}
