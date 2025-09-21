@@ -38,12 +38,12 @@
   },
   "processSection": {
     "title": "So einfach geht's",
-    "subtitle": "In nur 3 Schritten zu Ihrem Raisin-Konto",
+    "subtitle": "In nur 3 Schritten zu Ihrem Earth Capital Management GMBH-Konto",
     "steps": [
       {
         "image": "/images/10.webp",
         "title": "Registrierung in 3 Minuten",
-        "description": "Eröffnen Sie schnell und einfach Ihr kostenloses Raisin-Konto."
+        "description": "Eröffnen Sie schnell und einfach Ihr kostenloses Earth Capital Management GMBH-Konto."
       },
       {
         "image": "/images/11.webp",
@@ -100,7 +100,7 @@
     }
   },
   "securitySection": {
-    "title": "Ihre Ersparnisse sind bei Raisin sicher",
+    "title": "Ihre Ersparnisse sind bei Earth Capital Management GMBH sicher",
     "items": [
       {
         "title": "Raisin Bank AG",
@@ -114,7 +114,7 @@
       },
       {
         "title": "Kundenservice",
-        "desc": "Sie haben noch Fragen? Wir helfen Ihnen gerne! Schreiben Sie uns an contact@raisin.com oder senden Sie uns eine Nachricht über Ihr Raisin-Konto. Alternativ erreichen Sie uns telefonisch unter +353 1 5460120 von Montag bis Freitag, 11:00–15:00 Uhr.",
+        "desc": "Sie haben noch Fragen? Wir helfen Ihnen gerne! Schreiben Sie uns an contact@earthcap.de oder senden Sie uns eine Nachricht über Ihr Earth Capital Management GMBH-Konto. Alternativ erreichen Sie uns telefonisch unter +353 1 5460120 von Montag bis Freitag, 11:00–15:00 Uhr.",
         "icon": "/images/auto_awesome.svg"
       }
     ]
@@ -185,11 +185,11 @@
   "savingsInfoSection": {
     "title": "Ihre Ersparnisse verdienen mehr",
     "subtitle": "Sparen, Investieren, vorsorgen",
-    "description": "Raisin bietet Zugang zu Tages- und Festgeldern aus Europa, zu einfachen Investmentprodukten sowie zur kostengünstigen Altersvorsorge.",
+    "description": "Earth Capital Management GMBH bietet Zugang zu Tages- und Festgeldern aus Europa, zu einfachen Investmentprodukten sowie zur kostengünstigen Altersvorsorge.",
     "features": [
       {
         "title": "Ausgezeichneter Finanzdienstleister",
-        "description": "Raisin wurde 2025 erneut vom Handelsblatt mit dem Qualitaetssiegel \"Beste Finanzdienstleister\" ausgezeichnet."
+        "description": "Earth Capital Management GMBH wurde 2025 erneut vom Handelsblatt mit dem Qualitaetssiegel \"Beste Finanzdienstleister\" ausgezeichnet."
       },
       {
         "title": "Einfach und bequem von Zuhause",
@@ -198,7 +198,7 @@
     ],
     "buttons": [
       {
-        "text": "Ueber Raisin",
+        "text": "Ueber Earth Capital Management GMBH",
         "type": "primary"
       },
       {
@@ -210,21 +210,21 @@
     "imageAlt": "Paar mit Smartphone und Laptop"
   },
   "sponsorshipSection": {
-    "title": "Raisin ist Hauptsponsor des 1. FC Union Berlin",
+    "title": "Earth Capital Management GMBH ist Hauptsponsor des 1. FC Union Berlin",
     "description": "Wir sind stolz darauf, als Hauptsponsor die Erfolgsgeschichte des 1. FC Union Berlin zu begleiten. Dabei verbinden uns Werte wie Leidenschaft, Teamgeist und die Freude an starken Leistungen. Mit unserem Engagement tragen wir dazu bei, dass Union weiterhin Geschichte schreibt - fuer die Fans, fuer die Stadt, fuer den Fussball.",
-    "subtitle": "Machen Sie es wie die Profis: Werden Sie Fan von Raisin und sichern Sie sich attraktive Zinsen und Renditen.",
+    "subtitle": "Machen Sie es wie die Profis: Werden Sie Fan von Earth Capital Management GMBH und sichern Sie sich attraktive Zinsen und Renditen.",
     "buttons": [
       {
         "text": "Jetzt registrieren",
         "type": "primary"
       },
       {
-        "text": "Ueber Raisin und Union",
+        "text": "Ueber Earth Capital Management GMBH und Union",
         "type": "secondary"
       }
     ],
     "image": "/images/011.png",
-    "imageAlt": "FC Union Berlin Spieler im Raisin Trikot"
+    "imageAlt": "FC Union Berlin Spieler im Earth Capital Management GMBH Trikot"
   },
   "depositProtectionSection": {
     "title": "Europaweite Absicherung für Ihre Einlagen",
@@ -259,12 +259,12 @@
   },
   "ctaSection": {
     "title": "Geben Sie Ihrem Geld die Zukunft, die es verdient",
-    "description": "Mehr als 1 Million Menschen vertrauen auf Raisin, um ihre Sparziele zu erreichen – mit attraktiven Renditen und Angeboten von über 300 Partnerbanken in Europa, Großbritannien und den USA. Werden Sie Teil dieser Erfolgsgeschichte.",
+    "description": "Mehr als 1 Million Menschen vertrauen auf Earth Capital Management GMBH, um ihre Sparziele zu erreichen – mit attraktiven Renditen und Angeboten von über 300 Partnerbanken in Europa, Großbritannien und den USA. Werden Sie Teil dieser Erfolgsgeschichte.",
     "primaryButton": "Jetzt Konto eröffnen",
     "secondaryButton": "Mehr erfahren"
   },
   "footer": {
-    "logoAlt": "Raisin",
+    "logoAlt": "Earth Capital Management GMBH",
     "followUs": "Folgen Sie uns auf",
     "facebookLabel": "Facebook",
     "linkedInLabel": "LinkedIn",
@@ -277,8 +277,8 @@
         "referFriend": "Freunde werben",
         "press": "Presse",
         "careers": "Karriere",
-        "raisinUpdates": "Raisin Neuigkeiten",
-        "raisinBank": "Raisin Bank"
+        "raisinUpdates": "Earth Capital Management GMBH Neuigkeiten",
+        "raisinBank": "Earth Capital Management GMBH Bank"
       }
     },
     "savingsAccounts": {
@@ -311,7 +311,7 @@
     },
     "countryName": "Irland",
     "countryFlagAlt": "Flagge Irlands",
-    "copyright": "© 2025 Raisin Bank AG, Frankfurt a.M.",
+    "copyright": "© 2025 Earth Capital Management GMBH, Frankfurt a.M.",
     "bottomLinks": {
       "dataProtection": "Datenschutz",
       "itSecurity": "IT-Sicherheit",
@@ -321,7 +321,7 @@
       "privacySettings": "Datenschutzeinstellungen"
     },
     "sectigoAlt": "Gesichert durch Sectigo",
-    "disclaimer": "Alle angegebenen Zinssätze sind effektive Jahreszinsen (p. a.), sofern nicht ausdrücklich anders angegeben. Der p. a. verdeutlicht, wie sich Zinsen entwickeln würden, wenn sie einmal jährlich gezahlt und verzinst würden. So können Sparer ihre Rendite leichter vergleichen. Die Raisin Bank, handelnd unter Raisin, ist von der BaFin in Deutschland zugelassen und wird von der Zentralbank von Irland beaufsichtigt."
+    "disclaimer": "Alle angegebenen Zinssätze sind effektive Jahreszinsen (p. a.), sofern nicht ausdrücklich anders angegeben. Der p. a. verdeutlicht, wie sich Zinsen entwickeln würden, wenn sie einmal jährlich gezahlt und verzinst würden. So können Sparer ihre Rendite leichter vergleichen. Die Earth Capital Management GMBH, handelnd unter Earth Capital Management GMBH, ist von der BaFin in Deutschland zugelassen und wird von der Zentralbank von Irland beaufsichtigt."
   },
   "depositsTable": {
     "tabsAriaLabel": "Einlagearten",
