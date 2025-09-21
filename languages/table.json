@@ -68,39 +68,7 @@
     }
   ],
   "demandOffers": [
-    {
-      "id": "earth-capital-demand-0m",
-      "type": "demand",
-      "bank": "Earth Capital Management GmbH",
-      "logo": "/earth.svg",
-      "country": "Germany (AAA)",
-      "currency": "EUR",
-      "rateAER": 2.30,
-      "termMonths": 0,
-      "withholdingTax": true
-    },
-   {
-      "id": "earth-capital-demand-2m",
-      "type": "demand",
-      "bank": "Earth Capital Management GmbH",
-      "logo": "/earth.svg",
-      "country": "Germany (AAA)",
-      "currency": "EUR",
-      "rateAER": 2.37,
-      "termMonths": 2,
-      "withholdingTax": true
-    },
-    {
-      "id": "earth-capital-demand-3m",
-      "type": "demand",
-      "bank": "Earth Capital Management GmbH",
-      "logo": "/earth.svg",
-      "country": "Germany (AAA)",
-      "currency": "EUR",
-      "rateAER": 2.46,
-      "termMonths": 3,
-      "withholdingTax": true
-    },
+   
    {
       "id": "earth-capital-demand-4m",
       "type": "demand",
@@ -109,7 +77,7 @@
       "country": "Germany (AAA)",
       "currency": "EUR",
       "rateAER": 2.63,
-      "termMonths": 4,
+      "termMonths": 0,
       "withholdingTax": true
     }
   ]
