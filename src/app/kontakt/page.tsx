@@ -3,7 +3,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ContactSection from '@/components/ContactSection';
 import GoogleMap from '@/components/GoogleMap';
-import languageData from '../../languages/language.json';
+import languageData from '../../../languages/language.json';
 
 export default function ContactPage() {
   const { contact } = languageData;
