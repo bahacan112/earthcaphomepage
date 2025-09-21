@@ -215,45 +215,6 @@ export default function Header() {
                       {header.dropdown?.sparen?.tagesgeld?.description || "Flexible Einlage ohne feste Laufzeit und mit variablem Zinssatz"}
                     </div>
                   </Link>
-                  {header.dropdown?.sparen?.nachhaltiges_festgeld && (
-                    <Link 
-                      href={header.dropdown.sparen.nachhaltiges_festgeld.link || "/nachhaltig"}
-                      className="block py-2 text-gray-700 hover:text-blue-600 transition-colors"
-                      onClick={() => setIsMobileMenuOpen(false)}
-                    >
-                      <div className="font-medium">
-                        {header.dropdown.sparen.nachhaltiges_festgeld.title}
-                      </div>
-                    </Link>
-                  )}
-                  {header.dropdown?.sparen?.kuendigungsgeld && (
-                    <Link 
-                      href={header.dropdown.sparen.kuendigungsgeld.link || "/kuendigungsgeld"}
-                      className="block py-2 text-gray-700 hover:text-blue-600 transition-colors"
-                      onClick={() => setIsMobileMenuOpen(false)}
-                    >
-                      <div className="font-medium">
-                        {header.dropdown.sparen.kuendigungsgeld.title}
-                      </div>
-                      <div className="text-sm text-gray-500 mt-1">
-                        {header.dropdown.sparen.kuendigungsgeld.description}
-                      </div>
-                    </Link>
-                  )}
-                  {header.dropdown?.sparen?.zinsportfolio && (
-                    <Link 
-                      href={header.dropdown.sparen.zinsportfolio.link || "/zinsportfolio"}
-                      className="block py-2 text-gray-700 hover:text-blue-600 transition-colors"
-                      onClick={() => setIsMobileMenuOpen(false)}
-                    >
-                      <div className="font-medium">
-                        {header.dropdown.sparen.zinsportfolio.title}
-                      </div>
-                      <div className="text-sm text-gray-500 mt-1">
-                        {header.dropdown.sparen.zinsportfolio.description}
-                      </div>
-                    </Link>
-                  )}
                 </div>
               </div>
 
@@ -282,18 +243,18 @@ export default function Header() {
                 </div>
               </div>
 
-              {/* Direct Links */}
+              {/* Direct Links - About and Kontakt */}
               <div className="space-y-3 border-t border-gray-200 pt-4">
                 <Link 
                   href="/about"
-                  className="block py-2 text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                  className="block py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {header.navigation.about}
                 </Link>
                 <Link 
                   href="/kontakt"
-                  className="block py-2 text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                  className="block py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {header.navigation.kontakt}
