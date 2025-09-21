@@ -1,4 +1,6 @@
 import React from 'react';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import ContactSection from '@/components/ContactSection';
 import GoogleMap from '@/components/GoogleMap';
 import languageData from '../../languages/language.json';
@@ -8,6 +10,7 @@ export default function ContactPage() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Header />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-50 via-slate-50 to-gray-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -342,6 +345,7 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }
