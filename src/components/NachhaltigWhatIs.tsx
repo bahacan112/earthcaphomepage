@@ -125,17 +125,17 @@ export default function NachhaltigWhatIs() {
 
           </div>
 
-          {/* Sağ Taraf - Navigasyon Menüsü (1/3) */}
-          <div className="w-1/3">
-            <div className="sticky top-4">
-              <div className="bg-white shadow-sm rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">Seitenübersicht</h3>
-                <nav className="space-y-2">
+          {/* Sağ Taraf - Navigasyon Menüsü (1/3) - Responsive for tablet and desktop */}
+          <div className="hidden md:block md:w-1/3 lg:w-1/3">
+            <div className="sticky top-4 md:top-8">
+              <div className="bg-white shadow-sm rounded-lg p-4 md:p-6">
+                <h3 className="text-base md:text-lg font-semibold text-gray-900 mb-3 md:mb-4">Seitenübersicht</h3>
+                <nav className="space-y-1 md:space-y-2">
                   {navigationSections.map((section) => (
                     <button
                       key={section.id}
                       onClick={() => scrollToSection(section.id)}
-                      className={`w-full text-left px-4 py-3 rounded-lg text-sm font-medium transition-colors duration-200 ${
+                      className={`w-full text-left px-3 md:px-4 py-2 md:py-3 rounded-lg text-xs md:text-sm font-medium transition-colors duration-200 ${
                         activeSection === section.id
                           ? 'bg-blue-600 text-white'
                           : 'bg-gray-50 text-gray-700 hover:bg-gray-100'
