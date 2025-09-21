@@ -8,7 +8,7 @@ interface OpenStreetMapProps {
 }
 
 export default function OpenStreetMap({ 
-  address = "Saarbrücker Str. 36, 10405 Berlin, Deutschland",
+  
   className = ""
 }: OpenStreetMapProps) {
   // OpenStreetMap embed URL for Berlin location
