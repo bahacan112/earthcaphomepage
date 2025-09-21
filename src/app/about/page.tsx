@@ -1,7 +1,29 @@
 import React from 'react';
+import type { Metadata } from "next";
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import aboutData from '../../../languages/about.json';
+
+export const metadata: Metadata = {
+  title: "Über Earth Capital Management: Ihr Partner für europäische Geldanlagen",
+  description: "Erfahren Sie mehr über Earth Capital Management. Wir vermitteln seit Jahren erfolgreich europäische Geldanlagen mit attraktiven Zinsen und höchster Sicherheit.",
+  keywords: "Earth Capital Management, über uns, europäische Geldanlagen, Finanzdienstleister, Tagesgeld, Festgeld, Sicherheit",
+  openGraph: {
+    title: "Über Earth Capital Management: Ihr Partner für europäische Geldanlagen",
+    description: "Erfahren Sie mehr über Earth Capital Management und unsere Mission, Ihnen die besten europäischen Geldanlagen zu vermitteln.",
+    url: "https://earthcap.de/about",
+    images: [{ url: "/images/og-about.jpg", width: 1200, height: 630, alt: "Über Earth Capital Management" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Über Earth Capital Management: Ihr Partner für europäische Geldanlagen",
+    description: "Erfahren Sie mehr über Earth Capital Management und unsere Mission, Ihnen die besten europäischen Geldanlagen zu vermitteln.",
+    images: ["/images/og-about.jpg"],
+  },
+  alternates: {
+    canonical: "https://earthcap.de/about",
+  },
+};
 
 export default function AboutPage() {
   const { hero, mission, vision, team, security, cta } = aboutData;

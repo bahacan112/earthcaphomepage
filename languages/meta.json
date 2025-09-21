@@ -1,0 +1,78 @@
+{
+  "pages": {
+    "home": {
+      "title": "Earth Capital Management - Europas beste Zinsen für Tagesgeld & Festgeld",
+      "description": "Profitieren Sie von bis zu 3,20% Zinsen p.a. bei europäischen Partnerbanken. Kostenlose Kontoeröffnung, 100% Einlagensicherung bis 100.000€. Jetzt vergleichen!",
+      "keywords": "Tagesgeld, Festgeld, Zinsen, Geldanlage, Einlagensicherung, Earth Capital Management, Europa, Sparen",
+      "ogTitle": "Earth Capital Management - Europas beste Zinsen für Ihre Geldanlage",
+      "ogDescription": "Entdecken Sie attraktive Zinsen von bis zu 3,20% p.a. bei sicheren europäischen Banken. Kostenlos, sicher und flexibel.",
+      "ogImage": "/images/og-home.jpg",
+      "canonicalUrl": "https://earthcap.de"
+    },
+    "tagesgeld": {
+      "title": "Tagesgeld-Vergleich 2025: Bis zu 2,85% p.a. Zinsen | Earth Capital Management",
+      "description": "Tagesgeld-Vergleich 2025: Bis zu 2,85% p.a. Zinsen von europäischen Banken. Täglich verfügbar, kostenlos, 100% sicher bis 100.000€. Jetzt vergleichen!",
+      "keywords": "Tagesgeld, Tagesgeld Vergleich, Tagesgeldzinsen, 2025, Earth Capital Management, Europa, Einlagensicherung",
+      "ogTitle": "Tagesgeld-Vergleich 2025: Bis zu 2,85% p.a. Zinsen",
+      "ogDescription": "Finden Sie das beste Tagesgeldkonto mit attraktiven Zinsen. Täglich verfügbar, kostenlos und sicher.",
+      "ogImage": "/images/og-tagesgeld.jpg",
+      "canonicalUrl": "https://earthcap.de/tagesgeld"
+    },
+    "festgeld": {
+      "title": "Festgeld-Vergleich 2025: Bis zu 3,20% p.a. Zinsen | Earth Capital Management",
+      "description": "Festgeld-Vergleich 2025: Bis zu 3,20% p.a. Zinsen von europäischen Banken. Feste Laufzeiten, garantierte Zinsen, 100% sicher bis 100.000€. Jetzt anlegen!",
+      "keywords": "Festgeld, Festgeld Vergleich, Festgeldzinsen, 2025, Earth Capital Management, Europa, Geldanlage",
+      "ogTitle": "Festgeld-Vergleich 2025: Bis zu 3,20% p.a. Zinsen",
+      "ogDescription": "Sichern Sie sich attraktive Festgeldzinsen mit garantierten Renditen. Verschiedene Laufzeiten verfügbar.",
+      "ogImage": "/images/og-festgeld.jpg",
+      "canonicalUrl": "https://earthcap.de/festgeld"
+    },
+    "einlagensicherung": {
+      "title": "Einlagensicherung: 100% Schutz bis 100.000€ | Earth Capital Management",
+      "description": "Erfahren Sie alles über die Einlagensicherung bei Earth Capital Management. 100% Schutz Ihrer Einlagen bis 100.000€ pro Bank durch EU-Einlagensicherung.",
+      "keywords": "Einlagensicherung, Einlagenschutz, 100.000 Euro, EU-Einlagensicherung, Earth Capital Management, Sicherheit",
+      "ogTitle": "Einlagensicherung: Ihr Geld ist 100% geschützt",
+      "ogDescription": "Ihre Einlagen sind durch die EU-Einlagensicherung bis 100.000€ pro Bank vollständig geschützt.",
+      "ogImage": "/images/og-einlagensicherung.jpg",
+      "canonicalUrl": "https://earthcap.de/einlagensicherung"
+    },
+    "nachhaltig": {
+      "title": "Nachhaltige Geldanlage: Grüne Zinsen für die Zukunft | Earth Capital Management",
+      "description": "Investieren Sie nachhaltig mit grünen Festgeld- und Tagesgeldangeboten. Attraktive Zinsen bei umweltbewussten europäischen Banken. Jetzt nachhaltig sparen!",
+      "keywords": "Nachhaltige Geldanlage, Grünes Sparen, ESG, Nachhaltigkeit, Earth Capital Management, Umwelt, Zukunft",
+      "ogTitle": "Nachhaltige Geldanlage: Grün sparen mit attraktiven Zinsen",
+      "ogDescription": "Verbinden Sie attraktive Renditen mit nachhaltigen Investments. Für eine bessere Zukunft.",
+      "ogImage": "/images/og-nachhaltig.jpg",
+      "canonicalUrl": "https://earthcap.de/nachhaltig"
+    },
+    "about": {
+      "title": "Über Earth Capital Management: Ihr Partner für europäische Geldanlagen",
+      "description": "Erfahren Sie mehr über Earth Capital Management. Seit Jahren Ihr vertrauensvoller Partner für sichere und rentable Geldanlagen bei europäischen Banken.",
+      "keywords": "Earth Capital Management, Über uns, Unternehmen, Geldanlage, Europa, Vertrauen, Sicherheit",
+      "ogTitle": "Über Earth Capital Management - Ihr vertrauensvoller Partner",
+      "ogDescription": "Lernen Sie Earth Capital Management kennen - Ihren Experten für europäische Geldanlagen.",
+      "ogImage": "/images/og-about.jpg",
+      "canonicalUrl": "https://earthcap.de/about"
+    },
+    "kontakt": {
+      "title": "Kontakt | Earth Capital Management - Wir sind für Sie da",
+      "description": "Kontaktieren Sie Earth Capital Management. Unser Kundenservice steht Ihnen bei Fragen zu Tagesgeld, Festgeld und Geldanlagen gerne zur Verfügung.",
+      "keywords": "Kontakt, Earth Capital Management, Kundenservice, Support, Hilfe, Beratung",
+      "ogTitle": "Kontakt - Earth Capital Management",
+      "ogDescription": "Haben Sie Fragen? Unser Team steht Ihnen gerne zur Verfügung.",
+      "ogImage": "/images/og-contact.jpg",
+      "canonicalUrl": "https://earthcap.de/kontakt"
+    }
+  },
+  "global": {
+    "siteName": "Earth Capital Management",
+    "locale": "de_DE",
+    "type": "website",
+    "twitterCard": "summary_large_image",
+    "twitterSite": "@earthcapital",
+    "author": "Earth Capital Management GmbH",
+    "robots": "index, follow",
+    "viewport": "width=device-width, initial-scale=1",
+    "themeColor": "#1e40af"
+  }
+}

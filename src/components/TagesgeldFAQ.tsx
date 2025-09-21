@@ -58,7 +58,7 @@ export default function TagesgeldFAQ() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
-            Festgeld von Raisin – Ihre Fragen, unsere Antworten
+            Festgeld von Earth Capital – Ihre Fragen, unsere Antworten
           </h2>
         </div>
 

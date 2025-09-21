@@ -12,17 +12,17 @@ const faqData: FAQItem[] = [
   {
     id: 1,
     question: "Was kostet ein nachhaltiges Festgeldkonto?",
-    answer: "Ein nachhaltiges Festgeldkonto bei Raisin ist für Anleger kostenfrei. Weder für die Kontoeröffnung noch für die Kontoführung fallen Gebühren an. Auch während der Laufzeit entstehen keine zusätzlichen Kosten. Dadurch bleibt der gesamte Anlagebetrag erhalten und kann zu den vereinbarten Zinsen im nachhaltigen Festgeldkonto wachsen."
+    answer: "Ein nachhaltiges Festgeldkonto bei Earth Capital ist für Anleger kostenfrei. Weder für die Kontoeröffnung noch für die Kontoführung fallen Gebühren an. Auch während der Laufzeit entstehen keine zusätzlichen Kosten. Dadurch bleibt der gesamte Anlagebetrag erhalten und kann zu den vereinbarten Zinsen im nachhaltigen Festgeldkonto wachsen."
   },
   {
     id: 2,
     question: "Welche Voraussetzungen gelten zur Eröffnung eines nachhaltigen Sparkontos?",
-    answer: "Um ein nachhaltiges Festgeldkonto bei Raisin zu eröffnen, sind folgende Voraussetzungen zu erfüllen:\n\n• Volljährigkeit\n• Handlung im eigenen Namen\n• Wohnsitz in Deutschland\n• Referenzkonto bei einer in der EU ansässigen Bank\n• E-Mail-Adresse"
+    answer: "Um ein nachhaltiges Festgeldkonto bei Earth Capital zu eröffnen, sind folgende Voraussetzungen zu erfüllen:\n\n• Volljährigkeit\n• Handlung im eigenen Namen\n• Wohnsitz in Deutschland\n• Referenzkonto bei einer in der EU ansässigen Bank\n• E-Mail-Adresse"
   },
   {
     id: 3,
     question: "Wie funktionieren Ein- und Auszahlungen auf ein nachhaltiges Festgeldkonto?",
-    answer: "Als Verrechnungskonto für nachhaltiges Festgeld dient das persönliche Raisin-Konto, während beispielsweise das private Girokonto als Referenzkonto angegeben werden kann. Zunächst wird der gewünschte Anlagebetrag vom Referenzkonto auf das Raisin-Konto überwiesen. Anschließend wird das Geld an die gewünschte Ökobank weitergeleitet und mit attraktiven Zinsen angelegt. Nach Ende der Laufzeit wird das investierte Kapital inklusive Zinsen auf das Raisin-Konto zurücküberwiesen. Da Anlagesumme, Zinssatz und Laufzeit der nachhaltigen Spareinlage im Vorfeld fest vereinbart wurden, sind während der Laufzeit keine Ein- und Auszahlungen möglich."
+    answer: "Als Verrechnungskonto für nachhaltiges Festgeld dient das persönliche Earth Capital-Konto, während beispielsweise das private Girokonto als Referenzkonto angegeben werden kann. Zunächst wird der gewünschte Anlagebetrag vom Referenzkonto auf das Earth Capital-Konto überwiesen. Anschließend wird das Geld an die gewünschte Ökobank weitergeleitet und mit attraktiven Zinsen angelegt. Nach Ende der Laufzeit wird das investierte Kapital inklusive Zinsen auf das Earth Capital-Konto zurücküberwiesen. Da Anlagesumme, Zinssatz und Laufzeit der nachhaltigen Spareinlage im Vorfeld fest vereinbart wurden, sind während der Laufzeit keine Ein- und Auszahlungen möglich."
   },
   {
     id: 4,

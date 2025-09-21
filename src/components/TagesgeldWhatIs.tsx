@@ -13,7 +13,7 @@ export default function TagesgeldWhatIs() {
     { id: 'vorteile-tagesgeld', title: 'Ihre Vorteile von Tagesgeld auf einen Blick' },
     { id: 'vergleich-tagesgeld', title: 'Worauf ist beim Vergleich von Tagesgeldkonten zu achten?' },
     { id: 'hohe-zinsen', title: 'Wo gibt es hohe Zinsen für Tagesgeld?' },
-    { id: 'vorteile-raisin', title: 'Ihre Vorteile bei Raisin' }
+    { id: 'vorteile-raisin', title: 'Ihre Vorteile bei Earth Capital' }
   ], []);
 
   // Scroll spy functionality

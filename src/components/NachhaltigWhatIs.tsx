@@ -11,7 +11,7 @@ export default function NachhaltigWhatIs() {
     { id: 'section-2', title: 'Optimale Laufzeit für nachhaltiges Festgeld' },
     { id: 'section-3', title: 'Zinsen bei nachhaltigem Festgeld' },
     { id: 'section-4', title: 'Sicherheit von nachhaltigem Festgeld' },
-    { id: 'section-5', title: 'Nachhaltige Festgeldanlagen bei Raisin' }
+    { id: 'section-5', title: 'Nachhaltige Festgeldanlagen bei Earth Capital' }
   ], []);
 
   // Scroll spy functionality
@@ -92,7 +92,7 @@ export default function NachhaltigWhatIs() {
                   Da der Zinssatz für ökologisches, ethisches oder soziales Festgeld über die gesamte Laufzeit gleich bleibt, können Anleger genau errechnen, wie hoch die Rendite am Ende der Laufzeit ausfallen wird. Ein Vergleich der Zinsen verschiedener nachhaltiger Sparkonten kann dabei helfen, das Angebot mit den besten Konditionen zu finden.
                 </p>
                 <p className="text-lg">
-                  Neben nachhaltigen Festgeldkonten gibt es weitere Geldanlagen. Bei Raisin kann außerdem in konventionelles Festgeld, Tagesgeld oder beispielsweise die Vermögensverwaltung investiert werden, die ebenfalls attraktive Renditen bieten.
+                  Neben nachhaltigen Festgeldkonten gibt es weitere Geldanlagen. Bei Earth Capital kann außerdem in konventionelles Festgeld, Tagesgeld oder beispielsweise die Vermögensverwaltung investiert werden, die ebenfalls attraktive Renditen bieten.
                 </p>
               </div>
             </div>
@@ -110,15 +110,15 @@ export default function NachhaltigWhatIs() {
               </div>
             </div>
 
-            {/* So funktionieren nachhaltige Festgeldanlagen bei Raisin */}
+            {/* So funktionieren nachhaltige Festgeldanlagen bei Earth Capital */}
             <div id="section-5" className="mt-16">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                So funktionieren nachhaltige Festgeldanlagen bei Raisin
+                So funktionieren nachhaltige Festgeldanlagen bei Earth Capital
               </h3>
               
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p className="text-lg">
-                  Bei Raisin können Sie einfach und sicher in nachhaltige Festgeldanlagen investieren. Unser Angebot umfasst eine Vielzahl von nachhaltigen Festgeldprodukten verschiedener europäischer Banken, die alle strengen Nachhaltigkeitskriterien entsprechen.
+                  Bei Earth Capital können Sie einfach und sicher in nachhaltige Festgeldanlagen investieren. Unser Angebot umfasst eine Vielzahl von nachhaltigen Festgeldprodukten verschiedener europäischer Banken, die alle strengen Nachhaltigkeitskriterien entsprechen.
                 </p>
               </div>
             </div>

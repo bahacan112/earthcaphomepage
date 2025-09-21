@@ -13,7 +13,7 @@ export default function FestgeldWhatIs() {
     { id: 'was-ist-festgeld', title: 'Was ist Festgeld?' },
     { id: 'festgeld-vergleich-laufzeit', title: 'Festgeld-Vergleich: Die richtige Laufzeit bei Festgeld wählen' },
     { id: 'fuer-wen-lohnt-sich', title: 'Für wen lohnt sich ein Festgeldkonto als Anlage?' },
-    { id: 'wie-funktioniert', title: 'Wie funktioniert die Festgeldanlage bei Raisin?' }
+    { id: 'wie-funktioniert', title: 'Wie funktioniert die Festgeldanlage bei Earth Capital?' }
   ], []);
 
   useEffect(() => {
@@ -117,7 +117,7 @@ export default function FestgeldWhatIs() {
               </div>
             </div>
 
-            {/* Wie funktioniert die Festgeldanlage bei Raisin? */}
+            {/* Wie funktioniert die Festgeldanlage bei Earth Capital? */}
             <div id="wie-funktioniert" className="scroll-mt-20 mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8">
                 {howItWorks.title}
