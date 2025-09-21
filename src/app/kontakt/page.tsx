@@ -296,7 +296,7 @@ export default function ContactPage() {
                 Wie kann ich ein Konto eröffnen?
               </h3>
               <p className="text-gray-600">
-                Die Kontoeröffnung ist einfach und dauert nur wenige Minuten. Klicken Sie auf "Registrieren" 
+                Die Kontoeröffnung ist einfach und dauert nur wenige Minuten. Klicken Sie auf &ldquo;Registrieren&rdquo; 
                 und folgen Sie den Anweisungen. Sie benötigen lediglich einen gültigen Ausweis.
               </p>
             </div>
