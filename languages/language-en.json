@@ -12,7 +12,7 @@
       "compare": "Compare savings accounts"
     },
     "imageAlt": "Happy couple saving together",
-    "disclaimer": "An offer from Raisin Bank AG trading as Raisin."
+    "disclaimer": "An offer from Earth Capital Management GMBH trading as Earth Capital Management GMBH."
   },
   "trustBadges": {
     "badges": [
@@ -84,7 +84,7 @@
     "title": "Your savings are secure with Raisin",
     "items": [
       {
-        "title": "Raisin Bank AG",
+        "title": "Earth Capital Management GMBH",
         "desc": "Is a fully licensed German bank, supervised by the Federal Financial Supervisory Authority (BaFin) and the European Central Bank (ECB).",
         "icon": "/images/icons_fi_bank.svg"
       },
@@ -95,7 +95,7 @@
       },
       {
         "title": "Customer Service",
-        "desc": "Still have questions? We're here to help! Email contact@raisin.com or send us a message through your Raisin Account. Alternatively, you can call us on +353 1 5460120 from 11:00 a.m. – 15:00 p.m., Monday to Friday.",
+        "desc": "Still have questions? We're here to help! Email contact@earthcap.de or send us a message through your Earth Capital Management GMBH Account. Alternatively, you can call us on +353 1 5460120 from 11:00 a.m. – 15:00 p.m., Monday to Friday.",
         "icon": "/images/auto_awesome.svg"
       }
     ]
@@ -122,16 +122,16 @@
     "description": "Track balances, top up, and withdraw anytime with our mobile app. Receive real-time updates and manage your accounts securely.",
     "appStoreButton": "Get it on App Store",
     "googlePlayButton": "Get it on Google Play",
-    "imageAlt": "Raisin mobile app"
+    "imageAlt": "Earth Capital Management GMBH mobile app"
   },
   "ctaSection": {
     "title": "Ready to start saving?",
-    "description": "Join thousands of savers who trust Raisin to help them grow their money with competitive rates and secure deposits.",
+    "description": "Join thousands of savers who trust Earth Capital Management GMBH to help them grow their money with competitive rates and secure deposits.",
     "primaryButton": "Open account",
     "secondaryButton": "Learn more"
   },
   "footer": {
-    "logoAlt": "Raisin",
+    "logoAlt": "Earth Capital Management GMBH",
     "followUs": "Follow us on",
     "facebookLabel": "Facebook",
     "linkedInLabel": "LinkedIn",
@@ -144,8 +144,8 @@
         "referFriend": "Refer a friend",
         "press": "Press",
         "careers": "Careers",
-        "raisinUpdates": "Raisin updates",
-        "raisinBank": "Raisin Bank"
+        "raisinUpdates": "Earth Capital Management GMBH updates",
+        "raisinBank": "Earth Capital Management GMBH Bank"
       }
     },
     "savingsAccounts": {
@@ -178,7 +178,7 @@
     },
     "countryName": "Ireland",
     "countryFlagAlt": "Ireland flag",
-    "copyright": "© 2025 Raisin Bank AG, Frankfurt a.M.",
+    "copyright": "© 2025 Earth Capital Management GMBH, Frankfurt a.M.",
     "bottomLinks": {
       "dataProtection": "Data protection",
       "itSecurity": "IT security",
@@ -188,7 +188,7 @@
       "privacySettings": "Privacy settings"
     },
     "sectigoAlt": "Secured by Sectigo",
-    "disclaimer": "All interest rates displayed are Annual Equivalent Rates (AER), unless otherwise explicitly indicated. The AER illustrates what the interest rate would be if interest was paid and compounded once a year. This allows individuals to compare more easily what return they can expect from their savings over time. Raisin Bank, trading as Raisin, is authorised/licensed or registered by BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) in Germany and is regulated by the Central Bank of Ireland for conduct of business rules."
+    "disclaimer": "All interest rates displayed are Annual Equivalent Rates (AER), unless otherwise explicitly indicated. The AER illustrates what the interest rate would be if interest was paid and compounded once a year. This allows individuals to compare more easily what return they can expect from their savings over time. Earth Capital Management GMBH, trading as Earth Capital Management GMBH, is authorised/licensed or registered by BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) in Germany and is regulated by the Central Bank of Ireland for conduct of business rules."
   },
   "depositsTable": {
     "tabsAriaLabel": "Deposit Types",

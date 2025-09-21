@@ -25,7 +25,7 @@ export default function Footer() {
     <footer className="relative border-t border-slate-200 bg-white">
       {/* watermark */}
       <div className="pointer-events-none absolute inset-0 -z-10 flex select-none items-end justify-center overflow-hidden">
-        <span className="translate-y-6 text-[min(40vw,560px)] font-black leading-none text-slate-200/50">raisin</span>
+        <span className="translate-y-6 text-[min(40vw,560px)] font-black leading-none text-slate-200/50">earthcap</span>
       </div>
 
       <div className="relative mx-auto max-w-7xl px-4 py-12">

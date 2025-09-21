@@ -21,7 +21,7 @@ export default function Header() {
       <div className="hidden bg-blue-50 px-4 py-2 text-sm">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <span className="text-gray-700">
-            You are currently on the Raisin Ireland website. Please choose another option from the list if this is not your country of residence.
+            You are currently on the Earth Capital Management GMBH Ireland website. Please choose another option from the list if this is not your country of residence.
           </span>
           <div className="flex items-center gap-2">
             <span className="flex items-center gap-2">
@@ -148,7 +148,14 @@ export default function Header() {
 
           {/* Action Buttons */}
           <div className="flex items-center space-x-3">
-            {/* Depot butonu kaldırıldı */}
+            <Button 
+              asChild
+              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors duration-200"
+            >
+              <a href="https://investor.earthcap.de" target="_blank" rel="noopener noreferrer">
+                Login
+              </a>
+            </Button>
           </div>
         </div>
       </div>

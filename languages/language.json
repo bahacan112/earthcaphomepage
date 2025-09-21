@@ -10,7 +10,7 @@
       "compare": "StartZins sichern"
     },
     "imageAlt": "Mann mit Smartphone und 2,85% Zinssatz Angebot",
-  "disclaimer": "Ein Angebot der Raisin Bank AG, handelnd unter Raisin."
+  "disclaimer": "Ein Angebot der Earth Capital Management GMBH, handelnd unter Earth Capital Management GMBH."
   },
   "trustBadges": {
     "badges": [
@@ -204,21 +204,21 @@
     "imageAlt": "Paar mit Smartphone und Laptop"
   },
   "sponsorshipSection": {
-    "title": "Raisin ist Hauptsponsor des 1. FC Union Berlin",
+    "title": "Earth Capital Management GMBH ist Hauptsponsor des 1. FC Union Berlin",
     "description": "Wir sind stolz darauf, als Hauptsponsor die Erfolgsgeschichte des 1. FC Union Berlin zu begleiten. Dabei verbinden uns Werte wie Leidenschaft, Teamgeist und die Freude an starken Leistungen. Mit unserem Engagement tragen wir dazu bei, dass Union weiterhin Geschichte schreibt - fuer die Fans, fuer die Stadt, fuer den Fussball.",
-    "subtitle": "Machen Sie es wie die Profis: Werden Sie Fan von Raisin und sichern Sie sich attraktive Zinsen und Renditen.",
+    "subtitle": "Machen Sie es wie die Profis: Werden Sie Fan von Earth Capital Management GMBH und sichern Sie sich attraktive Zinsen und Renditen.",
     "buttons": [
       {
         "text": "Jetzt registrieren",
         "type": "primary"
       },
       {
-        "text": "Ueber Raisin und Union",
+        "text": "Ueber Earth Capital Management GMBH und Union",
         "type": "secondary"
       }
     ],
     "image": "/images/011.png",
-    "imageAlt": "FC Union Berlin Spieler im Raisin Trikot"
+    "imageAlt": "FC Union Berlin Spieler im Earth Capital Management GMBH Trikot"
   },
   "depositProtectionSection": {
     "title": "Europaweite Absicherung für Ihre Einlagen",
@@ -249,7 +249,7 @@
     "description": "Verfolgen Sie Kontostände, tätigen Sie Ein- und Auszahlungen jederzeit mit unserer mobilen App. Erhalten Sie Benachrichtigungen in Echtzeit und verwalten Sie Ihre Konten sicher.",
     "appStoreButton": "Im App Store herunterladen",
     "googlePlayButton": "Bei Google Play herunterladen",
-    "imageAlt": "Raisin Mobile-App"
+    "imageAlt": "Earth Capital Management GMBH Mobile-App"
   },
   "ctaSection": {
     "title": "Geben Sie Ihrem Geld die Zukunft, die es verdient",
@@ -258,7 +258,7 @@
     "secondaryButton": "Mehr erfahren"
   },
   "footer": {
-    "logoAlt": "Raisin",
+    "logoAlt": "Earth Capital Management GMBH",
     "followUs": "Folgen Sie uns auf",
     "facebookLabel": "Facebook",
     "linkedInLabel": "LinkedIn",

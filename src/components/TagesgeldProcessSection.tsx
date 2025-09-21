@@ -5,7 +5,7 @@ export default function TagesgeldProcessSection() {
     {
       image: "/images/014.webp",
       title: "Registrieren und identifizieren",
-      description: "Eröffnen Sie Ihr kostenloses Raisin-Konto schnell und einfach über das Videoident-Verfahren."
+      description: "Eröffnen Sie Ihr kostenloses Earth Capital Management GMBH-Konto schnell und einfach über das Videoident-Verfahren."
     },
     {
       image: "/images/015.webp", 

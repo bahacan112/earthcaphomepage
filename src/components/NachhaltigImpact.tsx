@@ -46,13 +46,13 @@ const NachhaltigImpact = () => {
 
   const testimonials = [
     {
-      quote: "Raisin hat uns geholfen, unsere Nachhaltigkeitsziele zu erreichen und gleichzeitig attraktive Renditen zu erzielen.",
+      quote: "Earth Capital Management GMBH hat uns geholfen, unsere Nachhaltigkeitsziele zu erreichen und gleichzeitig attraktive Renditen zu erzielen.",
       author: "Dr. Maria Schmidt",
       position: "Nachhaltigkeitsbeauftragte, GreenTech AG",
       avatar: "MS"
     },
     {
-      quote: "Die Transparenz und das Engagement von Raisin für nachhaltige Finanzen ist beeindruckend.",
+      quote: "Die Transparenz und das Engagement von Earth Capital Management GMBH für nachhaltige Finanzen ist beeindruckend.",
       author: "Thomas Weber",
       position: "CFO, EcoInvest GmbH",
       avatar: "TW"
