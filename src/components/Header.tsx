@@ -31,7 +31,7 @@ export default function Header() {
   };
 
   return (
-    <header className="w-full bg-white border-b border-gray-200">
+    <header className="w-full bg-white border-b border-gray-200 relative">
       {/* Country Selection Bar */}
       <div className="hidden bg-blue-50 px-4 py-2 text-sm">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
@@ -215,6 +215,45 @@ export default function Header() {
                       {header.dropdown?.sparen?.tagesgeld?.description || "Flexible Einlage ohne feste Laufzeit und mit variablem Zinssatz"}
                     </div>
                   </Link>
+                  {header.dropdown?.sparen?.nachhaltiges_festgeld && (
+                    <Link 
+                      href={header.dropdown.sparen.nachhaltiges_festgeld.link || "/nachhaltig"}
+                      className="block py-2 text-gray-700 hover:text-blue-600 transition-colors"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      <div className="font-medium">
+                        {header.dropdown.sparen.nachhaltiges_festgeld.title}
+                      </div>
+                    </Link>
+                  )}
+                  {header.dropdown?.sparen?.kuendigungsgeld && (
+                    <Link 
+                      href={header.dropdown.sparen.kuendigungsgeld.link || "/kuendigungsgeld"}
+                      className="block py-2 text-gray-700 hover:text-blue-600 transition-colors"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      <div className="font-medium">
+                        {header.dropdown.sparen.kuendigungsgeld.title}
+                      </div>
+                      <div className="text-sm text-gray-500 mt-1">
+                        {header.dropdown.sparen.kuendigungsgeld.description}
+                      </div>
+                    </Link>
+                  )}
+                  {header.dropdown?.sparen?.zinsportfolio && (
+                    <Link 
+                      href={header.dropdown.sparen.zinsportfolio.link || "/zinsportfolio"}
+                      className="block py-2 text-gray-700 hover:text-blue-600 transition-colors"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      <div className="font-medium">
+                        {header.dropdown.sparen.zinsportfolio.title}
+                      </div>
+                      <div className="text-sm text-gray-500 mt-1">
+                        {header.dropdown.sparen.zinsportfolio.description}
+                      </div>
+                    </Link>
+                  )}
                 </div>
               </div>
 
