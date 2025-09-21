@@ -59,30 +59,45 @@ export default function Header() {
                   {header.navigation.sparen}
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <div className="w-64 bg-white border border-gray-200 shadow-lg rounded-md">
-                    <div className="py-2">
+                  <div className="w-80 bg-white border border-gray-200 shadow-lg rounded-md">
+                    <div className="py-3">
                       {/* Festgeld */}
                       <Link 
                         href={header.dropdown?.sparen?.festgeld?.link || "/festgeld"} 
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                        className="block px-4 py-3 hover:bg-gray-50 border-b border-gray-100 last:border-b-0"
                       >
-                        {header.dropdown?.sparen?.festgeld?.title || "Festgeld"}
+                        <div className="text-sm font-medium text-gray-900 mb-1">
+                          {header.dropdown?.sparen?.festgeld?.title || "Festgeld"}
+                        </div>
+                        <div className="text-xs text-gray-600">
+                          {header.dropdown?.sparen?.festgeld?.description || "Einlage mit fester Laufzeit und festem Zinssatz"}
+                        </div>
                       </Link>
 
                       {/* Tagesgeld */}
                       <Link 
                         href={header.dropdown?.sparen?.tagesgeld?.link || "/tagesgeld"} 
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                        className="block px-4 py-3 hover:bg-gray-50 border-b border-gray-100 last:border-b-0"
                       >
-                        {header.dropdown?.sparen?.tagesgeld?.title || "Tagesgeld"}
+                        <div className="text-sm font-medium text-gray-900 mb-1">
+                          {header.dropdown?.sparen?.tagesgeld?.title || "Tagesgeld"}
+                        </div>
+                        <div className="text-xs text-gray-600">
+                          {header.dropdown?.sparen?.tagesgeld?.description || "Flexible Einlage ohne feste Laufzeit und mit variablem Zinssatz"}
+                        </div>
                       </Link>
 
                       {/* Nachhaltiges Festgeld */}
                       <Link 
                         href={header.dropdown?.sparen?.nachhaltiges_festgeld?.link || "/nachhaltig"} 
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                        className="block px-4 py-3 hover:bg-gray-50 border-b border-gray-100 last:border-b-0"
                       >
-                        {header.dropdown?.sparen?.nachhaltiges_festgeld?.title || "Nachhaltiges Festgeld"}
+                        <div className="text-sm font-medium text-gray-900 mb-1">
+                          {header.dropdown?.sparen?.nachhaltiges_festgeld?.title || "Nachhaltiges Festgeld"}
+                        </div>
+                        <div className="text-xs text-gray-600">
+                          Nachhaltige Geldanlage mit ESG-Kriterien
+                        </div>
                       </Link>
                     </div>
                   </div>
