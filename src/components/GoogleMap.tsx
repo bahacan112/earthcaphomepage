@@ -11,8 +11,11 @@ export default function GoogleMap({
   address = "Saarbrücker Str. 36, 10405 Berlin, Deutschland",
   className = ""
 }: GoogleMapProps) {
+  // Get API key from environment variables
+  const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
+  
   // Google Maps embed URL with the address
-  const mapSrc = `https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dOWTgaQzuU17R8&q=${encodeURIComponent(address)}&zoom=15&maptype=roadmap`;
+  const mapSrc = `https://www.google.com/maps/embed/v1/place?key=${apiKey}&q=${encodeURIComponent(address)}&zoom=15&maptype=roadmap`;
 
   return (
     <div className={`relative w-full h-96 rounded-lg overflow-hidden shadow-md ${className}`}>
