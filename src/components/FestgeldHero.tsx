@@ -24,11 +24,11 @@ export default function FestgeldHero() {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <button className="rounded-lg bg-[#4A90E2] px-6 py-3 text-[16px] font-medium text-white hover:bg-[#357ABD] transition-colors">
+              <button 
+                onClick={() => window.location.href = '/festgeld'}
+                className="rounded-lg bg-[#4A90E2] px-6 py-3 text-[16px] font-medium text-white hover:bg-[#357ABD] transition-colors"
+              >
                 {hero.buttons.compare}
-              </button>
-              <button className="rounded-lg border-2 border-[#4A90E2] px-6 py-3 text-[16px] font-medium text-[#4A90E2] hover:bg-[#4A90E2] hover:text-white transition-colors">
-                {hero.buttons.register}
               </button>
             </div>
           </div>

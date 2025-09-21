@@ -36,7 +36,10 @@ const EinlagensicherungHero = () => {
 
             {/* CTA Button */}
             <div className="pt-4">
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+              <button 
+                onClick={() => window.location.href = '/einlagensicherung'}
+                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+              >
                 Mehr über Einlagensicherung erfahren
               </button>
             </div>

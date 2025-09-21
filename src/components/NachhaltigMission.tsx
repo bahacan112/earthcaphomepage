@@ -92,9 +92,7 @@ const NachhaltigMission = () => {
 
               {/* CTA */}
               <div className="pt-6">
-                <button className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-300">
-                  Mehr über unsere Werte erfahren
-                </button>
+                {/* Boş buton kaldırıldı */}
               </div>
             </div>
           </div>

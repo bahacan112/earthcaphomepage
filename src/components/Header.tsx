@@ -148,12 +148,7 @@ export default function Header() {
 
           {/* Action Buttons */}
           <div className="flex items-center space-x-3">
-            <Button variant="outline" className="text-gray-700 border-gray-300">
-              {header.buttons?.depot || "Depot"}
-            </Button>
-            <Button className="bg-blue-600 hover:bg-blue-700 text-white">
-              Registrieren
-            </Button>
+            {/* Depot butonu kaldırıldı */}
           </div>
         </div>
       </div>

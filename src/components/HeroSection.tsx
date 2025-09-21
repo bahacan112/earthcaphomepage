@@ -30,21 +30,7 @@ export default function HeroSection() {
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                asChild
-                size="lg" 
-                className="rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-7 py-3 text-[16px] font-medium shadow-sm"
-              >
-                <Link href="https://www.raisin.com/en-ie/register/">{heroSection.buttons.register}</Link>
-              </Button>
-              <Button 
-                asChild
-                variant="outline" 
-                size="lg" 
-                className="rounded-lg border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-6 sm:px-7 py-3 text-[16px] font-medium"
-              >
-                <Link href="https://www.raisin.com/en-ie/savings-accounts/">{heroSection.buttons.compare}</Link>
-              </Button>
+              {/* Boş buton kaldırıldı */}
             </div>
           </div>
 

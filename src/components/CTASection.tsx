@@ -14,12 +14,7 @@ export default function CTASection() {
           {ctaSection.description}
         </p>
         <div className="mt-8 flex justify-center gap-4">
-          <Button asChild size="lg" className="rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-[16px] font-medium">
-            <Link href="https://www.raisin.com/en-ie/register/">{ctaSection.primaryButton}</Link>
-          </Button>
-          <Button asChild variant="outline" size="lg" className="rounded-lg border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-[16px] font-medium">
-            <Link href="https://www.raisin.com/en-ie/savings-accounts/">{ctaSection.secondaryButton}</Link>
-          </Button>
+          {/* Boş butonlar kaldırıldı */}
         </div>
       </div>
     </section>

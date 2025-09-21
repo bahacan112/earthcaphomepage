@@ -40,19 +40,13 @@ const DepositProtectionSection: React.FC = () => {
             </p>
 
             {/* Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              {content.buttons.map((button, index) => (
-                <button
-                  key={index}
-                  className={`px-6 py-3 rounded-lg font-semibold transition-all duration-300 ${
-                    button.type === "primary"
-                      ? "bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-                      : "bg-white text-blue-600 border-2 border-blue-600 hover:bg-blue-50 hover:border-blue-700"
-                  }`}
-                >
-                  {button.text}
-                </button>
-              ))}
+            <div className="flex flex-col sm:flex-row gap-4 mt-8">
+              <button
+                className="px-6 py-3 rounded-lg font-semibold transition-all duration-300 bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                onClick={() => window.location.href = '/einlagensicherung'}
+              >
+                {depositProtectionSection.buttons[0].text}
+              </button>
             </div>
           </div>
         </div>
