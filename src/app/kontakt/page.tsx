@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ContactSection from '@/components/ContactSection';
-import GoogleMap from '@/components/GoogleMap';
+import OpenStreetMap from '@/components/OpenStreetMap';
 import languageData from '../../../languages/language.json';
 
 export default function ContactPage() {
@@ -270,7 +270,7 @@ export default function ContactPage() {
             </p>
           </div>
           
-          <GoogleMap 
+          <OpenStreetMap 
             address="Saarbrücker Str. 36, 10405 Berlin, Deutschland"
             className="max-w-5xl mx-auto"
           />
